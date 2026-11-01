@@ -1,0 +1,42 @@
+{
+  "t1_A_tesv_vs_cond": {
+    "pval": 0.5174503343885749,
+    "sig": "n.s."
+  },
+  "t1_A_tesv_vs_causal": {
+    "pval": 0.14775048570533433,
+    "sig": "n.s."
+  },
+  "t1_A_tesv_vs_interv": {
+    "pval": 0.6884570897760041,
+    "sig": "n.s."
+  },
+  "t1_B_tesv_vs_cond": {
+    "pval": 0.9430908083349827,
+    "sig": "n.s."
+  },
+  "t1_B_tesv_vs_causal": {
+    "pval": 0.15374169803215854,
+    "sig": "n.s."
+  },
+  "t1_B_tesv_vs_interv": {
+    "pval": NaN,
+    "sig": "n.s."
+  },
+  "t1B_spur_tesv_vs_cond": {
+    "pval": 4.210289354163509e-05,
+    "sig": "**"
+  },
+  "t1B_spur_tesv_vs_causal": {
+    "pval": 0.002520888934676231,
+    "sig": "**"
+  },
+  "t2_scrl_vs_ctree": {
+    "pval": 0.31530659463094324,
+    "sig": "n.s."
+  },
+  "t2_scrl_vs_curls": {
+    "pval": 0.3437043796971762,
+    "sig": "n.s."
+  }
+}

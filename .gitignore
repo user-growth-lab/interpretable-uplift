@@ -1,0 +1,40 @@
+# Local environments and Python/tool caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+
+# Credentials and machine-specific settings
+.env
+.env.*
+*.pem
+*.key
+
+# Datasets, cached teachers and regenerated binary artifacts
+/data/
+/legacy/data/
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.parquet
+*.csv
+*.csv.gz
+
+# Local figure/output caches (distributed JSON summaries stay versioned)
+.cache/
+paper/figures/
+legacy/paper/figures/
+*.log
+*.zip
+*.tar.gz

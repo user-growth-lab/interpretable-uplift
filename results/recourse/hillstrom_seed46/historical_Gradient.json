@@ -1,0 +1,30 @@
+{
+  "dataset": "Hillstrom",
+  "seed": 46,
+  "version": "historical",
+  "method": "Gradient",
+  "threshold": 0.1427372150338878,
+  "summary": {
+    "n": 50,
+    "box_valid": 0.98,
+    "type_valid": 0.98,
+    "frozen_valid": 0.98,
+    "derived_valid": 0.86,
+    "legal": 0.82,
+    "initial_box_valid": 0.98,
+    "no_op": 0.48,
+    "strict_positive": 0.36,
+    "nonnegative": 0.94,
+    "diagnostic_success": 0.22,
+    "orig_exceeds": 0.02,
+    "cf_exceeds": 0.02,
+    "gain": 0.015668015191040177,
+    "changed_groups": 0.54,
+    "l2": 0.027631539019645653,
+    "orig_fifth_nn": 0.07596667051756008,
+    "cf_fifth_nn": 0.07760535345475553,
+    "nn_change": 0.0016386829371954567,
+    "changed_legal_n": 18,
+    "support_given_changed_legal": 1.0
+  }
+}

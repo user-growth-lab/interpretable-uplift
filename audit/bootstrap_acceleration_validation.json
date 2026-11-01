@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "backend": "optional Numba indices only at n_R<=10000; NumPy means/std unchanged",
+  "sklearn_resample_index_checks": 56,
+  "score_and_rng_exact_checks": 80,
+  "full_fit_exact_checks": 6,
+  "global_numpy_rng_unchanged": true,
+  "numba_version": "0.60.0",
+  "numpy_version": "2.0.2",
+  "source_sha256": {
+    "audit/scrl_before_exact_bootstrap_optimization.py": "ffcdb0626d077a931e3039a4cd926edefbf75b3e94a2cdf01b6e6b1ca52fa739",
+    "audit/scrl_before_numba_optimization.py": "4fdeff6f045f94c014ffb59339fe6d5fd91e29b0767b9463afcd5b82554f081d",
+    "src/models/scrl.py": "758747fa2fa5cd7bd48bc074aba2d34da4d5bec58ef6d9e70b5e24417f940877"
+  }
+}

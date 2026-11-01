@@ -1,0 +1,5 @@
+# Optional manuscript rendering and packaging utilities used in R1.
+reportlab==4.4.10
+PyMuPDF==1.26.5
+pypdf==6.10.2
+Pillow==11.3.0

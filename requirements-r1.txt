@@ -1,0 +1,14 @@
+# Exact numerical runtime used for the R1 computations (Python 3.9.6).
+# PDF-building utilities are documented separately in README.md.
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.13.1
+scikit-learn==1.6.1
+scikit-uplift==0.5.1
+numba==0.60.0
+matplotlib==3.9.4
+shap==0.48.0
+joblib==1.5.3
+tqdm==4.67.3
+seaborn==0.13.2
+PyYAML==6.0.3

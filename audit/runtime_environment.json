@@ -1,0 +1,15 @@
+{
+  "python": "3.9.6 (default, Jan  9 2026, 11:03:41) \n[Clang 17.0.0 (clang-1700.6.4.2)]",
+  "platform": "macOS-15.7.3-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.6.1",
+    "scikit-uplift": "0.5.1",
+    "numba": "0.60.0",
+    "matplotlib": "3.9.4",
+    "shap": "0.48.0"
+  },
+  "note": "Current revision runtime only; not evidence of the historical runtime."
+}

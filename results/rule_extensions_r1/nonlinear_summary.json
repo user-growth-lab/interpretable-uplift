@@ -1,0 +1,78 @@
+{
+  "linear": {
+    "n": 3,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "changed": 0,
+    "fidelity_mean": -0.07283121161797833,
+    "fidelity_std": 0.13918167580885343,
+    "fidelity_valid": 3,
+    "hits_mean": 3.6666666666666665,
+    "hits_std": 0.4714045207910317,
+    "n_rules": [
+      5,
+      5,
+      5
+    ]
+  },
+  "nonlinear": {
+    "n": 3,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "changed": 0,
+    "fidelity_mean": 0.48349784882929375,
+    "fidelity_std": 0.2778659131788791,
+    "fidelity_valid": 3,
+    "hits_mean": 3.0,
+    "hits_std": 0.0,
+    "n_rules": [
+      5,
+      5,
+      5
+    ]
+  },
+  "nonlinear_interaction": {
+    "n": 3,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "changed": 0,
+    "fidelity_mean": 0.5040489205138212,
+    "fidelity_std": 0.20729169498819433,
+    "fidelity_valid": 3,
+    "hits_mean": 4.0,
+    "hits_std": 0.816496580927726,
+    "n_rules": [
+      5,
+      5,
+      5
+    ]
+  },
+  "interaction": {
+    "n": 3,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "changed": 0,
+    "fidelity_mean": 0.027773351114737343,
+    "fidelity_std": 0.19811850408009865,
+    "fidelity_valid": 3,
+    "hits_mean": 4.666666666666667,
+    "hits_std": 0.4714045207910317,
+    "n_rules": [
+      5,
+      5,
+      5
+    ]
+  }
+}

@@ -1,0 +1,5335 @@
+{
+  "uncertainty": "Outcome-contrast std is descriptive variation across repeated splits; conditional_se is within a fixed fitted subgroup and does not account for fitting/selection. Reused records do not create independent trials.",
+  "constraint_scope": "Minimum support and treatment fraction apply to discovery and selection; the maximum-coverage cap is enforced only on selection. Test values are diagnostics, not filters.",
+  "hillstrom": {
+    "complete": true,
+    "counts": {
+      "legacy_full": 5,
+      "train_only": 5
+    },
+    "scopes": {
+      "legacy_full": {
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "legacy_hard_changed": 0,
+        "legacy": {
+          "outcomes": {
+            "population": {
+              "difference_in_means": {
+                "mean": 0.05857808447341256,
+                "std": 0.004705771490247913,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.006191769255701906,
+                "std": 5.2890859140432384e-05,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.006099779185835665,
+                  0.006264517031125834
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.0,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 1.0,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 8539.0,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  8539,
+                  8539
+                ]
+              },
+              "n_control": {
+                "mean": 4261.0,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  4261,
+                  4261
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.006264517031125834
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.006099779185835665
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.006206655806758262
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.006193023150294669
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.0061948711044951
+                }
+              ]
+            },
+            "rule1": {
+              "difference_in_means": {
+                "mean": 0.05258472453016157,
+                "std": 0.020424252664788298,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.009818193068439725,
+                "std": 0.00075381380124682,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.009133685133249407,
+                  0.010921648314983835
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 0.8998283859806969,
+                "std": 0.35051839573585075,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.399296875,
+                "std": 0.006780781953893657,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 3413.6,
+                "std": 44.9070150421958,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  3345,
+                  3463
+                ]
+              },
+              "n_control": {
+                "mean": 1697.4,
+                "std": 43.19537012227121,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1618,
+                  1742
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.01052431642991821
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.009133685133249407
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.009147238570369956
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.010921648314983835
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.009364076893677213
+                }
+              ]
+            },
+            "rule2": {
+              "difference_in_means": {
+                "mean": 0.061158245423781475,
+                "std": 0.013176898038737055,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.010101075263166125,
+                "std": 0.0006274615762554239,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.009232777463673158,
+                  0.01089462105326782
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.0436595782380826,
+                "std": 0.2113563958948291,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.38270312500000003,
+                "std": 0.004564960808977433,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 3261.8,
+                "std": 47.61260337347665,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  3199,
+                  3317
+                ]
+              },
+              "n_control": {
+                "mean": 1636.8,
+                "std": 22.319498202244603,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1603,
+                  1668
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.01089462105326782
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.009232777463673158
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.00968406111227026
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.010727790575757973
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.009966126110861423
+                }
+              ]
+            },
+            "rule3": {
+              "difference_in_means": {
+                "mean": 0.05672341549124155,
+                "std": 0.006595734993490414,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.00977082940908867,
+                "std": 0.0006705436408311536,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.009074201484739813,
+                  0.010929602550402411
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 0.9670896767679279,
+                "std": 0.06274968812025293,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.365328125,
+                "std": 0.042669480548894655,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 3101.0,
+                "std": 362.2893870926942,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  2428,
+                  3446
+                ]
+              },
+              "n_control": {
+                "mean": 1575.2,
+                "std": 183.98195563695913,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1229,
+                  1740
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.010929602550402411
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.009141115267735752
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.00992360170083493
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.009785626041730439
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.009074201484739813
+                }
+              ]
+            },
+            "rule4": {
+              "difference_in_means": {
+                "mean": 0.060112075317918415,
+                "std": 0.0036661847602587677,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.01192301451080897,
+                "std": 0.002406938900944609,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.009885628268088816,
+                  0.014900980829172863
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.0306310700903871,
+                "std": 0.07648589259322315,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.29959375,
+                "std": 0.08786546723276017,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 2544.0,
+                "std": 733.2262952186044,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1635,
+                  3165
+                ]
+              },
+              "n_control": {
+                "mean": 1290.8,
+                "std": 391.88692246616245,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  807,
+                  1627
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.010017030849306656
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.014900980829172863
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.009885628268088816
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.009971710088733977
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.014839722518742549
+                }
+              ]
+            },
+            "rule5": {
+              "difference_in_means": {
+                "mean": 0.06111954473124688,
+                "std": 0.015122942876835743,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.016684596748316433,
+                "std": 0.004074881258794037,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.01240039285280422,
+                  0.02200941959682857
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.039675286033098,
+                "std": 0.23221174718336887,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.167546875,
+                "std": 0.05694129463891957,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 1437.6,
+                "std": 486.19321262230716,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  837,
+                  1908
+                ]
+              },
+              "n_control": {
+                "mean": 707.0,
+                "std": 243.0596634573495,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  416,
+                  955
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.012997769595730624
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.021107800976264406
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.014907600719954348
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.01240039285280422
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.02200941959682857
+                }
+              ]
+            },
+            "top20": {
+              "difference_in_means": {
+                "mean": 0.07998615392772868,
+                "std": 0.00895778872619491,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.01527852391902387,
+                "std": 0.00042459240521042126,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.014780836535072036,
+                  0.015786030261334266
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.368416852639443,
+                "std": 0.14260362774383165,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.2,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 1733.4,
+                "std": 15.538339679644025,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1707,
+                  1754
+                ]
+              },
+              "n_control": {
+                "mean": 826.6,
+                "std": 15.538339679644025,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  806,
+                  853
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.015786030261334266
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.015210884071086147
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.01486590783204166
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.015748960895585244
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.014780836535072036
+                }
+              ]
+            },
+            "union": {
+              "difference_in_means": {
+                "mean": 0.05855535784060193,
+                "std": 0.00509818915865027,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.006376702103482559,
+                "std": 0.00014205720694407246,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.006241291063233386,
+                  0.0066478206685653
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 0.9992465529698314,
+                "std": 0.02035562226728771,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.9370156249999999,
+                "std": 0.015365294828159,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 8000.0,
+                "std": 133.0187956643722,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  7757,
+                  8114
+                ]
+              },
+              "n_control": {
+                "mean": 3993.8,
+                "std": 67.04744588722228,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  3896,
+                  4066
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.0066478206685653
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.006241291063233386
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.006289776224413955
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.006364839072429619
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.006339783488770534
+                }
+              ]
+            }
+          },
+          "normalized_fidelity": {
+            "mean": -0.029956475132466305,
+            "std": 0.12161156553477168,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "fidelity_degeneracy": [],
+          "rule_count": 25,
+          "constraints": {
+            "discovery": {
+              "support_ok": 0,
+              "overlap_ok": 0,
+              "max_coverage_ok": 3
+            },
+            "selection": {
+              "support_ok": 0,
+              "overlap_ok": 0,
+              "max_coverage_ok": 0
+            },
+            "test": {
+              "support_ok": 0,
+              "overlap_ok": 0,
+              "max_coverage_ok": 4
+            }
+          }
+        },
+        "hard": {
+          "outcomes": {
+            "population": {
+              "difference_in_means": {
+                "mean": 0.05857808447341256,
+                "std": 0.004705771490247913,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.006191769255701906,
+                "std": 5.2890859140432384e-05,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.006099779185835665,
+                  0.006264517031125834
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.0,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 1.0,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 8539.0,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  8539,
+                  8539
+                ]
+              },
+              "n_control": {
+                "mean": 4261.0,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  4261,
+                  4261
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.006264517031125834
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.006099779185835665
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.006206655806758262
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.006193023150294669
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.0061948711044951
+                }
+              ]
+            },
+            "rule1": {
+              "difference_in_means": {
+                "mean": 0.05258472453016157,
+                "std": 0.020424252664788298,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.009818193068439725,
+                "std": 0.00075381380124682,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.009133685133249407,
+                  0.010921648314983835
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 0.8998283859806969,
+                "std": 0.35051839573585075,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.399296875,
+                "std": 0.006780781953893657,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 3413.6,
+                "std": 44.9070150421958,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  3345,
+                  3463
+                ]
+              },
+              "n_control": {
+                "mean": 1697.4,
+                "std": 43.19537012227121,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1618,
+                  1742
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.01052431642991821
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.009133685133249407
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.009147238570369956
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.010921648314983835
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.009364076893677213
+                }
+              ]
+            },
+            "rule2": {
+              "difference_in_means": {
+                "mean": 0.061158245423781475,
+                "std": 0.013176898038737055,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.010101075263166125,
+                "std": 0.0006274615762554239,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.009232777463673158,
+                  0.01089462105326782
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.0436595782380826,
+                "std": 0.2113563958948291,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.38270312500000003,
+                "std": 0.004564960808977433,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 3261.8,
+                "std": 47.61260337347665,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  3199,
+                  3317
+                ]
+              },
+              "n_control": {
+                "mean": 1636.8,
+                "std": 22.319498202244603,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1603,
+                  1668
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.01089462105326782
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.009232777463673158
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.00968406111227026
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.010727790575757973
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.009966126110861423
+                }
+              ]
+            },
+            "rule3": {
+              "difference_in_means": {
+                "mean": 0.05672341549124155,
+                "std": 0.006595734993490414,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.00977082940908867,
+                "std": 0.0006705436408311536,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.009074201484739813,
+                  0.010929602550402411
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 0.9670896767679279,
+                "std": 0.06274968812025293,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.365328125,
+                "std": 0.042669480548894655,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 3101.0,
+                "std": 362.2893870926942,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  2428,
+                  3446
+                ]
+              },
+              "n_control": {
+                "mean": 1575.2,
+                "std": 183.98195563695913,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1229,
+                  1740
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.010929602550402411
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.009141115267735752
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.00992360170083493
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.009785626041730439
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.009074201484739813
+                }
+              ]
+            },
+            "rule4": {
+              "difference_in_means": {
+                "mean": 0.060112075317918415,
+                "std": 0.0036661847602587677,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.01192301451080897,
+                "std": 0.002406938900944609,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.009885628268088816,
+                  0.014900980829172863
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.0306310700903871,
+                "std": 0.07648589259322315,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.29959375,
+                "std": 0.08786546723276017,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 2544.0,
+                "std": 733.2262952186044,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1635,
+                  3165
+                ]
+              },
+              "n_control": {
+                "mean": 1290.8,
+                "std": 391.88692246616245,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  807,
+                  1627
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.010017030849306656
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.014900980829172863
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.009885628268088816
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.009971710088733977
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.014839722518742549
+                }
+              ]
+            },
+            "rule5": {
+              "difference_in_means": {
+                "mean": 0.06111954473124688,
+                "std": 0.015122942876835743,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.016684596748316433,
+                "std": 0.004074881258794037,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.01240039285280422,
+                  0.02200941959682857
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.039675286033098,
+                "std": 0.23221174718336887,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.167546875,
+                "std": 0.05694129463891957,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 1437.6,
+                "std": 486.19321262230716,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  837,
+                  1908
+                ]
+              },
+              "n_control": {
+                "mean": 707.0,
+                "std": 243.0596634573495,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  416,
+                  955
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.012997769595730624
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.021107800976264406
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.014907600719954348
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.01240039285280422
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.02200941959682857
+                }
+              ]
+            },
+            "top20": {
+              "difference_in_means": {
+                "mean": 0.07998615392772868,
+                "std": 0.00895778872619491,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.01527852391902387,
+                "std": 0.00042459240521042126,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.014780836535072036,
+                  0.015786030261334266
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.368416852639443,
+                "std": 0.14260362774383165,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.2,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 1733.4,
+                "std": 15.538339679644025,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1707,
+                  1754
+                ]
+              },
+              "n_control": {
+                "mean": 826.6,
+                "std": 15.538339679644025,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  806,
+                  853
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.015786030261334266
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.015210884071086147
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.01486590783204166
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.015748960895585244
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.014780836535072036
+                }
+              ]
+            },
+            "union": {
+              "difference_in_means": {
+                "mean": 0.05855535784060193,
+                "std": 0.00509818915865027,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.006376702103482559,
+                "std": 0.00014205720694407246,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.006241291063233386,
+                  0.0066478206685653
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 0.9992465529698314,
+                "std": 0.02035562226728771,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.9370156249999999,
+                "std": 0.015365294828159,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 8000.0,
+                "std": 133.0187956643722,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  7757,
+                  8114
+                ]
+              },
+              "n_control": {
+                "mean": 3993.8,
+                "std": 67.04744588722228,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  3896,
+                  4066
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.0066478206685653
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.006241291063233386
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.006289776224413955
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.006364839072429619
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.006339783488770534
+                }
+              ]
+            }
+          },
+          "normalized_fidelity": {
+            "mean": -0.029956475132466305,
+            "std": 0.12161156553477168,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "fidelity_degeneracy": [],
+          "rule_count": 25,
+          "constraints": {
+            "discovery": {
+              "support_ok": 0,
+              "overlap_ok": 0,
+              "max_coverage_ok": 3
+            },
+            "selection": {
+              "support_ok": 0,
+              "overlap_ok": 0,
+              "max_coverage_ok": 0
+            },
+            "test": {
+              "support_ok": 0,
+              "overlap_ok": 0,
+              "max_coverage_ok": 4
+            }
+          }
+        }
+      },
+      "train_only": {
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "legacy_hard_changed": 0,
+        "legacy": {
+          "outcomes": {
+            "population": {
+              "difference_in_means": {
+                "mean": 0.05857808447341256,
+                "std": 0.004705771490247913,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.006191769255701906,
+                "std": 5.2890859140432384e-05,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.006099779185835665,
+                  0.006264517031125834
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.0,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 1.0,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 8539.0,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  8539,
+                  8539
+                ]
+              },
+              "n_control": {
+                "mean": 4261.0,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  4261,
+                  4261
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.006264517031125834
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.006099779185835665
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.006206655806758262
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.006193023150294669
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.0061948711044951
+                }
+              ]
+            },
+            "rule1": {
+              "difference_in_means": {
+                "mean": 0.05258472453016157,
+                "std": 0.020424252664788298,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.009818193068439725,
+                "std": 0.00075381380124682,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.009133685133249407,
+                  0.010921648314983835
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 0.8998283859806969,
+                "std": 0.35051839573585075,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.399296875,
+                "std": 0.006780781953893657,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 3413.6,
+                "std": 44.9070150421958,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  3345,
+                  3463
+                ]
+              },
+              "n_control": {
+                "mean": 1697.4,
+                "std": 43.19537012227121,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1618,
+                  1742
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.01052431642991821
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.009133685133249407
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.009147238570369956
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.010921648314983835
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.009364076893677213
+                }
+              ]
+            },
+            "rule2": {
+              "difference_in_means": {
+                "mean": 0.061158245423781475,
+                "std": 0.013176898038737055,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.010101075263166125,
+                "std": 0.0006274615762554239,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.009232777463673158,
+                  0.01089462105326782
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.0436595782380826,
+                "std": 0.2113563958948291,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.38270312500000003,
+                "std": 0.004564960808977433,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 3261.8,
+                "std": 47.61260337347665,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  3199,
+                  3317
+                ]
+              },
+              "n_control": {
+                "mean": 1636.8,
+                "std": 22.319498202244603,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1603,
+                  1668
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.01089462105326782
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.009232777463673158
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.00968406111227026
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.010727790575757973
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.009966126110861423
+                }
+              ]
+            },
+            "rule3": {
+              "difference_in_means": {
+                "mean": 0.05672341549124155,
+                "std": 0.006595734993490414,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.00977082940908867,
+                "std": 0.0006705436408311536,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.009074201484739813,
+                  0.010929602550402411
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 0.9670896767679279,
+                "std": 0.06274968812025293,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.365328125,
+                "std": 0.042669480548894655,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 3101.0,
+                "std": 362.2893870926942,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  2428,
+                  3446
+                ]
+              },
+              "n_control": {
+                "mean": 1575.2,
+                "std": 183.98195563695913,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1229,
+                  1740
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.010929602550402411
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.009141115267735752
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.00992360170083493
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.009785626041730439
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.009074201484739813
+                }
+              ]
+            },
+            "rule4": {
+              "difference_in_means": {
+                "mean": 0.06489940863396844,
+                "std": 0.008020232198775684,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.01316437854022728,
+                "std": 0.004398951468689725,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.009885628268088816,
+                  0.021107800976264406
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.1078650258560934,
+                "std": 0.09846398995855138,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.28104687500000003,
+                "std": 0.11430615670617877,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 2384.6,
+                "std": 960.0578315914098,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  861,
+                  3165
+                ]
+              },
+              "n_control": {
+                "mean": 1212.8,
+                "std": 503.372784325891,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  417,
+                  1627
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.010017030849306656
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.021107800976264406
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.009885628268088816
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.009971710088733977
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.014839722518742549
+                }
+              ]
+            },
+            "rule5": {
+              "difference_in_means": {
+                "mean": 0.054861065491113116,
+                "std": 0.01231665288291135,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.014987765447380657,
+                "std": 0.0036208756343991304,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.01240039285280422,
+                  0.02200941959682857
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 0.9387073615368979,
+                "std": 0.21145015457177477,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.19240625,
+                "std": 0.04845771755484363,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 1650.4,
+                "std": 414.8713535543277,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  837,
+                  1925
+                ]
+              },
+              "n_control": {
+                "mean": 812.4,
+                "std": 205.87044469763018,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  416,
+                  955
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.012997769595730624
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.012623644471585526
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.014907600719954348
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.01240039285280422
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.02200941959682857
+                }
+              ]
+            },
+            "top20": {
+              "difference_in_means": {
+                "mean": 0.0801710049168611,
+                "std": 0.008653319178288248,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.015277294318465922,
+                "std": 0.00043768058126203945,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.01475041404843833,
+                  0.01581030474517823
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.3718910397437072,
+                "std": 0.13920233542005359,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.2,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 1733.2,
+                "std": 15.509996776273036,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1707,
+                  1754
+                ]
+              },
+              "n_control": {
+                "mean": 826.8,
+                "std": 15.509996776273036,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  806,
+                  853
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.01581030474517823
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.015210884071086147
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.01486590783204166
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.015748960895585244
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.01475041404843833
+                }
+              ]
+            },
+            "union": {
+              "difference_in_means": {
+                "mean": 0.058201822582500194,
+                "std": 0.004736295926161171,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.00637913076733006,
+                "std": 0.00013980739565944362,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.006253434382470893,
+                  0.0066478206685653
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 0.9935429754908405,
+                "std": 0.010515035260407637,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.932234375,
+                "std": 0.020089436259356552,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 7953.4,
+                "std": 173.51726138917707,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  7727,
+                  8114
+                ]
+              },
+              "n_control": {
+                "mean": 3979.2,
+                "std": 84.5728088690449,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  3859,
+                  4066
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.0066478206685653
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.006253434382470893
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.006289776224413955
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.006364839072429619
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.006339783488770534
+                }
+              ]
+            }
+          },
+          "normalized_fidelity": {
+            "mean": -0.071661852070107,
+            "std": 0.18763580472909988,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "fidelity_degeneracy": [],
+          "rule_count": 25,
+          "constraints": {
+            "discovery": {
+              "support_ok": 0,
+              "overlap_ok": 0,
+              "max_coverage_ok": 3
+            },
+            "selection": {
+              "support_ok": 0,
+              "overlap_ok": 0,
+              "max_coverage_ok": 0
+            },
+            "test": {
+              "support_ok": 0,
+              "overlap_ok": 0,
+              "max_coverage_ok": 4
+            }
+          }
+        },
+        "hard": {
+          "outcomes": {
+            "population": {
+              "difference_in_means": {
+                "mean": 0.05857808447341256,
+                "std": 0.004705771490247913,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.006191769255701906,
+                "std": 5.2890859140432384e-05,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.006099779185835665,
+                  0.006264517031125834
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.0,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 1.0,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 8539.0,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  8539,
+                  8539
+                ]
+              },
+              "n_control": {
+                "mean": 4261.0,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  4261,
+                  4261
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.006264517031125834
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.006099779185835665
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.006206655806758262
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.006193023150294669
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.0061948711044951
+                }
+              ]
+            },
+            "rule1": {
+              "difference_in_means": {
+                "mean": 0.05258472453016157,
+                "std": 0.020424252664788298,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.009818193068439725,
+                "std": 0.00075381380124682,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.009133685133249407,
+                  0.010921648314983835
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 0.8998283859806969,
+                "std": 0.35051839573585075,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.399296875,
+                "std": 0.006780781953893657,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 3413.6,
+                "std": 44.9070150421958,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  3345,
+                  3463
+                ]
+              },
+              "n_control": {
+                "mean": 1697.4,
+                "std": 43.19537012227121,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1618,
+                  1742
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.01052431642991821
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.009133685133249407
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.009147238570369956
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.010921648314983835
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.009364076893677213
+                }
+              ]
+            },
+            "rule2": {
+              "difference_in_means": {
+                "mean": 0.061158245423781475,
+                "std": 0.013176898038737055,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.010101075263166125,
+                "std": 0.0006274615762554239,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.009232777463673158,
+                  0.01089462105326782
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.0436595782380826,
+                "std": 0.2113563958948291,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.38270312500000003,
+                "std": 0.004564960808977433,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 3261.8,
+                "std": 47.61260337347665,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  3199,
+                  3317
+                ]
+              },
+              "n_control": {
+                "mean": 1636.8,
+                "std": 22.319498202244603,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1603,
+                  1668
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.01089462105326782
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.009232777463673158
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.00968406111227026
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.010727790575757973
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.009966126110861423
+                }
+              ]
+            },
+            "rule3": {
+              "difference_in_means": {
+                "mean": 0.05672341549124155,
+                "std": 0.006595734993490414,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.00977082940908867,
+                "std": 0.0006705436408311536,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.009074201484739813,
+                  0.010929602550402411
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 0.9670896767679279,
+                "std": 0.06274968812025293,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.365328125,
+                "std": 0.042669480548894655,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 3101.0,
+                "std": 362.2893870926942,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  2428,
+                  3446
+                ]
+              },
+              "n_control": {
+                "mean": 1575.2,
+                "std": 183.98195563695913,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1229,
+                  1740
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.010929602550402411
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.009141115267735752
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.00992360170083493
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.009785626041730439
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.009074201484739813
+                }
+              ]
+            },
+            "rule4": {
+              "difference_in_means": {
+                "mean": 0.06489940863396844,
+                "std": 0.008020232198775684,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.01316437854022728,
+                "std": 0.004398951468689725,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.009885628268088816,
+                  0.021107800976264406
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.1078650258560934,
+                "std": 0.09846398995855138,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.28104687500000003,
+                "std": 0.11430615670617877,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 2384.6,
+                "std": 960.0578315914098,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  861,
+                  3165
+                ]
+              },
+              "n_control": {
+                "mean": 1212.8,
+                "std": 503.372784325891,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  417,
+                  1627
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.010017030849306656
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.021107800976264406
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.009885628268088816
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.009971710088733977
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.014839722518742549
+                }
+              ]
+            },
+            "rule5": {
+              "difference_in_means": {
+                "mean": 0.054861065491113116,
+                "std": 0.01231665288291135,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.014987765447380657,
+                "std": 0.0036208756343991304,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.01240039285280422,
+                  0.02200941959682857
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 0.9387073615368979,
+                "std": 0.21145015457177477,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.19240625,
+                "std": 0.04845771755484363,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 1650.4,
+                "std": 414.8713535543277,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  837,
+                  1925
+                ]
+              },
+              "n_control": {
+                "mean": 812.4,
+                "std": 205.87044469763018,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  416,
+                  955
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.012997769595730624
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.012623644471585526
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.014907600719954348
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.01240039285280422
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.02200941959682857
+                }
+              ]
+            },
+            "top20": {
+              "difference_in_means": {
+                "mean": 0.0801710049168611,
+                "std": 0.008653319178288248,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.015277294318465922,
+                "std": 0.00043768058126203945,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.01475041404843833,
+                  0.01581030474517823
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 1.3718910397437072,
+                "std": 0.13920233542005359,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.2,
+                "std": 0.0,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 1733.2,
+                "std": 15.509996776273036,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  1707,
+                  1754
+                ]
+              },
+              "n_control": {
+                "mean": 826.8,
+                "std": 15.509996776273036,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  806,
+                  853
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.01581030474517823
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.015210884071086147
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.01486590783204166
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.015748960895585244
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.01475041404843833
+                }
+              ]
+            },
+            "union": {
+              "difference_in_means": {
+                "mean": 0.058201822582500194,
+                "std": 0.004736295926161171,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "conditional_se": {
+                "mean": 0.00637913076733006,
+                "std": 0.00013980739565944362,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  0.006253434382470893,
+                  0.0066478206685653
+                ]
+              },
+              "ratio_to_population": {
+                "mean": 0.9935429754908405,
+                "std": 0.010515035260407637,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "coverage": {
+                "mean": 0.932234375,
+                "std": 0.020089436259356552,
+                "valid": 5,
+                "total": 5,
+                "missing": 0
+              },
+              "n_treated": {
+                "mean": 7953.4,
+                "std": 173.51726138917707,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  7727,
+                  8114
+                ]
+              },
+              "n_control": {
+                "mean": 3979.2,
+                "std": 84.5728088690449,
+                "valid": 5,
+                "total": 5,
+                "missing": 0,
+                "range": [
+                  3859,
+                  4066
+                ]
+              },
+              "conditional_se_by_seed": [
+                {
+                  "seed": 0,
+                  "conditional_se": 0.0066478206685653
+                },
+                {
+                  "seed": 1,
+                  "conditional_se": 0.006253434382470893
+                },
+                {
+                  "seed": 2,
+                  "conditional_se": 0.006289776224413955
+                },
+                {
+                  "seed": 3,
+                  "conditional_se": 0.006364839072429619
+                },
+                {
+                  "seed": 4,
+                  "conditional_se": 0.006339783488770534
+                }
+              ]
+            }
+          },
+          "normalized_fidelity": {
+            "mean": -0.071661852070107,
+            "std": 0.18763580472909988,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "fidelity_degeneracy": [],
+          "rule_count": 25,
+          "constraints": {
+            "discovery": {
+              "support_ok": 0,
+              "overlap_ok": 0,
+              "max_coverage_ok": 3
+            },
+            "selection": {
+              "support_ok": 0,
+              "overlap_ok": 0,
+              "max_coverage_ok": 0
+            },
+            "test": {
+              "support_ok": 0,
+              "overlap_ok": 0,
+              "max_coverage_ok": 4
+            }
+          }
+        }
+      }
+    },
+    "paired": {
+      "rows": [
+        {
+          "seed": 0,
+          "raw_rows_T_Y_identical": true,
+          "train_only_fit_excludes_test": true,
+          "max_abs_teacher_prediction_change": 0.3924081536446421,
+          "hard_test_masks_identical": true,
+          "outcome_changes": {
+            "population": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule1": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule2": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule3": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule4": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule5": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "top20": {
+              "difference_in_means": -2.4915411825282563e-05,
+              "conditional_se": 2.4274483843962635e-05,
+              "coverage": 0.0,
+              "ratio_to_population": -0.00047477901940284895
+            },
+            "union": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            }
+          },
+          "pipeline_outcome_changes": {
+            "population": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule1": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule2": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule3": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule4": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule5": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "top20": {
+              "difference_in_means": -2.4915411825282563e-05,
+              "conditional_se": 2.4274483843962635e-05,
+              "coverage": 0.0,
+              "ratio_to_population": -0.00047477901940284895
+            },
+            "union": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            }
+          }
+        },
+        {
+          "seed": 1,
+          "raw_rows_T_Y_identical": true,
+          "train_only_fit_excludes_test": true,
+          "max_abs_teacher_prediction_change": 0.30859343752833,
+          "hard_test_masks_identical": false,
+          "outcome_changes": {
+            "population": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule1": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule2": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule3": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule4": {
+              "difference_in_means": 0.023936666580250163,
+              "conditional_se": 0.006206820147091542,
+              "coverage": -0.092734375,
+              "ratio_to_population": 0.38616977882853176
+            },
+            "rule5": {
+              "difference_in_means": -0.03129239620066884,
+              "conditional_se": -0.00848415650467888,
+              "coverage": 0.12429687500000001,
+              "ratio_to_population": -0.5048396224810006
+            },
+            "top20": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "union": {
+              "difference_in_means": -0.0017676762905086268,
+              "conditional_se": 1.2143319237507139e-05,
+              "coverage": -0.023906250000000018,
+              "ratio_to_population": -0.028517887394954977
+            }
+          },
+          "pipeline_outcome_changes": {
+            "population": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule1": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule2": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule3": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule4": {
+              "difference_in_means": 0.023936666580250163,
+              "conditional_se": 0.006206820147091542,
+              "coverage": -0.092734375,
+              "ratio_to_population": 0.38616977882853176
+            },
+            "rule5": {
+              "difference_in_means": -0.03129239620066884,
+              "conditional_se": -0.00848415650467888,
+              "coverage": 0.12429687500000001,
+              "ratio_to_population": -0.5048396224810006
+            },
+            "top20": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "union": {
+              "difference_in_means": -0.0017676762905086268,
+              "conditional_se": 1.2143319237507139e-05,
+              "coverage": -0.023906250000000018,
+              "ratio_to_population": -0.028517887394954977
+            }
+          }
+        },
+        {
+          "seed": 2,
+          "raw_rows_T_Y_identical": true,
+          "train_only_fit_excludes_test": true,
+          "max_abs_teacher_prediction_change": 0.08465720319396038,
+          "hard_test_masks_identical": true,
+          "outcome_changes": {
+            "population": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule1": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule2": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule3": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule4": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule5": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "top20": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "union": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            }
+          },
+          "pipeline_outcome_changes": {
+            "population": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule1": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule2": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule3": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule4": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule5": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "top20": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "union": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            }
+          }
+        },
+        {
+          "seed": 3,
+          "raw_rows_T_Y_identical": true,
+          "train_only_fit_excludes_test": true,
+          "max_abs_teacher_prediction_change": 0.2884447815092227,
+          "hard_test_masks_identical": true,
+          "outcome_changes": {
+            "population": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule1": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule2": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule3": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule4": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule5": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "top20": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "union": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            }
+          },
+          "pipeline_outcome_changes": {
+            "population": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule1": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule2": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule3": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule4": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule5": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "top20": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "union": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            }
+          }
+        },
+        {
+          "seed": 4,
+          "raw_rows_T_Y_identical": true,
+          "train_only_fit_excludes_test": true,
+          "max_abs_teacher_prediction_change": 0.1336785015238427,
+          "hard_test_masks_identical": true,
+          "outcome_changes": {
+            "population": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule1": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule2": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule3": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule4": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule5": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "top20": {
+              "difference_in_means": 0.0009491703574874277,
+              "conditional_se": -3.042248663370599e-05,
+              "coverage": 0.0,
+              "ratio_to_population": 0.01784571454072248
+            },
+            "union": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            }
+          },
+          "pipeline_outcome_changes": {
+            "population": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule1": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule2": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule3": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule4": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "rule5": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            },
+            "top20": {
+              "difference_in_means": 0.0009491703574874277,
+              "conditional_se": -3.042248663370599e-05,
+              "coverage": 0.0,
+              "ratio_to_population": 0.01784571454072248
+            },
+            "union": {
+              "difference_in_means": 0.0,
+              "conditional_se": 0.0,
+              "coverage": 0.0,
+              "ratio_to_population": 0.0
+            }
+          }
+        }
+      ],
+      "train_only_minus_legacy_full": {
+        "population": {
+          "difference_in_means": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "conditional_se": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "coverage": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "ratio_to_population": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          }
+        },
+        "rule1": {
+          "difference_in_means": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "conditional_se": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "coverage": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "ratio_to_population": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          }
+        },
+        "rule2": {
+          "difference_in_means": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "conditional_se": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "coverage": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "ratio_to_population": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          }
+        },
+        "rule3": {
+          "difference_in_means": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "conditional_se": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "coverage": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "ratio_to_population": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          }
+        },
+        "rule4": {
+          "difference_in_means": {
+            "mean": 0.004787333316050033,
+            "std": 0.009574666632100068,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "conditional_se": {
+            "mean": 0.0012413640294183085,
+            "std": 0.002482728058836617,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "coverage": {
+            "mean": -0.018546874999999997,
+            "std": 0.037093749999999995,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "ratio_to_population": {
+            "mean": 0.07723395576570635,
+            "std": 0.1544679115314127,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          }
+        },
+        "rule5": {
+          "difference_in_means": {
+            "mean": -0.006258479240133769,
+            "std": 0.01251695848026754,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "conditional_se": {
+            "mean": -0.001696831300935776,
+            "std": 0.0033936626018715526,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "coverage": {
+            "mean": 0.024859375000000003,
+            "std": 0.049718750000000006,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "ratio_to_population": {
+            "mean": -0.10096792449620011,
+            "std": 0.20193584899240022,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          }
+        },
+        "top20": {
+          "difference_in_means": {
+            "mean": 0.00018485098913242903,
+            "std": 0.00038228149428478687,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "conditional_se": {
+            "mean": -1.2296005579486708e-06,
+            "std": 1.7362135071518617e-05,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "coverage": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "ratio_to_population": {
+            "mean": 0.003474187104263926,
+            "std": 0.0071881160592891106,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          }
+        },
+        "union": {
+          "difference_in_means": {
+            "mean": -0.00035353525810172536,
+            "std": 0.0007070705162034508,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "conditional_se": {
+            "mean": 2.428663847501428e-06,
+            "std": 4.857327695002856e-06,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "coverage": {
+            "mean": -0.004781250000000003,
+            "std": 0.009562500000000007,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "ratio_to_population": {
+            "mean": -0.005703577478990996,
+            "std": 0.011407154957981992,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          }
+        }
+      },
+      "contrast_definition": "train_only_minus_legacy_full holds hard filtering fixed; revised_pipeline_minus_historical also changes legacy selection to hard selection.",
+      "revised_pipeline_minus_historical": {
+        "population": {
+          "difference_in_means": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "conditional_se": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "coverage": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "ratio_to_population": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          }
+        },
+        "rule1": {
+          "difference_in_means": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "conditional_se": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "coverage": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "ratio_to_population": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          }
+        },
+        "rule2": {
+          "difference_in_means": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "conditional_se": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "coverage": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "ratio_to_population": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          }
+        },
+        "rule3": {
+          "difference_in_means": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "conditional_se": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "coverage": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "ratio_to_population": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          }
+        },
+        "rule4": {
+          "difference_in_means": {
+            "mean": 0.004787333316050033,
+            "std": 0.009574666632100068,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "conditional_se": {
+            "mean": 0.0012413640294183085,
+            "std": 0.002482728058836617,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "coverage": {
+            "mean": -0.018546874999999997,
+            "std": 0.037093749999999995,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "ratio_to_population": {
+            "mean": 0.07723395576570635,
+            "std": 0.1544679115314127,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          }
+        },
+        "rule5": {
+          "difference_in_means": {
+            "mean": -0.006258479240133769,
+            "std": 0.01251695848026754,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "conditional_se": {
+            "mean": -0.001696831300935776,
+            "std": 0.0033936626018715526,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "coverage": {
+            "mean": 0.024859375000000003,
+            "std": 0.049718750000000006,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "ratio_to_population": {
+            "mean": -0.10096792449620011,
+            "std": 0.20193584899240022,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          }
+        },
+        "top20": {
+          "difference_in_means": {
+            "mean": 0.00018485098913242903,
+            "std": 0.00038228149428478687,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "conditional_se": {
+            "mean": -1.2296005579486708e-06,
+            "std": 1.7362135071518617e-05,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "coverage": {
+            "mean": 0.0,
+            "std": 0.0,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "ratio_to_population": {
+            "mean": 0.003474187104263926,
+            "std": 0.0071881160592891106,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          }
+        },
+        "union": {
+          "difference_in_means": {
+            "mean": -0.00035353525810172536,
+            "std": 0.0007070705162034508,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "conditional_se": {
+            "mean": 2.428663847501428e-06,
+            "std": 4.857327695002856e-06,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "coverage": {
+            "mean": -0.004781250000000003,
+            "std": 0.009562500000000007,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          },
+          "ratio_to_population": {
+            "mean": -0.005703577478990996,
+            "std": 0.011407154957981992,
+            "valid": 5,
+            "total": 5,
+            "missing": 0
+          }
+        }
+      },
+      "all_raw_splits_identical": true,
+      "all_train_only_fit_excludes_test": true,
+      "identical_hard_mask_seeds": 4
+    }
+  },
+  "megafon": {
+    "complete": true,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "interpretation": "Provider-generated synthetic competition data; contrasts are descriptive; treatment randomization not independently verified.",
+    "train_only": {
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "legacy_hard_changed": 1,
+      "legacy": {
+        "outcomes": {
+          "population": {
+            "difference_in_means": {
+              "mean": 0.05095955320483979,
+              "std": 0.004910021249210043,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "conditional_se": {
+              "mean": 0.005696333062974008,
+              "std": 3.4177487548633466e-05,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                0.005628089405020195,
+                0.005756656318720573
+              ]
+            },
+            "ratio_to_population": {
+              "mean": 1.0,
+              "std": 0.0,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 1.0,
+              "std": 0.0,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 10008.1,
+              "std": 33.942451296274996,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                9948,
+                10043
+              ]
+            },
+            "n_control": {
+              "mean": 9991.9,
+              "std": 33.942451296274996,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                9957,
+                10052
+              ]
+            },
+            "conditional_se_by_seed": [
+              {
+                "seed": 0,
+                "conditional_se": 0.005729551395231623
+              },
+              {
+                "seed": 1,
+                "conditional_se": 0.005756656318720573
+              },
+              {
+                "seed": 2,
+                "conditional_se": 0.005628089405020195
+              },
+              {
+                "seed": 3,
+                "conditional_se": 0.005660882438548787
+              },
+              {
+                "seed": 4,
+                "conditional_se": 0.005697470565355786
+              },
+              {
+                "seed": 5,
+                "conditional_se": 0.005697706888120013
+              },
+              {
+                "seed": 6,
+                "conditional_se": 0.005682009320306216
+              },
+              {
+                "seed": 7,
+                "conditional_se": 0.005723937957423855
+              },
+              {
+                "seed": 8,
+                "conditional_se": 0.005697896402796451
+              },
+              {
+                "seed": 9,
+                "conditional_se": 0.005689129938216593
+              }
+            ]
+          },
+          "rule1": {
+            "difference_in_means": {
+              "mean": 0.05106103679155967,
+              "std": 0.03398372598068362,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "conditional_se": {
+              "mean": 0.009035743402252942,
+              "std": 0.0002807988847293771,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                0.008663419775332455,
+                0.009451902576709545
+              ]
+            },
+            "ratio_to_population": {
+              "mean": 0.9649070326342158,
+              "std": 0.6078067498638595,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.39714,
+              "std": 0.0042333083988766946,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3964.3,
+              "std": 45.25936367206238,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                3906,
+                4044
+              ]
+            },
+            "n_control": {
+              "mean": 3978.5,
+              "std": 63.79380847699877,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                3900,
+                4102
+              ]
+            },
+            "conditional_se_by_seed": [
+              {
+                "seed": 0,
+                "conditional_se": 0.009409367241662045
+              },
+              {
+                "seed": 1,
+                "conditional_se": 0.009451902576709545
+              },
+              {
+                "seed": 2,
+                "conditional_se": 0.008663419775332455
+              },
+              {
+                "seed": 3,
+                "conditional_se": 0.00874026076529782
+              },
+              {
+                "seed": 4,
+                "conditional_se": 0.008908857890328642
+              },
+              {
+                "seed": 5,
+                "conditional_se": 0.00868842783824259
+              },
+              {
+                "seed": 6,
+                "conditional_se": 0.00921544688266653
+              },
+              {
+                "seed": 7,
+                "conditional_se": 0.009234499674477393
+              },
+              {
+                "seed": 8,
+                "conditional_se": 0.009165615991584239
+              },
+              {
+                "seed": 9,
+                "conditional_se": 0.008879635386228176
+              }
+            ]
+          },
+          "rule2": {
+            "difference_in_means": {
+              "mean": 0.06108339208703852,
+              "std": 0.014432007142864887,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "conditional_se": {
+              "mean": 0.00916532775409971,
+              "std": 0.00011424145871982393,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                0.00892875630728649,
+                0.009354029273991805
+              ]
+            },
+            "ratio_to_population": {
+              "mean": 1.214694894350813,
+              "std": 0.3162208462826011,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.39377999999999996,
+              "std": 0.004497010117844964,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3947.4,
+              "std": 60.870682598439785,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                3841,
+                4057
+              ]
+            },
+            "n_control": {
+              "mean": 3928.2,
+              "std": 57.363402967397256,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                3803,
+                4008
+              ]
+            },
+            "conditional_se_by_seed": [
+              {
+                "seed": 0,
+                "conditional_se": 0.009178192057784557
+              },
+              {
+                "seed": 1,
+                "conditional_se": 0.00892875630728649
+              },
+              {
+                "seed": 2,
+                "conditional_se": 0.0091973094678983
+              },
+              {
+                "seed": 3,
+                "conditional_se": 0.009250147471062033
+              },
+              {
+                "seed": 4,
+                "conditional_se": 0.009190223966881529
+              },
+              {
+                "seed": 5,
+                "conditional_se": 0.009354029273991805
+              },
+              {
+                "seed": 6,
+                "conditional_se": 0.009031284454312623
+              },
+              {
+                "seed": 7,
+                "conditional_se": 0.0092359711293218
+              },
+              {
+                "seed": 8,
+                "conditional_se": 0.00908873139109438
+              },
+              {
+                "seed": 9,
+                "conditional_se": 0.009198632021363586
+              }
+            ]
+          },
+          "rule3": {
+            "difference_in_means": {
+              "mean": 0.0421768241745452,
+              "std": 0.009634142012192218,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "conditional_se": {
+              "mean": 0.00908159841264923,
+              "std": 0.00010981704819603047,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                0.0089292828934101,
+                0.00924851347926826
+              ]
+            },
+            "ratio_to_population": {
+              "mean": 0.8366165177012779,
+              "std": 0.20821274327003875,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.393025,
+              "std": 0.004726851489099279,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3928.5,
+              "std": 77.18840586512977,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                3794,
+                4055
+              ]
+            },
+            "n_control": {
+              "mean": 3932.0,
+              "std": 28.326665882168342,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                3898,
+                3985
+              ]
+            },
+            "conditional_se_by_seed": [
+              {
+                "seed": 0,
+                "conditional_se": 0.0089292828934101
+              },
+              {
+                "seed": 1,
+                "conditional_se": 0.008939370268695651
+              },
+              {
+                "seed": 2,
+                "conditional_se": 0.00909353886316443
+              },
+              {
+                "seed": 3,
+                "conditional_se": 0.008972354312413553
+              },
+              {
+                "seed": 4,
+                "conditional_se": 0.009104749071110921
+              },
+              {
+                "seed": 5,
+                "conditional_se": 0.009203715369075475
+              },
+              {
+                "seed": 6,
+                "conditional_se": 0.00924851347926826
+              },
+              {
+                "seed": 7,
+                "conditional_se": 0.00900554824346169
+              },
+              {
+                "seed": 8,
+                "conditional_se": 0.009203477451503945
+              },
+              {
+                "seed": 9,
+                "conditional_se": 0.009115434174388273
+              }
+            ]
+          },
+          "rule4": {
+            "difference_in_means": {
+              "mean": 0.12606225456231812,
+              "std": 0.06147410625234914,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "conditional_se": {
+              "mean": 0.019020942334392096,
+              "std": 0.008379128324836085,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                0.008799510172870647,
+                0.027753643174846476
+              ]
+            },
+            "ratio_to_population": {
+              "mean": 2.4580672515723365,
+              "std": 1.1544194577494886,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.19465500000000002,
+              "std": 0.16658838562456868,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 1946.3,
+              "std": 1668.5490732969167,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                502,
+                4007
+              ]
+            },
+            "n_control": {
+              "mean": 1946.8,
+              "std": 1663.5122362038699,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                503,
+                4034
+              ]
+            },
+            "conditional_se_by_seed": [
+              {
+                "seed": 0,
+                "conditional_se": 0.027753643174846476
+              },
+              {
+                "seed": 1,
+                "conditional_se": 0.023652704254843
+              },
+              {
+                "seed": 2,
+                "conditional_se": 0.008808830652224512
+              },
+              {
+                "seed": 3,
+                "conditional_se": 0.008799510172870647
+              },
+              {
+                "seed": 4,
+                "conditional_se": 0.009002784851024822
+              },
+              {
+                "seed": 5,
+                "conditional_se": 0.008873437896137313
+              },
+              {
+                "seed": 6,
+                "conditional_se": 0.02740238043119074
+              },
+              {
+                "seed": 7,
+                "conditional_se": 0.02657398668061064
+              },
+              {
+                "seed": 8,
+                "conditional_se": 0.025425883323955144
+              },
+              {
+                "seed": 9,
+                "conditional_se": 0.023916261906217654
+              }
+            ]
+          },
+          "rule5": {
+            "difference_in_means": {
+              "mean": 0.13410681501530708,
+              "std": 0.07331788221824986,
+              "valid": 9,
+              "total": 10,
+              "missing": 1
+            },
+            "conditional_se": {
+              "mean": 0.022997998181558465,
+              "std": 0.004350978929323716,
+              "valid": 9,
+              "total": 10,
+              "missing": 1,
+              "range": [
+                0.013827284728517035,
+                0.02728939162793191
+              ]
+            },
+            "ratio_to_population": {
+              "mean": 2.5593031668315804,
+              "std": 1.3428167473517105,
+              "valid": 9,
+              "total": 10,
+              "missing": 1
+            },
+            "coverage": {
+              "mean": 0.08232222222222223,
+              "std": 0.042775675273006845,
+              "valid": 9,
+              "total": 10,
+              "missing": 1
+            },
+            "n_treated": {
+              "mean": 823.1111111111111,
+              "std": 433.42959044871776,
+              "valid": 9,
+              "total": 10,
+              "missing": 1,
+              "range": [
+                489,
+                1911
+              ]
+            },
+            "n_control": {
+              "mean": 823.3333333333334,
+              "std": 423.4393568019969,
+              "valid": 9,
+              "total": 10,
+              "missing": 1,
+              "range": [
+                488,
+                1848
+              ]
+            },
+            "conditional_se_by_seed": [
+              {
+                "seed": 0,
+                "conditional_se": 0.01757557834336698
+              },
+              {
+                "seed": 1,
+                "conditional_se": 0.02728939162793191
+              },
+              {
+                "seed": 2,
+                "conditional_se": 0.02391492580422209
+              },
+              {
+                "seed": 3,
+                "conditional_se": 0.026508858741253447
+              },
+              {
+                "seed": 4,
+                "conditional_se": 0.025371895919345334
+              },
+              {
+                "seed": 5,
+                "conditional_se": null
+              },
+              {
+                "seed": 6,
+                "conditional_se": 0.02446836506017482
+              },
+              {
+                "seed": 7,
+                "conditional_se": 0.013827284728517035
+              },
+              {
+                "seed": 8,
+                "conditional_se": 0.026790826300065896
+              },
+              {
+                "seed": 9,
+                "conditional_se": 0.021234857109148655
+              }
+            ]
+          },
+          "top20": {
+            "difference_in_means": {
+              "mean": 0.21714980733094755,
+              "std": 0.015512549965663898,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "conditional_se": {
+              "mean": 0.012911503797513069,
+              "std": 0.00017111276838389979,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                0.01260541737160425,
+                0.013156290055536273
+              ]
+            },
+            "ratio_to_population": {
+              "mean": 4.279710991095948,
+              "std": 0.2719093775924107,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.2,
+              "std": 0.0,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 2012.3,
+              "std": 20.86648029735729,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                1975,
+                2038
+              ]
+            },
+            "n_control": {
+              "mean": 1987.7,
+              "std": 20.86648029735729,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                1962,
+                2025
+              ]
+            },
+            "conditional_se_by_seed": [
+              {
+                "seed": 0,
+                "conditional_se": 0.013059284630922787
+              },
+              {
+                "seed": 1,
+                "conditional_se": 0.013156290055536273
+              },
+              {
+                "seed": 2,
+                "conditional_se": 0.012840777524976336
+              },
+              {
+                "seed": 3,
+                "conditional_se": 0.012961814210659466
+              },
+              {
+                "seed": 4,
+                "conditional_se": 0.013141533263414771
+              },
+              {
+                "seed": 5,
+                "conditional_se": 0.012886802299163258
+              },
+              {
+                "seed": 6,
+                "conditional_se": 0.012692349273227727
+              },
+              {
+                "seed": 7,
+                "conditional_se": 0.012944109551303725
+              },
+              {
+                "seed": 8,
+                "conditional_se": 0.012826659794322083
+              },
+              {
+                "seed": 9,
+                "conditional_se": 0.01260541737160425
+              }
+            ]
+          },
+          "union": {
+            "difference_in_means": {
+              "mean": 0.05457333615150809,
+              "std": 0.006474070957150284,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "conditional_se": {
+              "mean": 0.0059374736316855055,
+              "std": 7.430493631142944e-05,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                0.005802581275614313,
+                0.006020999252371773
+              ]
+            },
+            "ratio_to_population": {
+              "mean": 1.0706176972519597,
+              "std": 0.06778872168786293,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.927835,
+              "std": 0.012562922629706822,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 9277.7,
+              "std": 108.18045109907797,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                9131,
+                9479
+              ]
+            },
+            "n_control": {
+              "mean": 9279.0,
+              "std": 155.50112539785684,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                8986,
+                9514
+              ]
+            },
+            "conditional_se_by_seed": [
+              {
+                "seed": 0,
+                "conditional_se": 0.006020999252371773
+              },
+              {
+                "seed": 1,
+                "conditional_se": 0.006019142963645501
+              },
+              {
+                "seed": 2,
+                "conditional_se": 0.005802581275614313
+              },
+              {
+                "seed": 3,
+                "conditional_se": 0.005856614599206451
+              },
+              {
+                "seed": 4,
+                "conditional_se": 0.005876481870701762
+              },
+              {
+                "seed": 5,
+                "conditional_se": 0.005873653534086
+              },
+              {
+                "seed": 6,
+                "conditional_se": 0.005956951503779367
+              },
+              {
+                "seed": 7,
+                "conditional_se": 0.005974295106377269
+              },
+              {
+                "seed": 8,
+                "conditional_se": 0.005986645185337864
+              },
+              {
+                "seed": 9,
+                "conditional_se": 0.0060073710257347495
+              }
+            ]
+          }
+        },
+        "normalized_fidelity": {
+          "mean": 0.12249226146950001,
+          "std": 0.12276549659608188,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "fidelity_degeneracy": [],
+        "rule_count": 49,
+        "constraints": {
+          "discovery": {
+            "support_ok": 0,
+            "overlap_ok": 0,
+            "max_coverage_ok": 1
+          },
+          "selection": {
+            "support_ok": 0,
+            "overlap_ok": 0,
+            "max_coverage_ok": 0
+          },
+          "test": {
+            "support_ok": 0,
+            "overlap_ok": 0,
+            "max_coverage_ok": 6
+          }
+        }
+      },
+      "hard": {
+        "outcomes": {
+          "population": {
+            "difference_in_means": {
+              "mean": 0.05095955320483979,
+              "std": 0.004910021249210043,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "conditional_se": {
+              "mean": 0.005696333062974008,
+              "std": 3.4177487548633466e-05,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                0.005628089405020195,
+                0.005756656318720573
+              ]
+            },
+            "ratio_to_population": {
+              "mean": 1.0,
+              "std": 0.0,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 1.0,
+              "std": 0.0,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 10008.1,
+              "std": 33.942451296274996,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                9948,
+                10043
+              ]
+            },
+            "n_control": {
+              "mean": 9991.9,
+              "std": 33.942451296274996,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                9957,
+                10052
+              ]
+            },
+            "conditional_se_by_seed": [
+              {
+                "seed": 0,
+                "conditional_se": 0.005729551395231623
+              },
+              {
+                "seed": 1,
+                "conditional_se": 0.005756656318720573
+              },
+              {
+                "seed": 2,
+                "conditional_se": 0.005628089405020195
+              },
+              {
+                "seed": 3,
+                "conditional_se": 0.005660882438548787
+              },
+              {
+                "seed": 4,
+                "conditional_se": 0.005697470565355786
+              },
+              {
+                "seed": 5,
+                "conditional_se": 0.005697706888120013
+              },
+              {
+                "seed": 6,
+                "conditional_se": 0.005682009320306216
+              },
+              {
+                "seed": 7,
+                "conditional_se": 0.005723937957423855
+              },
+              {
+                "seed": 8,
+                "conditional_se": 0.005697896402796451
+              },
+              {
+                "seed": 9,
+                "conditional_se": 0.005689129938216593
+              }
+            ]
+          },
+          "rule1": {
+            "difference_in_means": {
+              "mean": 0.05106103679155967,
+              "std": 0.03398372598068362,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "conditional_se": {
+              "mean": 0.009035743402252942,
+              "std": 0.0002807988847293771,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                0.008663419775332455,
+                0.009451902576709545
+              ]
+            },
+            "ratio_to_population": {
+              "mean": 0.9649070326342158,
+              "std": 0.6078067498638595,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.39714,
+              "std": 0.0042333083988766946,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3964.3,
+              "std": 45.25936367206238,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                3906,
+                4044
+              ]
+            },
+            "n_control": {
+              "mean": 3978.5,
+              "std": 63.79380847699877,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                3900,
+                4102
+              ]
+            },
+            "conditional_se_by_seed": [
+              {
+                "seed": 0,
+                "conditional_se": 0.009409367241662045
+              },
+              {
+                "seed": 1,
+                "conditional_se": 0.009451902576709545
+              },
+              {
+                "seed": 2,
+                "conditional_se": 0.008663419775332455
+              },
+              {
+                "seed": 3,
+                "conditional_se": 0.00874026076529782
+              },
+              {
+                "seed": 4,
+                "conditional_se": 0.008908857890328642
+              },
+              {
+                "seed": 5,
+                "conditional_se": 0.00868842783824259
+              },
+              {
+                "seed": 6,
+                "conditional_se": 0.00921544688266653
+              },
+              {
+                "seed": 7,
+                "conditional_se": 0.009234499674477393
+              },
+              {
+                "seed": 8,
+                "conditional_se": 0.009165615991584239
+              },
+              {
+                "seed": 9,
+                "conditional_se": 0.008879635386228176
+              }
+            ]
+          },
+          "rule2": {
+            "difference_in_means": {
+              "mean": 0.06108339208703852,
+              "std": 0.014432007142864887,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "conditional_se": {
+              "mean": 0.00916532775409971,
+              "std": 0.00011424145871982393,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                0.00892875630728649,
+                0.009354029273991805
+              ]
+            },
+            "ratio_to_population": {
+              "mean": 1.214694894350813,
+              "std": 0.3162208462826011,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.39377999999999996,
+              "std": 0.004497010117844964,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3947.4,
+              "std": 60.870682598439785,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                3841,
+                4057
+              ]
+            },
+            "n_control": {
+              "mean": 3928.2,
+              "std": 57.363402967397256,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                3803,
+                4008
+              ]
+            },
+            "conditional_se_by_seed": [
+              {
+                "seed": 0,
+                "conditional_se": 0.009178192057784557
+              },
+              {
+                "seed": 1,
+                "conditional_se": 0.00892875630728649
+              },
+              {
+                "seed": 2,
+                "conditional_se": 0.0091973094678983
+              },
+              {
+                "seed": 3,
+                "conditional_se": 0.009250147471062033
+              },
+              {
+                "seed": 4,
+                "conditional_se": 0.009190223966881529
+              },
+              {
+                "seed": 5,
+                "conditional_se": 0.009354029273991805
+              },
+              {
+                "seed": 6,
+                "conditional_se": 0.009031284454312623
+              },
+              {
+                "seed": 7,
+                "conditional_se": 0.0092359711293218
+              },
+              {
+                "seed": 8,
+                "conditional_se": 0.00908873139109438
+              },
+              {
+                "seed": 9,
+                "conditional_se": 0.009198632021363586
+              }
+            ]
+          },
+          "rule3": {
+            "difference_in_means": {
+              "mean": 0.0421768241745452,
+              "std": 0.009634142012192218,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "conditional_se": {
+              "mean": 0.00908159841264923,
+              "std": 0.00010981704819603047,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                0.0089292828934101,
+                0.00924851347926826
+              ]
+            },
+            "ratio_to_population": {
+              "mean": 0.8366165177012779,
+              "std": 0.20821274327003875,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.393025,
+              "std": 0.004726851489099279,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3928.5,
+              "std": 77.18840586512977,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                3794,
+                4055
+              ]
+            },
+            "n_control": {
+              "mean": 3932.0,
+              "std": 28.326665882168342,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                3898,
+                3985
+              ]
+            },
+            "conditional_se_by_seed": [
+              {
+                "seed": 0,
+                "conditional_se": 0.0089292828934101
+              },
+              {
+                "seed": 1,
+                "conditional_se": 0.008939370268695651
+              },
+              {
+                "seed": 2,
+                "conditional_se": 0.00909353886316443
+              },
+              {
+                "seed": 3,
+                "conditional_se": 0.008972354312413553
+              },
+              {
+                "seed": 4,
+                "conditional_se": 0.009104749071110921
+              },
+              {
+                "seed": 5,
+                "conditional_se": 0.009203715369075475
+              },
+              {
+                "seed": 6,
+                "conditional_se": 0.00924851347926826
+              },
+              {
+                "seed": 7,
+                "conditional_se": 0.00900554824346169
+              },
+              {
+                "seed": 8,
+                "conditional_se": 0.009203477451503945
+              },
+              {
+                "seed": 9,
+                "conditional_se": 0.009115434174388273
+              }
+            ]
+          },
+          "rule4": {
+            "difference_in_means": {
+              "mean": 0.12606225456231812,
+              "std": 0.06147410625234914,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "conditional_se": {
+              "mean": 0.019020942334392096,
+              "std": 0.008379128324836085,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                0.008799510172870647,
+                0.027753643174846476
+              ]
+            },
+            "ratio_to_population": {
+              "mean": 2.4580672515723365,
+              "std": 1.1544194577494886,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.19465500000000002,
+              "std": 0.16658838562456868,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 1946.3,
+              "std": 1668.5490732969167,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                502,
+                4007
+              ]
+            },
+            "n_control": {
+              "mean": 1946.8,
+              "std": 1663.5122362038699,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                503,
+                4034
+              ]
+            },
+            "conditional_se_by_seed": [
+              {
+                "seed": 0,
+                "conditional_se": 0.027753643174846476
+              },
+              {
+                "seed": 1,
+                "conditional_se": 0.023652704254843
+              },
+              {
+                "seed": 2,
+                "conditional_se": 0.008808830652224512
+              },
+              {
+                "seed": 3,
+                "conditional_se": 0.008799510172870647
+              },
+              {
+                "seed": 4,
+                "conditional_se": 0.009002784851024822
+              },
+              {
+                "seed": 5,
+                "conditional_se": 0.008873437896137313
+              },
+              {
+                "seed": 6,
+                "conditional_se": 0.02740238043119074
+              },
+              {
+                "seed": 7,
+                "conditional_se": 0.02657398668061064
+              },
+              {
+                "seed": 8,
+                "conditional_se": 0.025425883323955144
+              },
+              {
+                "seed": 9,
+                "conditional_se": 0.023916261906217654
+              }
+            ]
+          },
+          "rule5": {
+            "difference_in_means": {
+              "mean": 0.13567901280222877,
+              "std": 0.06971518429010323,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "conditional_se": {
+              "mean": 0.023294925710905346,
+              "std": 0.004222725363818187,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                0.013827284728517035,
+                0.02728939162793191
+              ]
+            },
+            "ratio_to_population": {
+              "mean": 2.6321028130675055,
+              "std": 1.2924934165016422,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.079855,
+              "std": 0.04125005727268752,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 798.2,
+              "std": 417.923629386997,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                489,
+                1911
+              ]
+            },
+            "n_control": {
+              "mean": 798.9,
+              "std": 408.34261349998724,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                488,
+                1848
+              ]
+            },
+            "conditional_se_by_seed": [
+              {
+                "seed": 0,
+                "conditional_se": 0.01757557834336698
+              },
+              {
+                "seed": 1,
+                "conditional_se": 0.02728939162793191
+              },
+              {
+                "seed": 2,
+                "conditional_se": 0.02391492580422209
+              },
+              {
+                "seed": 3,
+                "conditional_se": 0.026508858741253447
+              },
+              {
+                "seed": 4,
+                "conditional_se": 0.025371895919345334
+              },
+              {
+                "seed": 5,
+                "conditional_se": 0.025967273475027267
+              },
+              {
+                "seed": 6,
+                "conditional_se": 0.02446836506017482
+              },
+              {
+                "seed": 7,
+                "conditional_se": 0.013827284728517035
+              },
+              {
+                "seed": 8,
+                "conditional_se": 0.026790826300065896
+              },
+              {
+                "seed": 9,
+                "conditional_se": 0.021234857109148655
+              }
+            ]
+          },
+          "top20": {
+            "difference_in_means": {
+              "mean": 0.21714980733094755,
+              "std": 0.015512549965663898,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "conditional_se": {
+              "mean": 0.012911503797513069,
+              "std": 0.00017111276838389979,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                0.01260541737160425,
+                0.013156290055536273
+              ]
+            },
+            "ratio_to_population": {
+              "mean": 4.279710991095948,
+              "std": 0.2719093775924107,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.2,
+              "std": 0.0,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 2012.3,
+              "std": 20.86648029735729,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                1975,
+                2038
+              ]
+            },
+            "n_control": {
+              "mean": 1987.7,
+              "std": 20.86648029735729,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                1962,
+                2025
+              ]
+            },
+            "conditional_se_by_seed": [
+              {
+                "seed": 0,
+                "conditional_se": 0.013059284630922787
+              },
+              {
+                "seed": 1,
+                "conditional_se": 0.013156290055536273
+              },
+              {
+                "seed": 2,
+                "conditional_se": 0.012840777524976336
+              },
+              {
+                "seed": 3,
+                "conditional_se": 0.012961814210659466
+              },
+              {
+                "seed": 4,
+                "conditional_se": 0.013141533263414771
+              },
+              {
+                "seed": 5,
+                "conditional_se": 0.012886802299163258
+              },
+              {
+                "seed": 6,
+                "conditional_se": 0.012692349273227727
+              },
+              {
+                "seed": 7,
+                "conditional_se": 0.012944109551303725
+              },
+              {
+                "seed": 8,
+                "conditional_se": 0.012826659794322083
+              },
+              {
+                "seed": 9,
+                "conditional_se": 0.01260541737160425
+              }
+            ]
+          },
+          "union": {
+            "difference_in_means": {
+              "mean": 0.0546065834376022,
+              "std": 0.006430275372863997,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "conditional_se": {
+              "mean": 0.005936679531329413,
+              "std": 7.502171714300211e-05,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                0.005802581275614313,
+                0.006020999252371773
+              ]
+            },
+            "ratio_to_population": {
+              "mean": 1.0713471551161298,
+              "std": 0.06714285271687413,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.928155,
+              "std": 0.012934536133932277,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 9281.0,
+              "std": 111.25286513164504,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                9131,
+                9479
+              ]
+            },
+            "n_control": {
+              "mean": 9282.1,
+              "std": 159.3207142841131,
+              "valid": 10,
+              "total": 10,
+              "missing": 0,
+              "range": [
+                8986,
+                9514
+              ]
+            },
+            "conditional_se_by_seed": [
+              {
+                "seed": 0,
+                "conditional_se": 0.006020999252371773
+              },
+              {
+                "seed": 1,
+                "conditional_se": 0.006019142963645501
+              },
+              {
+                "seed": 2,
+                "conditional_se": 0.005802581275614313
+              },
+              {
+                "seed": 3,
+                "conditional_se": 0.005856614599206451
+              },
+              {
+                "seed": 4,
+                "conditional_se": 0.005876481870701762
+              },
+              {
+                "seed": 5,
+                "conditional_se": 0.005865712530525084
+              },
+              {
+                "seed": 6,
+                "conditional_se": 0.005956951503779367
+              },
+              {
+                "seed": 7,
+                "conditional_se": 0.005974295106377269
+              },
+              {
+                "seed": 8,
+                "conditional_se": 0.005986645185337864
+              },
+              {
+                "seed": 9,
+                "conditional_se": 0.0060073710257347495
+              }
+            ]
+          }
+        },
+        "normalized_fidelity": {
+          "mean": 0.12425855702825986,
+          "std": 0.12065074566337665,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "fidelity_degeneracy": [],
+        "rule_count": 50,
+        "constraints": {
+          "discovery": {
+            "support_ok": 0,
+            "overlap_ok": 0,
+            "max_coverage_ok": 1
+          },
+          "selection": {
+            "support_ok": 0,
+            "overlap_ok": 0,
+            "max_coverage_ok": 0
+          },
+          "test": {
+            "support_ok": 0,
+            "overlap_ok": 0,
+            "max_coverage_ok": 6
+          }
+        }
+      }
+    }
+  }
+}

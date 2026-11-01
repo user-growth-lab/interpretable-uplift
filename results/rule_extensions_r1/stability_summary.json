@@ -1,0 +1,374 @@
+{
+  "criteo": {
+    "changed_bootstraps": 0,
+    "methods": {
+      "legacy": {
+        "SCRL": {
+          "jaccard": 0.4116463164148639,
+          "jaccard_pair_sd": 0.1950967741830174,
+          "coverage": {
+            "mean": 0.4524000000000001,
+            "std": 0.2130263207524679,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": null,
+            "std": null,
+            "valid": 0
+          },
+          "subgroup_uplift": {
+            "mean": -0.002852385959947107,
+            "std": 0.003013703172021906,
+            "valid": 6
+          }
+        },
+        "CDT": {
+          "jaccard": 0.5548060101339177,
+          "jaccard_pair_sd": 0.16213985200223935,
+          "coverage": {
+            "mean": 0.4524000000000001,
+            "std": 0.2130263207524679,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": null,
+            "std": null,
+            "valid": 0
+          },
+          "subgroup_uplift": {
+            "mean": 0.0007721406244975921,
+            "std": 0.005988300093568675,
+            "valid": 6
+          }
+        },
+        "CausalTree": {
+          "jaccard": 0.4721612202944973,
+          "jaccard_pair_sd": 0.21548312364703773,
+          "coverage": {
+            "mean": 0.4524000000000001,
+            "std": 0.2130263207524679,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": null,
+            "std": null,
+            "valid": 0
+          },
+          "subgroup_uplift": {
+            "mean": -0.0019455655626853547,
+            "std": 0.004169044136762768,
+            "valid": 6
+          }
+        }
+      },
+      "hard": {
+        "SCRL": {
+          "jaccard": 0.4116463164148639,
+          "jaccard_pair_sd": 0.1950967741830174,
+          "coverage": {
+            "mean": 0.4524000000000001,
+            "std": 0.2130263207524679,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": null,
+            "std": null,
+            "valid": 0
+          },
+          "subgroup_uplift": {
+            "mean": -0.002852385959947107,
+            "std": 0.003013703172021906,
+            "valid": 6
+          }
+        },
+        "CDT": {
+          "jaccard": 0.5548060101339177,
+          "jaccard_pair_sd": 0.16213985200223935,
+          "coverage": {
+            "mean": 0.4524000000000001,
+            "std": 0.2130263207524679,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": null,
+            "std": null,
+            "valid": 0
+          },
+          "subgroup_uplift": {
+            "mean": 0.0007721406244975921,
+            "std": 0.005988300093568675,
+            "valid": 6
+          }
+        },
+        "CausalTree": {
+          "jaccard": 0.4721612202944973,
+          "jaccard_pair_sd": 0.21548312364703773,
+          "coverage": {
+            "mean": 0.4524000000000001,
+            "std": 0.2130263207524679,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": null,
+            "std": null,
+            "valid": 0
+          },
+          "subgroup_uplift": {
+            "mean": -0.0019455655626853547,
+            "std": 0.004169044136762768,
+            "valid": 6
+          }
+        }
+      }
+    },
+    "raw_checks": 48
+  },
+  "ihdp": {
+    "changed_bootstraps": 0,
+    "methods": {
+      "legacy": {
+        "SCRL": {
+          "jaccard": 0.35722486520129026,
+          "jaccard_pair_sd": 0.16671209337232096,
+          "coverage": {
+            "mean": 0.4141865079365079,
+            "std": 0.20555952951665138,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": 0.6322330708274196,
+            "std": 0.20293066097141851,
+            "valid": 6
+          },
+          "subgroup_uplift": {
+            "mean": 1.5165984113243045,
+            "std": 0.7777756114576378,
+            "valid": 6
+          }
+        },
+        "CDT": {
+          "jaccard": 0.43135941815991746,
+          "jaccard_pair_sd": 0.18429588343055894,
+          "coverage": {
+            "mean": 0.4141865079365079,
+            "std": 0.20555952951665138,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": 0.6127979263125232,
+            "std": 0.21997441612870827,
+            "valid": 6
+          },
+          "subgroup_uplift": {
+            "mean": 1.3917581488603001,
+            "std": 0.7749792567325869,
+            "valid": 6
+          }
+        },
+        "CausalTree": {
+          "jaccard": 0.39342753403262165,
+          "jaccard_pair_sd": 0.19230381400123225,
+          "coverage": {
+            "mean": 0.4141865079365079,
+            "std": 0.20555952951665138,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": 0.6007155036864019,
+            "std": 0.15498329783495665,
+            "valid": 6
+          },
+          "subgroup_uplift": {
+            "mean": 1.2578310181589616,
+            "std": 0.6293995545204065,
+            "valid": 6
+          }
+        }
+      },
+      "hard": {
+        "SCRL": {
+          "jaccard": 0.35722486520129026,
+          "jaccard_pair_sd": 0.16671209337232096,
+          "coverage": {
+            "mean": 0.4141865079365079,
+            "std": 0.20555952951665138,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": 0.6322330708274196,
+            "std": 0.20293066097141851,
+            "valid": 6
+          },
+          "subgroup_uplift": {
+            "mean": 1.5165984113243045,
+            "std": 0.7777756114576378,
+            "valid": 6
+          }
+        },
+        "CDT": {
+          "jaccard": 0.43135941815991746,
+          "jaccard_pair_sd": 0.18429588343055894,
+          "coverage": {
+            "mean": 0.4141865079365079,
+            "std": 0.20555952951665138,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": 0.6127979263125232,
+            "std": 0.21997441612870827,
+            "valid": 6
+          },
+          "subgroup_uplift": {
+            "mean": 1.3917581488603001,
+            "std": 0.7749792567325869,
+            "valid": 6
+          }
+        },
+        "CausalTree": {
+          "jaccard": 0.39342753403262165,
+          "jaccard_pair_sd": 0.19230381400123225,
+          "coverage": {
+            "mean": 0.4141865079365079,
+            "std": 0.20555952951665138,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": 0.6007155036864019,
+            "std": 0.15498329783495665,
+            "valid": 6
+          },
+          "subgroup_uplift": {
+            "mean": 1.2578310181589616,
+            "std": 0.6293995545204065,
+            "valid": 6
+          }
+        }
+      }
+    },
+    "raw_checks": 48
+  },
+  "hillstrom": {
+    "changed_bootstraps": 0,
+    "methods": {
+      "legacy": {
+        "SCRL": {
+          "jaccard": 0.49206793586136893,
+          "jaccard_pair_sd": 0.12380294867794067,
+          "coverage": {
+            "mean": 0.6122666666666666,
+            "std": 0.09627146802430901,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": null,
+            "std": null,
+            "valid": 0
+          },
+          "subgroup_uplift": {
+            "mean": 0.041134877952856926,
+            "std": 0.006294091086976085,
+            "valid": 6
+          }
+        },
+        "CDT": {
+          "jaccard": 0.49940639926878416,
+          "jaccard_pair_sd": 0.09796404984826401,
+          "coverage": {
+            "mean": 0.6122666666666666,
+            "std": 0.09627146802430901,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": null,
+            "std": null,
+            "valid": 0
+          },
+          "subgroup_uplift": {
+            "mean": 0.04792889542583773,
+            "std": 0.005757371970201499,
+            "valid": 6
+          }
+        },
+        "CausalTree": {
+          "jaccard": 0.44709446211013315,
+          "jaccard_pair_sd": 0.0773554534753647,
+          "coverage": {
+            "mean": 0.6122666666666666,
+            "std": 0.09627146802430901,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": null,
+            "std": null,
+            "valid": 0
+          },
+          "subgroup_uplift": {
+            "mean": 0.042740560740107354,
+            "std": 0.0029487679375920415,
+            "valid": 6
+          }
+        }
+      },
+      "hard": {
+        "SCRL": {
+          "jaccard": 0.49206793586136893,
+          "jaccard_pair_sd": 0.12380294867794067,
+          "coverage": {
+            "mean": 0.6122666666666666,
+            "std": 0.09627146802430901,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": null,
+            "std": null,
+            "valid": 0
+          },
+          "subgroup_uplift": {
+            "mean": 0.041134877952856926,
+            "std": 0.006294091086976085,
+            "valid": 6
+          }
+        },
+        "CDT": {
+          "jaccard": 0.49940639926878416,
+          "jaccard_pair_sd": 0.09796404984826401,
+          "coverage": {
+            "mean": 0.6122666666666666,
+            "std": 0.09627146802430901,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": null,
+            "std": null,
+            "valid": 0
+          },
+          "subgroup_uplift": {
+            "mean": 0.04792889542583773,
+            "std": 0.005757371970201499,
+            "valid": 6
+          }
+        },
+        "CausalTree": {
+          "jaccard": 0.44709446211013315,
+          "jaccard_pair_sd": 0.0773554534753647,
+          "coverage": {
+            "mean": 0.6122666666666666,
+            "std": 0.09627146802430901,
+            "valid": 6
+          },
+          "targeting_precision": {
+            "mean": null,
+            "std": null,
+            "valid": 0
+          },
+          "subgroup_uplift": {
+            "mean": 0.042740560740107354,
+            "std": 0.0029487679375920415,
+            "valid": 6
+          }
+        }
+      }
+    },
+    "raw_checks": 48
+  }
+}

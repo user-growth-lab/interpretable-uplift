@@ -1,0 +1,18 @@
+{
+  "dataset": "IHDP semi-synthetic",
+  "seed": 42,
+  "modifiers": [
+    1,
+    10,
+    15,
+    17,
+    24
+  ],
+  "n_test": 50,
+  "B": 50,
+  "M": 20,
+  "proxy_rho": 0.9,
+  "proxy_seed": 20260928,
+  "teacher_source": "results/recourse/ihdp_seed42",
+  "note": "Illustrative fixed model from E2; not pooled Table attribution recall."
+}

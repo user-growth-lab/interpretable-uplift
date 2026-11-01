@@ -1,0 +1,2433 @@
+{
+  "cross/criteo/legacy_full": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "changed_rule_sets": 1,
+    "versions": {
+      "legacy": {
+        "normalized_test_fidelity": {
+          "mean": -0.04358227751959978,
+          "std": 0.6541480736412203,
+          "valid": 4,
+          "total": 5,
+          "missing": 1
+        },
+        "legacy_curve_mean": {
+          "mean": -0.27583674568447386,
+          "std": 1.5464336171914546,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": 3.2,
+          "std": 1.6000000000000003,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "union_coverage": {
+          "mean": 0.3512,
+          "std": 0.26491689262861284,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 4.0,
+          "std": 2.0,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "degeneracy": [
+          {
+            "seed": 0,
+            "status": "empty_coverage"
+          }
+        ],
+        "selection_violations": 0,
+        "test_support_failures": 0
+      },
+      "hard": {
+        "normalized_test_fidelity": {
+          "mean": -0.24980188526968017,
+          "std": 0.715844863277794,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "legacy_curve_mean": {
+          "mean": -0.8849029935591467,
+          "std": 1.9405156476792296,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": 3.8,
+          "std": 0.39999999999999997,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "union_coverage": {
+          "mean": 0.4255999999999999,
+          "std": 0.20015953637036635,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "degeneracy": [],
+        "selection_violations": 0,
+        "test_support_failures": 0
+      }
+    },
+    "causal_tree": {
+      "top5": {
+        "mean": 0.8781825085920376,
+        "std": 0.06181742081947064,
+        "valid": 5,
+        "total": 5,
+        "missing": 0
+      },
+      "all_leaves": {
+        "mean": null,
+        "std": null,
+        "valid": 0,
+        "total": 5,
+        "missing": 5
+      },
+      "modifier_hits": {
+        "mean": 4.0,
+        "std": 0.6324555320336759,
+        "valid": 5,
+        "total": 5,
+        "missing": 0
+      }
+    }
+  },
+  "cross/hillstrom/legacy_full": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "changed_rule_sets": 1,
+    "versions": {
+      "legacy": {
+        "normalized_test_fidelity": {
+          "mean": 0.4651366629321084,
+          "std": 0.4198690613876403,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "legacy_curve_mean": {
+          "mean": 1.9894023171168542,
+          "std": 1.0877833636960386,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": 3.0,
+          "std": 1.4142135623730951,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "union_coverage": {
+          "mean": 0.5748,
+          "std": 0.33041029039665215,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 4.2,
+          "std": 1.6000000000000003,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "degeneracy": [],
+        "selection_violations": 0,
+        "test_support_failures": 0
+      },
+      "hard": {
+        "normalized_test_fidelity": {
+          "mean": 0.44570506331330784,
+          "std": 0.39624976534019773,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "legacy_curve_mean": {
+          "mean": 1.9995044384908822,
+          "std": 1.1006123377056505,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": 3.2,
+          "std": 1.16619037896906,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "union_coverage": {
+          "mean": 0.5858000000000001,
+          "std": 0.31598632881819433,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "degeneracy": [],
+        "selection_violations": 0,
+        "test_support_failures": 0
+      }
+    },
+    "causal_tree": {
+      "top5": {
+        "mean": 0.921996395565483,
+        "std": 0.08897227778110821,
+        "valid": 5,
+        "total": 5,
+        "missing": 0
+      },
+      "all_leaves": {
+        "mean": null,
+        "std": null,
+        "valid": 0,
+        "total": 5,
+        "missing": 5
+      },
+      "modifier_hits": {
+        "mean": 3.2,
+        "std": 1.16619037896906,
+        "valid": 5,
+        "total": 5,
+        "missing": 0
+      }
+    }
+  },
+  "ihdp/ihdp/legacy_full": {
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "changed_rule_sets": 0,
+    "versions": {
+      "legacy": {
+        "normalized_test_fidelity": {
+          "mean": -0.027785805629860882,
+          "std": 0.5938627710936327,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "legacy_curve_mean": {
+          "mean": -0.014532473072472008,
+          "std": 2.1771166725434155,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": 4.3,
+          "std": 0.7810249675906654,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "union_coverage": {
+          "mean": 0.632,
+          "std": 0.17910394250887451,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "degeneracy": [],
+        "selection_violations": 0,
+        "test_support_failures": 10
+      },
+      "hard": {
+        "normalized_test_fidelity": {
+          "mean": -0.027785805629860882,
+          "std": 0.5938627710936327,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "legacy_curve_mean": {
+          "mean": -0.014532473072472008,
+          "std": 2.1771166725434155,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": 4.3,
+          "std": 0.7810249675906654,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "union_coverage": {
+          "mean": 0.632,
+          "std": 0.17910394250887451,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "degeneracy": [],
+        "selection_violations": 0,
+        "test_support_failures": 10
+      }
+    },
+    "causal_tree": {
+      "top5": {
+        "mean": 0.818887328818696,
+        "std": 0.10594476990643104,
+        "valid": 9,
+        "total": 10,
+        "missing": 1
+      },
+      "all_leaves": {
+        "mean": null,
+        "std": null,
+        "valid": 0,
+        "total": 10,
+        "missing": 10
+      },
+      "modifier_hits": {
+        "mean": 3.8,
+        "std": 0.7483314773547882,
+        "valid": 10,
+        "total": 10,
+        "missing": 0
+      }
+    },
+    "curls": {
+      "mean": -0.036553293455493366,
+      "std": 0.3180450314250856,
+      "valid": 10,
+      "total": 10,
+      "missing": 0
+    }
+  },
+  "rct/hillstrom/legacy_full": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "changed_rule_sets": 0,
+    "versions": {
+      "legacy": {
+        "normalized_test_fidelity": {
+          "mean": -0.029956475132466305,
+          "std": 0.12161156553477168,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "legacy_curve_mean": {
+          "mean": 0.06101186182441727,
+          "std": 0.0036283033687793858,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": null,
+          "std": null,
+          "valid": 0,
+          "total": 5,
+          "missing": 5
+        },
+        "union_coverage": {
+          "mean": 0.9370156249999999,
+          "std": 0.015365294828159,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "degeneracy": [],
+        "selection_violations": 0,
+        "test_support_failures": 0,
+        "outcomes": {
+          "population": {
+            "difference_in_means": {
+              "mean": 0.05857808447341256,
+              "std": 0.004705771490247913,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.0,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 1.0,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 8539.0,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 4261.0,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule1": {
+            "difference_in_means": {
+              "mean": 0.05258472453016157,
+              "std": 0.020424252664788298,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.8998283859806969,
+              "std": 0.35051839573585075,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.399296875,
+              "std": 0.006780781953893657,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3413.6,
+              "std": 44.9070150421958,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1697.4,
+              "std": 43.19537012227121,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule2": {
+            "difference_in_means": {
+              "mean": 0.061158245423781475,
+              "std": 0.013176898038737055,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.0436595782380826,
+              "std": 0.2113563958948291,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.38270312500000003,
+              "std": 0.004564960808977433,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3261.8,
+              "std": 47.61260337347665,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1636.8,
+              "std": 22.319498202244603,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule3": {
+            "difference_in_means": {
+              "mean": 0.05672341549124155,
+              "std": 0.006595734993490414,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.9670896767679279,
+              "std": 0.06274968812025293,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.365328125,
+              "std": 0.042669480548894655,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3101.0,
+              "std": 362.2893870926942,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1575.2,
+              "std": 183.98195563695913,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule4": {
+            "difference_in_means": {
+              "mean": 0.060112075317918415,
+              "std": 0.0036661847602587677,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.0306310700903871,
+              "std": 0.07648589259322315,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.29959375,
+              "std": 0.08786546723276017,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 2544.0,
+              "std": 733.2262952186044,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1290.8,
+              "std": 391.88692246616245,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule5": {
+            "difference_in_means": {
+              "mean": 0.06111954473124688,
+              "std": 0.015122942876835743,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.039675286033098,
+              "std": 0.23221174718336887,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.167546875,
+              "std": 0.05694129463891957,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 1437.6,
+              "std": 486.19321262230716,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 707.0,
+              "std": 243.0596634573495,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "top20": {
+            "difference_in_means": {
+              "mean": 0.07998615392772868,
+              "std": 0.00895778872619491,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.368416852639443,
+              "std": 0.14260362774383165,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.2,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 1733.4,
+              "std": 15.538339679644025,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 826.6,
+              "std": 15.538339679644025,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "union": {
+            "difference_in_means": {
+              "mean": 0.05855535784060193,
+              "std": 0.00509818915865027,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.9992465529698314,
+              "std": 0.02035562226728771,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.9370156249999999,
+              "std": 0.015365294828159,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 8000.0,
+              "std": 133.0187956643722,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 3993.8,
+              "std": 67.04744588722228,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          }
+        }
+      },
+      "hard": {
+        "normalized_test_fidelity": {
+          "mean": -0.029956475132466305,
+          "std": 0.12161156553477168,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "legacy_curve_mean": {
+          "mean": 0.06101186182441727,
+          "std": 0.0036283033687793858,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": null,
+          "std": null,
+          "valid": 0,
+          "total": 5,
+          "missing": 5
+        },
+        "union_coverage": {
+          "mean": 0.9370156249999999,
+          "std": 0.015365294828159,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "degeneracy": [],
+        "selection_violations": 0,
+        "test_support_failures": 0,
+        "outcomes": {
+          "population": {
+            "difference_in_means": {
+              "mean": 0.05857808447341256,
+              "std": 0.004705771490247913,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.0,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 1.0,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 8539.0,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 4261.0,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule1": {
+            "difference_in_means": {
+              "mean": 0.05258472453016157,
+              "std": 0.020424252664788298,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.8998283859806969,
+              "std": 0.35051839573585075,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.399296875,
+              "std": 0.006780781953893657,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3413.6,
+              "std": 44.9070150421958,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1697.4,
+              "std": 43.19537012227121,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule2": {
+            "difference_in_means": {
+              "mean": 0.061158245423781475,
+              "std": 0.013176898038737055,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.0436595782380826,
+              "std": 0.2113563958948291,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.38270312500000003,
+              "std": 0.004564960808977433,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3261.8,
+              "std": 47.61260337347665,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1636.8,
+              "std": 22.319498202244603,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule3": {
+            "difference_in_means": {
+              "mean": 0.05672341549124155,
+              "std": 0.006595734993490414,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.9670896767679279,
+              "std": 0.06274968812025293,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.365328125,
+              "std": 0.042669480548894655,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3101.0,
+              "std": 362.2893870926942,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1575.2,
+              "std": 183.98195563695913,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule4": {
+            "difference_in_means": {
+              "mean": 0.060112075317918415,
+              "std": 0.0036661847602587677,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.0306310700903871,
+              "std": 0.07648589259322315,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.29959375,
+              "std": 0.08786546723276017,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 2544.0,
+              "std": 733.2262952186044,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1290.8,
+              "std": 391.88692246616245,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule5": {
+            "difference_in_means": {
+              "mean": 0.06111954473124688,
+              "std": 0.015122942876835743,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.039675286033098,
+              "std": 0.23221174718336887,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.167546875,
+              "std": 0.05694129463891957,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 1437.6,
+              "std": 486.19321262230716,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 707.0,
+              "std": 243.0596634573495,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "top20": {
+            "difference_in_means": {
+              "mean": 0.07998615392772868,
+              "std": 0.00895778872619491,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.368416852639443,
+              "std": 0.14260362774383165,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.2,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 1733.4,
+              "std": 15.538339679644025,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 826.6,
+              "std": 15.538339679644025,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "union": {
+            "difference_in_means": {
+              "mean": 0.05855535784060193,
+              "std": 0.00509818915865027,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.9992465529698314,
+              "std": 0.02035562226728771,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.9370156249999999,
+              "std": 0.015365294828159,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 8000.0,
+              "std": 133.0187956643722,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 3993.8,
+              "std": 67.04744588722228,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "rct/hillstrom/train_only": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "changed_rule_sets": 0,
+    "versions": {
+      "legacy": {
+        "normalized_test_fidelity": {
+          "mean": -0.071661852070107,
+          "std": 0.18763580472909988,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "legacy_curve_mean": {
+          "mean": 0.06107212213528611,
+          "std": 0.0035640069719909905,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": null,
+          "std": null,
+          "valid": 0,
+          "total": 5,
+          "missing": 5
+        },
+        "union_coverage": {
+          "mean": 0.932234375,
+          "std": 0.020089436259356552,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "degeneracy": [],
+        "selection_violations": 0,
+        "test_support_failures": 0,
+        "outcomes": {
+          "population": {
+            "difference_in_means": {
+              "mean": 0.05857808447341256,
+              "std": 0.004705771490247913,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.0,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 1.0,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 8539.0,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 4261.0,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule1": {
+            "difference_in_means": {
+              "mean": 0.05258472453016157,
+              "std": 0.020424252664788298,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.8998283859806969,
+              "std": 0.35051839573585075,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.399296875,
+              "std": 0.006780781953893657,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3413.6,
+              "std": 44.9070150421958,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1697.4,
+              "std": 43.19537012227121,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule2": {
+            "difference_in_means": {
+              "mean": 0.061158245423781475,
+              "std": 0.013176898038737055,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.0436595782380826,
+              "std": 0.2113563958948291,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.38270312500000003,
+              "std": 0.004564960808977433,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3261.8,
+              "std": 47.61260337347665,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1636.8,
+              "std": 22.319498202244603,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule3": {
+            "difference_in_means": {
+              "mean": 0.05672341549124155,
+              "std": 0.006595734993490414,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.9670896767679279,
+              "std": 0.06274968812025293,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.365328125,
+              "std": 0.042669480548894655,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3101.0,
+              "std": 362.2893870926942,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1575.2,
+              "std": 183.98195563695913,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule4": {
+            "difference_in_means": {
+              "mean": 0.06489940863396844,
+              "std": 0.008020232198775684,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.1078650258560934,
+              "std": 0.09846398995855138,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.28104687500000003,
+              "std": 0.11430615670617877,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 2384.6,
+              "std": 960.0578315914098,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1212.8,
+              "std": 503.372784325891,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule5": {
+            "difference_in_means": {
+              "mean": 0.054861065491113116,
+              "std": 0.01231665288291135,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.9387073615368979,
+              "std": 0.21145015457177477,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.19240625,
+              "std": 0.04845771755484363,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 1650.4,
+              "std": 414.8713535543277,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 812.4,
+              "std": 205.87044469763018,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "top20": {
+            "difference_in_means": {
+              "mean": 0.0801710049168611,
+              "std": 0.008653319178288248,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.3718910397437072,
+              "std": 0.13920233542005359,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.2,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 1733.2,
+              "std": 15.509996776273036,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 826.8,
+              "std": 15.509996776273036,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "union": {
+            "difference_in_means": {
+              "mean": 0.058201822582500194,
+              "std": 0.004736295926161171,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.9935429754908405,
+              "std": 0.010515035260407637,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.932234375,
+              "std": 0.020089436259356552,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 7953.4,
+              "std": 173.51726138917707,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 3979.2,
+              "std": 84.5728088690449,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          }
+        }
+      },
+      "hard": {
+        "normalized_test_fidelity": {
+          "mean": -0.071661852070107,
+          "std": 0.18763580472909988,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "legacy_curve_mean": {
+          "mean": 0.06107212213528611,
+          "std": 0.0035640069719909905,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": null,
+          "std": null,
+          "valid": 0,
+          "total": 5,
+          "missing": 5
+        },
+        "union_coverage": {
+          "mean": 0.932234375,
+          "std": 0.020089436259356552,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "degeneracy": [],
+        "selection_violations": 0,
+        "test_support_failures": 0,
+        "outcomes": {
+          "population": {
+            "difference_in_means": {
+              "mean": 0.05857808447341256,
+              "std": 0.004705771490247913,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.0,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 1.0,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 8539.0,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 4261.0,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule1": {
+            "difference_in_means": {
+              "mean": 0.05258472453016157,
+              "std": 0.020424252664788298,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.8998283859806969,
+              "std": 0.35051839573585075,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.399296875,
+              "std": 0.006780781953893657,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3413.6,
+              "std": 44.9070150421958,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1697.4,
+              "std": 43.19537012227121,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule2": {
+            "difference_in_means": {
+              "mean": 0.061158245423781475,
+              "std": 0.013176898038737055,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.0436595782380826,
+              "std": 0.2113563958948291,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.38270312500000003,
+              "std": 0.004564960808977433,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3261.8,
+              "std": 47.61260337347665,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1636.8,
+              "std": 22.319498202244603,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule3": {
+            "difference_in_means": {
+              "mean": 0.05672341549124155,
+              "std": 0.006595734993490414,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.9670896767679279,
+              "std": 0.06274968812025293,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.365328125,
+              "std": 0.042669480548894655,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3101.0,
+              "std": 362.2893870926942,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1575.2,
+              "std": 183.98195563695913,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule4": {
+            "difference_in_means": {
+              "mean": 0.06489940863396844,
+              "std": 0.008020232198775684,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.1078650258560934,
+              "std": 0.09846398995855138,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.28104687500000003,
+              "std": 0.11430615670617877,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 2384.6,
+              "std": 960.0578315914098,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1212.8,
+              "std": 503.372784325891,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "rule5": {
+            "difference_in_means": {
+              "mean": 0.054861065491113116,
+              "std": 0.01231665288291135,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.9387073615368979,
+              "std": 0.21145015457177477,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.19240625,
+              "std": 0.04845771755484363,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 1650.4,
+              "std": 414.8713535543277,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 812.4,
+              "std": 205.87044469763018,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "top20": {
+            "difference_in_means": {
+              "mean": 0.0801710049168611,
+              "std": 0.008653319178288248,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.3718910397437072,
+              "std": 0.13920233542005359,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.2,
+              "std": 0.0,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 1733.2,
+              "std": 15.509996776273036,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 826.8,
+              "std": 15.509996776273036,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          },
+          "union": {
+            "difference_in_means": {
+              "mean": 0.058201822582500194,
+              "std": 0.004736295926161171,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.9935429754908405,
+              "std": 0.010515035260407637,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.932234375,
+              "std": 0.020089436259356552,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 7953.4,
+              "std": 173.51726138917707,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 3979.2,
+              "std": 84.5728088690449,
+              "valid": 5,
+              "total": 5,
+              "missing": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "rct/megafon/train_only": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "changed_rule_sets": 1,
+    "versions": {
+      "legacy": {
+        "normalized_test_fidelity": {
+          "mean": 0.12249226146950001,
+          "std": 0.12276549659608188,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "legacy_curve_mean": {
+          "mean": 0.05900605233059401,
+          "std": 0.01310579418186645,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": null,
+          "std": null,
+          "valid": 0,
+          "total": 10,
+          "missing": 10
+        },
+        "union_coverage": {
+          "mean": 0.927835,
+          "std": 0.012562922629706822,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 4.9,
+          "std": 0.3,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "degeneracy": [],
+        "selection_violations": 0,
+        "test_support_failures": 0,
+        "outcomes": {
+          "population": {
+            "difference_in_means": {
+              "mean": 0.05095955320483979,
+              "std": 0.004910021249210043,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.0,
+              "std": 0.0,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 1.0,
+              "std": 0.0,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 10008.1,
+              "std": 33.942451296274996,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 9991.9,
+              "std": 33.942451296274996,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            }
+          },
+          "rule1": {
+            "difference_in_means": {
+              "mean": 0.05106103679155967,
+              "std": 0.03398372598068362,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.9649070326342158,
+              "std": 0.6078067498638595,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.39714,
+              "std": 0.0042333083988766946,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3964.3,
+              "std": 45.25936367206238,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 3978.5,
+              "std": 63.79380847699877,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            }
+          },
+          "rule2": {
+            "difference_in_means": {
+              "mean": 0.06108339208703852,
+              "std": 0.014432007142864887,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.214694894350813,
+              "std": 0.3162208462826011,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.39377999999999996,
+              "std": 0.004497010117844964,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3947.4,
+              "std": 60.870682598439785,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 3928.2,
+              "std": 57.363402967397256,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            }
+          },
+          "rule3": {
+            "difference_in_means": {
+              "mean": 0.0421768241745452,
+              "std": 0.009634142012192218,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.8366165177012779,
+              "std": 0.20821274327003875,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.393025,
+              "std": 0.004726851489099279,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3928.5,
+              "std": 77.18840586512977,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 3932.0,
+              "std": 28.326665882168342,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            }
+          },
+          "rule4": {
+            "difference_in_means": {
+              "mean": 0.12606225456231812,
+              "std": 0.06147410625234914,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 2.4580672515723365,
+              "std": 1.1544194577494886,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.19465500000000002,
+              "std": 0.16658838562456868,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 1946.3,
+              "std": 1668.5490732969167,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1946.8,
+              "std": 1663.5122362038699,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            }
+          },
+          "rule5": {
+            "difference_in_means": {
+              "mean": 0.13410681501530708,
+              "std": 0.07331788221824986,
+              "valid": 9,
+              "total": 10,
+              "missing": 1
+            },
+            "ratio_to_population": {
+              "mean": 2.5593031668315804,
+              "std": 1.3428167473517105,
+              "valid": 9,
+              "total": 10,
+              "missing": 1
+            },
+            "coverage": {
+              "mean": 0.08232222222222223,
+              "std": 0.042775675273006845,
+              "valid": 9,
+              "total": 10,
+              "missing": 1
+            },
+            "n_treated": {
+              "mean": 823.1111111111111,
+              "std": 433.42959044871776,
+              "valid": 9,
+              "total": 10,
+              "missing": 1
+            },
+            "n_control": {
+              "mean": 823.3333333333334,
+              "std": 423.4393568019969,
+              "valid": 9,
+              "total": 10,
+              "missing": 1
+            }
+          },
+          "top20": {
+            "difference_in_means": {
+              "mean": 0.21714980733094755,
+              "std": 0.015512549965663898,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 4.279710991095948,
+              "std": 0.2719093775924107,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.2,
+              "std": 0.0,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 2012.3,
+              "std": 20.86648029735729,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1987.7,
+              "std": 20.86648029735729,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            }
+          },
+          "union": {
+            "difference_in_means": {
+              "mean": 0.05457333615150809,
+              "std": 0.006474070957150284,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.0706176972519597,
+              "std": 0.06778872168786293,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.927835,
+              "std": 0.012562922629706822,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 9277.7,
+              "std": 108.18045109907797,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 9279.0,
+              "std": 155.50112539785684,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            }
+          }
+        }
+      },
+      "hard": {
+        "normalized_test_fidelity": {
+          "mean": 0.12425855702825986,
+          "std": 0.12065074566337665,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "legacy_curve_mean": {
+          "mean": 0.05984826006695262,
+          "std": 0.011821356777503298,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": null,
+          "std": null,
+          "valid": 0,
+          "total": 10,
+          "missing": 10
+        },
+        "union_coverage": {
+          "mean": 0.928155,
+          "std": 0.012934536133932277,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid": 10,
+          "total": 10,
+          "missing": 0
+        },
+        "degeneracy": [],
+        "selection_violations": 0,
+        "test_support_failures": 0,
+        "outcomes": {
+          "population": {
+            "difference_in_means": {
+              "mean": 0.05095955320483979,
+              "std": 0.004910021249210043,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.0,
+              "std": 0.0,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 1.0,
+              "std": 0.0,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 10008.1,
+              "std": 33.942451296274996,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 9991.9,
+              "std": 33.942451296274996,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            }
+          },
+          "rule1": {
+            "difference_in_means": {
+              "mean": 0.05106103679155967,
+              "std": 0.03398372598068362,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.9649070326342158,
+              "std": 0.6078067498638595,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.39714,
+              "std": 0.0042333083988766946,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3964.3,
+              "std": 45.25936367206238,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 3978.5,
+              "std": 63.79380847699877,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            }
+          },
+          "rule2": {
+            "difference_in_means": {
+              "mean": 0.06108339208703852,
+              "std": 0.014432007142864887,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.214694894350813,
+              "std": 0.3162208462826011,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.39377999999999996,
+              "std": 0.004497010117844964,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3947.4,
+              "std": 60.870682598439785,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 3928.2,
+              "std": 57.363402967397256,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            }
+          },
+          "rule3": {
+            "difference_in_means": {
+              "mean": 0.0421768241745452,
+              "std": 0.009634142012192218,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 0.8366165177012779,
+              "std": 0.20821274327003875,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.393025,
+              "std": 0.004726851489099279,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 3928.5,
+              "std": 77.18840586512977,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 3932.0,
+              "std": 28.326665882168342,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            }
+          },
+          "rule4": {
+            "difference_in_means": {
+              "mean": 0.12606225456231812,
+              "std": 0.06147410625234914,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 2.4580672515723365,
+              "std": 1.1544194577494886,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.19465500000000002,
+              "std": 0.16658838562456868,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 1946.3,
+              "std": 1668.5490732969167,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1946.8,
+              "std": 1663.5122362038699,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            }
+          },
+          "rule5": {
+            "difference_in_means": {
+              "mean": 0.13567901280222877,
+              "std": 0.06971518429010323,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 2.6321028130675055,
+              "std": 1.2924934165016422,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.079855,
+              "std": 0.04125005727268752,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 798.2,
+              "std": 417.923629386997,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 798.9,
+              "std": 408.34261349998724,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            }
+          },
+          "top20": {
+            "difference_in_means": {
+              "mean": 0.21714980733094755,
+              "std": 0.015512549965663898,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 4.279710991095948,
+              "std": 0.2719093775924107,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.2,
+              "std": 0.0,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 2012.3,
+              "std": 20.86648029735729,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 1987.7,
+              "std": 20.86648029735729,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            }
+          },
+          "union": {
+            "difference_in_means": {
+              "mean": 0.0546065834376022,
+              "std": 0.006430275372863997,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "ratio_to_population": {
+              "mean": 1.0713471551161298,
+              "std": 0.06714285271687413,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "coverage": {
+              "mean": 0.928155,
+              "std": 0.012934536133932277,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_treated": {
+              "mean": 9281.0,
+              "std": 111.25286513164504,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            },
+            "n_control": {
+              "mean": 9282.1,
+              "std": 159.3207142841131,
+              "valid": 10,
+              "total": 10,
+              "missing": 0
+            }
+          }
+        }
+      }
+    }
+  }
+}

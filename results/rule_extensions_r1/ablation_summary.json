@@ -1,0 +1,275 @@
+{
+  "variance_based": {
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "complete": true,
+    "changed": 0,
+    "versions": {
+      "legacy": {
+        "train_fidelity": {
+          "mean": 0.08997035257814846,
+          "std": 0.13689725712213463,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "test_fidelity": {
+          "mean": 0.02699353341107933,
+          "std": 0.21964080935559885,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": 2.0,
+          "std": 1.0954451150103321,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "distinct_features": {
+          "mean": 11.0,
+          "std": 0.8944271909999159,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "selection_violations": 0,
+        "degeneracy": []
+      },
+      "hard": {
+        "train_fidelity": {
+          "mean": 0.08997035257814846,
+          "std": 0.13689725712213463,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "test_fidelity": {
+          "mean": 0.02699353341107933,
+          "std": 0.21964080935559885,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": 2.0,
+          "std": 1.0954451150103321,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "distinct_features": {
+          "mean": 11.0,
+          "std": 0.8944271909999159,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "selection_violations": 0,
+        "degeneracy": []
+      }
+    }
+  },
+  "no_div_dedup": {
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "complete": true,
+    "changed": 0,
+    "versions": {
+      "legacy": {
+        "train_fidelity": {
+          "mean": 0.015713657276591086,
+          "std": 0.694886718085701,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "test_fidelity": {
+          "mean": -0.04901024410980408,
+          "std": 0.702579914197752,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": 3.6,
+          "std": 1.019803902718557,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "distinct_features": {
+          "mean": 5.0,
+          "std": 1.0954451150103321,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "selection_violations": 0,
+        "degeneracy": []
+      },
+      "hard": {
+        "train_fidelity": {
+          "mean": 0.015713657276591086,
+          "std": 0.694886718085701,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "test_fidelity": {
+          "mean": -0.04901024410980408,
+          "std": 0.702579914197752,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": 3.6,
+          "std": 1.019803902718557,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "distinct_features": {
+          "mean": 5.0,
+          "std": 1.0954451150103321,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "selection_violations": 0,
+        "degeneracy": []
+      }
+    }
+  },
+  "full": {
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "complete": true,
+    "changed": 0,
+    "versions": {
+      "legacy": {
+        "train_fidelity": {
+          "mean": 0.2991823939084371,
+          "std": 0.38199521845732937,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "test_fidelity": {
+          "mean": 0.1980314904715892,
+          "std": 0.45688555234252287,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": 4.6,
+          "std": 0.7999999999999999,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "distinct_features": {
+          "mean": 9.4,
+          "std": 1.3564659966250536,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "selection_violations": 0,
+        "degeneracy": []
+      },
+      "hard": {
+        "train_fidelity": {
+          "mean": 0.2991823939084371,
+          "std": 0.38199521845732937,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "test_fidelity": {
+          "mean": 0.1980314904715892,
+          "std": 0.45688555234252287,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "modifier_hits": {
+          "mean": 4.6,
+          "std": 0.7999999999999999,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "distinct_features": {
+          "mean": 9.4,
+          "std": 1.3564659966250536,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "n_rules": {
+          "mean": 5.0,
+          "std": 0.0,
+          "valid": 5,
+          "total": 5,
+          "missing": 0
+        },
+        "selection_violations": 0,
+        "degeneracy": []
+      }
+    }
+  }
+}

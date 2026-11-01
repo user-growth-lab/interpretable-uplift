@@ -1,0 +1,41 @@
+{
+  "task1": {
+    "t_learner": {
+      "fidelity": "0.447+/-0.092",
+      "top5_recall": "0.920+/-0.098",
+      "decomposable": true
+    },
+    "r_learner": {
+      "fidelity": "0.435+/-0.105",
+      "top5_recall": "0.880+/-0.098",
+      "decomposable": false
+    },
+    "dr_learner": {
+      "fidelity": "0.457+/-0.114",
+      "top5_recall": "0.880+/-0.098",
+      "decomposable": false
+    }
+  },
+  "task4": {
+    "scrl_oos": "-0.108+/-0.216",
+    "ct_oos": "0.052+/-0.050",
+    "scrl_mods_mean": "4.8/5"
+  },
+  "task3": {
+    "ours": {
+      "consistency": "0.828+/-0.035",
+      "mean_gain": "0.281+/-0.072",
+      "proximity": "0.106+/-0.008"
+    },
+    "gradient": {
+      "consistency": "1.000+/-0.000",
+      "mean_gain": "0.019+/-0.013",
+      "proximity": "0.007+/-0.006"
+    },
+    "dice": {
+      "consistency": "1.000+/-0.000",
+      "mean_gain": "5.965+/-0.555",
+      "proximity": "2.297+/-0.128"
+    }
+  }
+}

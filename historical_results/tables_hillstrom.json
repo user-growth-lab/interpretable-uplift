@@ -1,0 +1,20 @@
+{
+  "hillstrom": {
+    "tesv_fid": "0.510\u00b10.206",
+    "interv_fid": "0.510\u00b10.206",
+    "causal_fid": "0.423\u00b10.019",
+    "cond_fid": "0.522\u00b10.171",
+    "tesv_stab": "0.941\u00b10.012",
+    "scrl_fid": "0.069\u00b10.007",
+    "curls_fid": "0.064\u00b10.008",
+    "ct_fid": "0.062\u00b10.001",
+    "cf_feas": "1.000\u00b10.000",
+    "cf_gain": "0.015\u00b10.007"
+  },
+  "hillstrom_scenarioB": {
+    "cond": "0.113\u00b10.020",
+    "causal": "0.053\u00b10.016",
+    "interv": "0.000\u00b10.000",
+    "tesv": "0.000\u00b10.000"
+  }
+}

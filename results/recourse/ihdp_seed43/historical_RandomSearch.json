@@ -1,0 +1,30 @@
+{
+  "dataset": "IHDP",
+  "seed": 43,
+  "version": "historical",
+  "method": "RandomSearch",
+  "threshold": 0.2626619578686494,
+  "summary": {
+    "n": 50,
+    "box_valid": 1.0,
+    "type_valid": 0.04,
+    "frozen_valid": 0.04,
+    "derived_valid": 1.0,
+    "legal": 0.04,
+    "initial_box_valid": 0.92,
+    "no_op": 0.0,
+    "strict_positive": 1.0,
+    "nonnegative": 1.0,
+    "diagnostic_success": 0.04,
+    "orig_exceeds": 0.06,
+    "cf_exceeds": 0.28,
+    "gain": 3.66574965440204,
+    "changed_groups": 2.26,
+    "l2": 2.443759712052927,
+    "orig_fifth_nn": 0.1834641749981429,
+    "cf_fifth_nn": 0.2379689934040469,
+    "nn_change": 0.05450481840590394,
+    "changed_legal_n": 2,
+    "support_given_changed_legal": 0.5
+  }
+}

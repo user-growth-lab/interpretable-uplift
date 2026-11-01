@@ -1,0 +1,32 @@
+{
+  "dataset": "Hillstrom",
+  "seed": 42,
+  "n_test": 50,
+  "n_train": 8000,
+  "k": 5,
+  "calibration_quantile": 0.95,
+  "threshold": 0.15041149306353957,
+  "feature_names": [
+    "recency",
+    "history",
+    "mens",
+    "womens",
+    "newbie",
+    "history_segment_2) $100 - $200",
+    "history_segment_3) $200 - $350",
+    "history_segment_4) $350 - $500",
+    "history_segment_5) $500 - $750",
+    "history_segment_6) $750 - $1,000",
+    "history_segment_7) $1,000 +",
+    "zip_code_Surburban",
+    "zip_code_Urban",
+    "channel_Phone",
+    "channel_Web"
+  ],
+  "modifier_indices": null,
+  "preprocessing": "legacy_full covariates Hillstrom; training-only IHDP",
+  "protocol_sha256": "d16b10be37ae96ae74643757f1ca99a11cd84fb87e1a7f5b3dce3792d5e85ce1",
+  "tolerance": 1e-07,
+  "gain_tolerance": 1e-09,
+  "python": "3.9.6"
+}

@@ -1,0 +1,32 @@
+{
+  "task4": {
+    "oos_fidelity": 0.0,
+    "n_rules": 5
+  },
+  "task1_T-Learner": {
+    "fidelity": 0.5513214879989136,
+    "decomposable": true
+  },
+  "task1_R-Learner": {
+    "fidelity": 0.368676453378459,
+    "decomposable": false
+  },
+  "task1_DR-Learner": {
+    "fidelity": 0.5818946403233733,
+    "decomposable": false
+  },
+  "task3": {
+    "ours": {
+      "consistency": 0.7666666666666667,
+      "gain": 0.3444264707513322
+    },
+    "gradient": {
+      "consistency": 1.0,
+      "gain": 0.011647429040540584
+    },
+    "dice": {
+      "consistency": 1.0,
+      "gain": 4.836775064694839
+    }
+  }
+}

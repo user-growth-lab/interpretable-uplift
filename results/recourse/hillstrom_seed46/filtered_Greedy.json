@@ -1,0 +1,30 @@
+{
+  "dataset": "Hillstrom",
+  "seed": 46,
+  "version": "filtered",
+  "method": "Greedy",
+  "threshold": 0.1427372150338878,
+  "summary": {
+    "n": 50,
+    "box_valid": 0.98,
+    "type_valid": 1.0,
+    "frozen_valid": 1.0,
+    "derived_valid": 1.0,
+    "legal": 0.98,
+    "initial_box_valid": 0.98,
+    "no_op": 0.46,
+    "strict_positive": 0.54,
+    "nonnegative": 1.0,
+    "diagnostic_success": 0.54,
+    "orig_exceeds": 0.02,
+    "cf_exceeds": 0.0,
+    "gain": 0.0493815617929866,
+    "changed_groups": 0.54,
+    "l2": 0.06199999999999999,
+    "orig_fifth_nn": 0.07596667051756008,
+    "cf_fifth_nn": 0.07751134380316786,
+    "nn_change": 0.0015446732856077947,
+    "changed_legal_n": 27,
+    "support_given_changed_legal": 1.0
+  }
+}

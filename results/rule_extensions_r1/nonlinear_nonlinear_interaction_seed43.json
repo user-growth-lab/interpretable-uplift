@@ -1,0 +1,630 @@
+{
+  "family": "nonlinear",
+  "variant": "nonlinear_interaction",
+  "seed": 43,
+  "config": {
+    "n_rules": 5,
+    "max_rule_length": 2,
+    "min_support": 0.05,
+    "max_coverage": 0.4,
+    "overlap_ratio": 0.1,
+    "n_candidates": 6,
+    "n_bootstrap": 3,
+    "sample_split": true
+  },
+  "pair": {
+    "same_conditions": true,
+    "certificate": "every_legacy_argmax_valid_identical_rng_path",
+    "legacy_trace": [
+      {
+        "n": 56,
+        "n_treated": 8,
+        "n_control": 48,
+        "coverage": 0.16666666666666666,
+        "treated_fraction": 0.14285714285714285,
+        "support_ok": true,
+        "overlap_ok": true,
+        "max_coverage_ok": true
+      },
+      {
+        "n": 58,
+        "n_treated": 9,
+        "n_control": 49,
+        "coverage": 0.17261904761904762,
+        "treated_fraction": 0.15517241379310345,
+        "support_ok": true,
+        "overlap_ok": true,
+        "max_coverage_ok": true
+      },
+      {
+        "n": 61,
+        "n_treated": 16,
+        "n_control": 45,
+        "coverage": 0.18154761904761904,
+        "treated_fraction": 0.26229508196721313,
+        "support_ok": true,
+        "overlap_ok": true,
+        "max_coverage_ok": true
+      },
+      {
+        "n": 21,
+        "n_treated": 9,
+        "n_control": 12,
+        "coverage": 0.0625,
+        "treated_fraction": 0.42857142857142855,
+        "support_ok": true,
+        "overlap_ok": true,
+        "max_coverage_ok": true
+      },
+      {
+        "n": 58,
+        "n_treated": 9,
+        "n_control": 49,
+        "coverage": 0.17261904761904762,
+        "treated_fraction": 0.15517241379310345,
+        "support_ok": true,
+        "overlap_ok": true,
+        "max_coverage_ok": true
+      }
+    ],
+    "legacy_trace_all_valid": true
+  },
+  "environment": {
+    "python": "3.9.6 (default, Jan  9 2026, 11:03:41) \n[Clang 17.0.0 (clang-1700.6.4.2)]",
+    "platform": "macOS-15.7.3-arm64-arm-64bit",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "sklearn": "1.6.1",
+    "source_sha256": {
+      "src/experiments/run_r1_rules.py": "35bc3890cf1fe1fe90952862fb0e09032a60713a95927c725f5d1fdbd80bbe9b",
+      "src/models/scrl.py": "4fdeff6f045f94c014ffb59339fe6d5fd91e29b0767b9463afcd5b82554f081d",
+      "src/data/datasets.py": "07574f328b2101191a7d3e3cb8d48faa9d40c9e063308c4f1f7fd3b463e28049",
+      "src/metrics/fidelity.py": "d92e4b3014a2d15a76ca2374bfc7415866f776e090ce6f69687f0d9f6d837648"
+    }
+  },
+  "legacy": {
+    "algorithm_version": "scrl-legacy-20260725",
+    "n_rules": 5,
+    "rules": [
+      {
+        "index": 0,
+        "conditions": [
+          [
+            20,
+            ">=",
+            2.297906401874482
+          ],
+          [
+            15,
+            ">=",
+            0.2085144140570752
+          ]
+        ],
+        "tau_mean_selection": 0.4732821769308763,
+        "tau_std_selection": 1.2817083895414214,
+        "bootstrap_mean_std_selection": 0.04497273990003042,
+        "discovery": {
+          "n": 48,
+          "n_treated": 13,
+          "n_control": 35,
+          "coverage": 0.14285714285714285,
+          "treated_fraction": 0.2708333333333333,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "selection": {
+          "n": 56,
+          "n_treated": 8,
+          "n_control": 48,
+          "coverage": 0.16666666666666666,
+          "treated_fraction": 0.14285714285714285,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "test": {
+          "n": 10,
+          "n_treated": 1,
+          "n_control": 9,
+          "coverage": 0.13333333333333333,
+          "treated_fraction": 0.1,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        }
+      },
+      {
+        "index": 1,
+        "conditions": [
+          [
+            20,
+            ">=",
+            2.297906401874482
+          ],
+          [
+            10,
+            "<=",
+            1.6470298061420885
+          ]
+        ],
+        "tau_mean_selection": 0.1427550491542437,
+        "tau_std_selection": 2.1622000695925645,
+        "bootstrap_mean_std_selection": 0.0171876886116362,
+        "discovery": {
+          "n": 49,
+          "n_treated": 14,
+          "n_control": 35,
+          "coverage": 0.14583333333333334,
+          "treated_fraction": 0.2857142857142857,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "selection": {
+          "n": 58,
+          "n_treated": 9,
+          "n_control": 49,
+          "coverage": 0.17261904761904762,
+          "treated_fraction": 0.15517241379310345,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "test": {
+          "n": 10,
+          "n_treated": 1,
+          "n_control": 9,
+          "coverage": 0.13333333333333333,
+          "treated_fraction": 0.1,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        }
+      },
+      {
+        "index": 2,
+        "conditions": [
+          [
+            5,
+            ">=",
+            0.12271869784582809
+          ],
+          [
+            1,
+            ">=",
+            0.5689396931829318
+          ]
+        ],
+        "tau_mean_selection": -0.440388627791142,
+        "tau_std_selection": 1.9482804480166993,
+        "bootstrap_mean_std_selection": 0.03229481988223001,
+        "discovery": {
+          "n": 71,
+          "n_treated": 18,
+          "n_control": 53,
+          "coverage": 0.2113095238095238,
+          "treated_fraction": 0.2535211267605634,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "selection": {
+          "n": 61,
+          "n_treated": 16,
+          "n_control": 45,
+          "coverage": 0.18154761904761904,
+          "treated_fraction": 0.26229508196721313,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "test": {
+          "n": 7,
+          "n_treated": 1,
+          "n_control": 6,
+          "coverage": 0.09333333333333334,
+          "treated_fraction": 0.14285714285714285,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        }
+      },
+      {
+        "index": 3,
+        "conditions": [
+          [
+            2,
+            ">=",
+            0.02516612037670781
+          ],
+          [
+            24,
+            ">=",
+            2.3369934663020526
+          ]
+        ],
+        "tau_mean_selection": -4.220193187787661,
+        "tau_std_selection": 2.883942536258225,
+        "bootstrap_mean_std_selection": 0.09005027931855471,
+        "discovery": {
+          "n": 19,
+          "n_treated": 8,
+          "n_control": 11,
+          "coverage": 0.05654761904761905,
+          "treated_fraction": 0.42105263157894735,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "selection": {
+          "n": 21,
+          "n_treated": 9,
+          "n_control": 12,
+          "coverage": 0.0625,
+          "treated_fraction": 0.42857142857142855,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "test": {
+          "n": 10,
+          "n_treated": 1,
+          "n_control": 9,
+          "coverage": 0.13333333333333333,
+          "treated_fraction": 0.1,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        }
+      },
+      {
+        "index": 4,
+        "conditions": [
+          [
+            20,
+            ">=",
+            2.297906401874482
+          ],
+          [
+            23,
+            "<=",
+            -0.3907155769771979
+          ]
+        ],
+        "tau_mean_selection": 0.1427550491542437,
+        "tau_std_selection": 2.1622000695925645,
+        "bootstrap_mean_std_selection": 0.003994836218752492,
+        "discovery": {
+          "n": 49,
+          "n_treated": 14,
+          "n_control": 35,
+          "coverage": 0.14583333333333334,
+          "treated_fraction": 0.2857142857142857,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "selection": {
+          "n": 58,
+          "n_treated": 9,
+          "n_control": 49,
+          "coverage": 0.17261904761904762,
+          "treated_fraction": 0.15517241379310345,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "test": {
+          "n": 10,
+          "n_treated": 1,
+          "n_control": 9,
+          "coverage": 0.13333333333333333,
+          "treated_fraction": 0.1,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        }
+      }
+    ],
+    "modifier_hits": 5,
+    "n_distinct_features": 8,
+    "train_fidelity": {
+      "value": 0.6088564071690326,
+      "status": "ok",
+      "n": 672,
+      "n_covered": 243,
+      "coverage": 0.36160714285714285,
+      "denominator": 2.385521459298016,
+      "mean_all": -2.0831928623932776,
+      "mean_covered": -0.6307528374604601,
+      "mean_top": 0.30232859690473807,
+      "legacy_coverage_count_curve_mean": -0.8958827930148149
+    },
+    "test_fidelity": {
+      "value": 0.5067438687911004,
+      "status": "ok",
+      "n": 75,
+      "n_covered": 24,
+      "coverage": 0.32,
+      "denominator": 2.2560688037979797,
+      "mean_all": -2.6305837387244293,
+      "mean_covered": -1.487334704828931,
+      "mean_top": -0.3745149349264496,
+      "legacy_coverage_count_curve_mean": -1.688960136253728
+    }
+  },
+  "hard": {
+    "algorithm_version": "scrl-r1-hard-support-v1",
+    "n_rules": 5,
+    "rules": [
+      {
+        "index": 0,
+        "conditions": [
+          [
+            20,
+            ">=",
+            2.297906401874482
+          ],
+          [
+            15,
+            ">=",
+            0.2085144140570752
+          ]
+        ],
+        "tau_mean_selection": 0.4732821769308763,
+        "tau_std_selection": 1.2817083895414214,
+        "bootstrap_mean_std_selection": 0.04497273990003042,
+        "discovery": {
+          "n": 48,
+          "n_treated": 13,
+          "n_control": 35,
+          "coverage": 0.14285714285714285,
+          "treated_fraction": 0.2708333333333333,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "selection": {
+          "n": 56,
+          "n_treated": 8,
+          "n_control": 48,
+          "coverage": 0.16666666666666666,
+          "treated_fraction": 0.14285714285714285,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "test": {
+          "n": 10,
+          "n_treated": 1,
+          "n_control": 9,
+          "coverage": 0.13333333333333333,
+          "treated_fraction": 0.1,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        }
+      },
+      {
+        "index": 1,
+        "conditions": [
+          [
+            20,
+            ">=",
+            2.297906401874482
+          ],
+          [
+            10,
+            "<=",
+            1.6470298061420885
+          ]
+        ],
+        "tau_mean_selection": 0.1427550491542437,
+        "tau_std_selection": 2.1622000695925645,
+        "bootstrap_mean_std_selection": 0.0171876886116362,
+        "discovery": {
+          "n": 49,
+          "n_treated": 14,
+          "n_control": 35,
+          "coverage": 0.14583333333333334,
+          "treated_fraction": 0.2857142857142857,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "selection": {
+          "n": 58,
+          "n_treated": 9,
+          "n_control": 49,
+          "coverage": 0.17261904761904762,
+          "treated_fraction": 0.15517241379310345,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "test": {
+          "n": 10,
+          "n_treated": 1,
+          "n_control": 9,
+          "coverage": 0.13333333333333333,
+          "treated_fraction": 0.1,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        }
+      },
+      {
+        "index": 2,
+        "conditions": [
+          [
+            5,
+            ">=",
+            0.12271869784582809
+          ],
+          [
+            1,
+            ">=",
+            0.5689396931829318
+          ]
+        ],
+        "tau_mean_selection": -0.440388627791142,
+        "tau_std_selection": 1.9482804480166993,
+        "bootstrap_mean_std_selection": 0.03229481988223001,
+        "discovery": {
+          "n": 71,
+          "n_treated": 18,
+          "n_control": 53,
+          "coverage": 0.2113095238095238,
+          "treated_fraction": 0.2535211267605634,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "selection": {
+          "n": 61,
+          "n_treated": 16,
+          "n_control": 45,
+          "coverage": 0.18154761904761904,
+          "treated_fraction": 0.26229508196721313,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "test": {
+          "n": 7,
+          "n_treated": 1,
+          "n_control": 6,
+          "coverage": 0.09333333333333334,
+          "treated_fraction": 0.14285714285714285,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        }
+      },
+      {
+        "index": 3,
+        "conditions": [
+          [
+            2,
+            ">=",
+            0.02516612037670781
+          ],
+          [
+            24,
+            ">=",
+            2.3369934663020526
+          ]
+        ],
+        "tau_mean_selection": -4.220193187787661,
+        "tau_std_selection": 2.883942536258225,
+        "bootstrap_mean_std_selection": 0.09005027931855471,
+        "discovery": {
+          "n": 19,
+          "n_treated": 8,
+          "n_control": 11,
+          "coverage": 0.05654761904761905,
+          "treated_fraction": 0.42105263157894735,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "selection": {
+          "n": 21,
+          "n_treated": 9,
+          "n_control": 12,
+          "coverage": 0.0625,
+          "treated_fraction": 0.42857142857142855,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "test": {
+          "n": 10,
+          "n_treated": 1,
+          "n_control": 9,
+          "coverage": 0.13333333333333333,
+          "treated_fraction": 0.1,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        }
+      },
+      {
+        "index": 4,
+        "conditions": [
+          [
+            20,
+            ">=",
+            2.297906401874482
+          ],
+          [
+            23,
+            "<=",
+            -0.3907155769771979
+          ]
+        ],
+        "tau_mean_selection": 0.1427550491542437,
+        "tau_std_selection": 2.1622000695925645,
+        "bootstrap_mean_std_selection": 0.003994836218752492,
+        "discovery": {
+          "n": 49,
+          "n_treated": 14,
+          "n_control": 35,
+          "coverage": 0.14583333333333334,
+          "treated_fraction": 0.2857142857142857,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "selection": {
+          "n": 58,
+          "n_treated": 9,
+          "n_control": 49,
+          "coverage": 0.17261904761904762,
+          "treated_fraction": 0.15517241379310345,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        },
+        "test": {
+          "n": 10,
+          "n_treated": 1,
+          "n_control": 9,
+          "coverage": 0.13333333333333333,
+          "treated_fraction": 0.1,
+          "support_ok": true,
+          "overlap_ok": true,
+          "max_coverage_ok": true
+        }
+      }
+    ],
+    "modifier_hits": 5,
+    "n_distinct_features": 8,
+    "train_fidelity": {
+      "value": 0.6088564071690326,
+      "status": "ok",
+      "n": 672,
+      "n_covered": 243,
+      "coverage": 0.36160714285714285,
+      "denominator": 2.385521459298016,
+      "mean_all": -2.0831928623932776,
+      "mean_covered": -0.6307528374604601,
+      "mean_top": 0.30232859690473807,
+      "legacy_coverage_count_curve_mean": -0.8958827930148149
+    },
+    "test_fidelity": {
+      "value": 0.5067438687911004,
+      "status": "ok",
+      "n": 75,
+      "n_covered": 24,
+      "coverage": 0.32,
+      "denominator": 2.2560688037979797,
+      "mean_all": -2.6305837387244293,
+      "mean_covered": -1.487334704828931,
+      "mean_top": -0.3745149349264496,
+      "legacy_coverage_count_curve_mean": -1.688960136253728
+    }
+  },
+  "elapsed_seconds": 39.61342430114746
+}

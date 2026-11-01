@@ -1,0 +1,30 @@
+{
+  "dataset": "IHDP",
+  "seed": 42,
+  "version": "filtered",
+  "method": "Gradient",
+  "threshold": 0.2602429574555965,
+  "summary": {
+    "n": 50,
+    "box_valid": 0.92,
+    "type_valid": 1.0,
+    "frozen_valid": 1.0,
+    "derived_valid": 1.0,
+    "legal": 0.92,
+    "initial_box_valid": 0.88,
+    "no_op": 0.86,
+    "strict_positive": 0.06,
+    "nonnegative": 1.0,
+    "diagnostic_success": 0.06,
+    "orig_exceeds": 0.08,
+    "cf_exceeds": 0.08,
+    "gain": 0.021074972662650984,
+    "changed_groups": 0.18,
+    "l2": 0.011179759931517739,
+    "orig_fifth_nn": 0.1867178978294432,
+    "cf_fifth_nn": 0.18657741889321847,
+    "nn_change": -0.00014047893622471275,
+    "changed_legal_n": 7,
+    "support_given_changed_legal": 0.7142857142857143
+  }
+}

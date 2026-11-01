@@ -1,0 +1,3 @@
+# Frozen historical implementation
+
+This source snapshot reproduces the submitted implementation, including its finite overlap penalty and historical metric names. Run historical scripts from this directory; the revised src/ defaults to explicit hard filtering and must not be used to claim historical reproduction. Data must be configured as described in the top-level README. Archived numerical evidence is in ../historical_results; historical scripts write new outputs below this directory. Some old summaries lack the original raw per-instance outputs; their limits are disclosed in the manuscript and audit inventory.

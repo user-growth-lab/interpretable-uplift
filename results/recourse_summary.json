@@ -1,0 +1,1308 @@
+{
+  "IHDP": {
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "methods": {
+      "historical/Greedy": {
+        "n": {
+          "mean": 50.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "box_valid": {
+          "mean": 0.8960000000000001,
+          "sd": 0.021908902300206663,
+          "defined_seeds": 5
+        },
+        "type_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "frozen_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "derived_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "legal": {
+          "mean": 0.8960000000000001,
+          "sd": 0.021908902300206663,
+          "defined_seeds": 5
+        },
+        "initial_box_valid": {
+          "mean": 0.8880000000000001,
+          "sd": 0.017888543819998336,
+          "defined_seeds": 5
+        },
+        "no_op": {
+          "mean": 0.20800000000000002,
+          "sd": 0.10059821071967431,
+          "defined_seeds": 5
+        },
+        "strict_positive": {
+          "mean": 0.792,
+          "sd": 0.10059821071967434,
+          "defined_seeds": 5
+        },
+        "nonnegative": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "diagnostic_success": {
+          "mean": 0.792,
+          "sd": 0.10059821071967434,
+          "defined_seeds": 5
+        },
+        "orig_exceeds": {
+          "mean": 0.07200000000000001,
+          "sd": 0.010954451150103324,
+          "defined_seeds": 5
+        },
+        "cf_exceeds": {
+          "mean": 0.088,
+          "sd": 0.010954451150103324,
+          "defined_seeds": 5
+        },
+        "gain": {
+          "mean": 0.21904906369163388,
+          "sd": 0.04355934075214981,
+          "defined_seeds": 5
+        },
+        "changed_groups": {
+          "mean": 1.204,
+          "sd": 0.2321206582792665,
+          "defined_seeds": 5
+        },
+        "l2": {
+          "mean": 0.10120270184743503,
+          "sd": 0.016367010289524257,
+          "defined_seeds": 5
+        },
+        "orig_fifth_nn": {
+          "mean": 0.18453159556238535,
+          "sd": 0.004415267402262071,
+          "defined_seeds": 5
+        },
+        "cf_fifth_nn": {
+          "mean": 0.18476410881391875,
+          "sd": 0.00438346176247183,
+          "defined_seeds": 5
+        },
+        "nn_change": {
+          "mean": 0.00023251325153338212,
+          "sd": 0.0005381172974299724,
+          "defined_seeds": 5
+        },
+        "changed_legal_n": {
+          "mean": 39.6,
+          "sd": 5.029910535983716,
+          "defined_seeds": 5
+        },
+        "support_given_changed_legal": {
+          "mean": 0.9132593839249286,
+          "sd": 0.015592410743934875,
+          "defined_seeds": 5
+        }
+      },
+      "historical/Gradient": {
+        "n": {
+          "mean": 50.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "box_valid": {
+          "mean": 0.9120000000000001,
+          "sd": 0.017888543819998333,
+          "defined_seeds": 5
+        },
+        "type_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "frozen_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "derived_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "legal": {
+          "mean": 0.9120000000000001,
+          "sd": 0.017888543819998333,
+          "defined_seeds": 5
+        },
+        "initial_box_valid": {
+          "mean": 0.8880000000000001,
+          "sd": 0.017888543819998336,
+          "defined_seeds": 5
+        },
+        "no_op": {
+          "mean": 0.844,
+          "sd": 0.035777087639996666,
+          "defined_seeds": 5
+        },
+        "strict_positive": {
+          "mean": 0.08399999999999999,
+          "sd": 0.03286335345030997,
+          "defined_seeds": 5
+        },
+        "nonnegative": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "diagnostic_success": {
+          "mean": 0.08399999999999999,
+          "sd": 0.03286335345030997,
+          "defined_seeds": 5
+        },
+        "orig_exceeds": {
+          "mean": 0.07200000000000001,
+          "sd": 0.010954451150103324,
+          "defined_seeds": 5
+        },
+        "cf_exceeds": {
+          "mean": 0.07200000000000001,
+          "sd": 0.010954451150103324,
+          "defined_seeds": 5
+        },
+        "gain": {
+          "mean": 0.02052773487883227,
+          "sd": 0.013135402022988171,
+          "defined_seeds": 5
+        },
+        "changed_groups": {
+          "mean": 0.18000000000000002,
+          "sd": 0.0469041575982343,
+          "defined_seeds": 5
+        },
+        "l2": {
+          "mean": 0.0076047738429587675,
+          "sd": 0.0041951491259642065,
+          "defined_seeds": 5
+        },
+        "orig_fifth_nn": {
+          "mean": 0.18453159556238535,
+          "sd": 0.004415267402262071,
+          "defined_seeds": 5
+        },
+        "cf_fifth_nn": {
+          "mean": 0.18447568492195704,
+          "sd": 0.00448966510181709,
+          "defined_seeds": 5
+        },
+        "nn_change": {
+          "mean": -5.591064042831335e-05,
+          "sd": 0.00013905704327113051,
+          "defined_seeds": 5
+        },
+        "changed_legal_n": {
+          "mean": 7.8,
+          "sd": 1.7888543819998317,
+          "defined_seeds": 5
+        },
+        "support_given_changed_legal": {
+          "mean": 0.8584126984126984,
+          "sd": 0.10734196666733888,
+          "defined_seeds": 5
+        }
+      },
+      "historical/RandomSearch": {
+        "n": {
+          "mean": 50.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "box_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "type_valid": {
+          "mean": 0.12,
+          "sd": 0.08124038404635961,
+          "defined_seeds": 5
+        },
+        "frozen_valid": {
+          "mean": 0.088,
+          "sd": 0.06099180272790763,
+          "defined_seeds": 5
+        },
+        "derived_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "legal": {
+          "mean": 0.088,
+          "sd": 0.06099180272790763,
+          "defined_seeds": 5
+        },
+        "initial_box_valid": {
+          "mean": 0.8880000000000001,
+          "sd": 0.017888543819998336,
+          "defined_seeds": 5
+        },
+        "no_op": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "strict_positive": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "nonnegative": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "diagnostic_success": {
+          "mean": 0.088,
+          "sd": 0.06099180272790763,
+          "defined_seeds": 5
+        },
+        "orig_exceeds": {
+          "mean": 0.07200000000000001,
+          "sd": 0.010954451150103324,
+          "defined_seeds": 5
+        },
+        "cf_exceeds": {
+          "mean": 0.34,
+          "sd": 0.128062484748657,
+          "defined_seeds": 5
+        },
+        "gain": {
+          "mean": 3.369388752094583,
+          "sd": 0.5372894218251615,
+          "defined_seeds": 5
+        },
+        "changed_groups": {
+          "mean": 2.2039999999999997,
+          "sd": 0.1431083505599865,
+          "defined_seeds": 5
+        },
+        "l2": {
+          "mean": 2.4151054642013756,
+          "sd": 0.12461631401152472,
+          "defined_seeds": 5
+        },
+        "orig_fifth_nn": {
+          "mean": 0.18453159556238535,
+          "sd": 0.004415267402262071,
+          "defined_seeds": 5
+        },
+        "cf_fifth_nn": {
+          "mean": 0.23806137220183202,
+          "sd": 0.007992839219608345,
+          "defined_seeds": 5
+        },
+        "nn_change": {
+          "mean": 0.05352977663944667,
+          "sd": 0.00904200460073064,
+          "defined_seeds": 5
+        },
+        "changed_legal_n": {
+          "mean": 4.4,
+          "sd": 3.0495901363953815,
+          "defined_seeds": 5
+        },
+        "support_given_changed_legal": {
+          "mean": 0.611111111111111,
+          "sd": 0.17123372230469378,
+          "defined_seeds": 5
+        }
+      },
+      "filtered/Greedy": {
+        "n": {
+          "mean": 50.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "box_valid": {
+          "mean": 0.8960000000000001,
+          "sd": 0.021908902300206663,
+          "defined_seeds": 5
+        },
+        "type_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "frozen_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "derived_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "legal": {
+          "mean": 0.8960000000000001,
+          "sd": 0.021908902300206663,
+          "defined_seeds": 5
+        },
+        "initial_box_valid": {
+          "mean": 0.8880000000000001,
+          "sd": 0.017888543819998336,
+          "defined_seeds": 5
+        },
+        "no_op": {
+          "mean": 0.20800000000000002,
+          "sd": 0.10059821071967431,
+          "defined_seeds": 5
+        },
+        "strict_positive": {
+          "mean": 0.792,
+          "sd": 0.10059821071967434,
+          "defined_seeds": 5
+        },
+        "nonnegative": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "diagnostic_success": {
+          "mean": 0.792,
+          "sd": 0.10059821071967434,
+          "defined_seeds": 5
+        },
+        "orig_exceeds": {
+          "mean": 0.07200000000000001,
+          "sd": 0.010954451150103324,
+          "defined_seeds": 5
+        },
+        "cf_exceeds": {
+          "mean": 0.088,
+          "sd": 0.010954451150103324,
+          "defined_seeds": 5
+        },
+        "gain": {
+          "mean": 0.21904906369163388,
+          "sd": 0.04355934075214981,
+          "defined_seeds": 5
+        },
+        "changed_groups": {
+          "mean": 1.204,
+          "sd": 0.2321206582792665,
+          "defined_seeds": 5
+        },
+        "l2": {
+          "mean": 0.10120270184743503,
+          "sd": 0.016367010289524257,
+          "defined_seeds": 5
+        },
+        "orig_fifth_nn": {
+          "mean": 0.18453159556238535,
+          "sd": 0.004415267402262071,
+          "defined_seeds": 5
+        },
+        "cf_fifth_nn": {
+          "mean": 0.18476410881391875,
+          "sd": 0.00438346176247183,
+          "defined_seeds": 5
+        },
+        "nn_change": {
+          "mean": 0.00023251325153338212,
+          "sd": 0.0005381172974299724,
+          "defined_seeds": 5
+        },
+        "changed_legal_n": {
+          "mean": 39.6,
+          "sd": 5.029910535983716,
+          "defined_seeds": 5
+        },
+        "support_given_changed_legal": {
+          "mean": 0.9132593839249286,
+          "sd": 0.015592410743934875,
+          "defined_seeds": 5
+        }
+      },
+      "filtered/Gradient": {
+        "n": {
+          "mean": 50.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "box_valid": {
+          "mean": 0.9120000000000001,
+          "sd": 0.017888543819998333,
+          "defined_seeds": 5
+        },
+        "type_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "frozen_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "derived_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "legal": {
+          "mean": 0.9120000000000001,
+          "sd": 0.017888543819998333,
+          "defined_seeds": 5
+        },
+        "initial_box_valid": {
+          "mean": 0.8880000000000001,
+          "sd": 0.017888543819998336,
+          "defined_seeds": 5
+        },
+        "no_op": {
+          "mean": 0.844,
+          "sd": 0.035777087639996666,
+          "defined_seeds": 5
+        },
+        "strict_positive": {
+          "mean": 0.08399999999999999,
+          "sd": 0.03286335345030997,
+          "defined_seeds": 5
+        },
+        "nonnegative": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "diagnostic_success": {
+          "mean": 0.08399999999999999,
+          "sd": 0.03286335345030997,
+          "defined_seeds": 5
+        },
+        "orig_exceeds": {
+          "mean": 0.07200000000000001,
+          "sd": 0.010954451150103324,
+          "defined_seeds": 5
+        },
+        "cf_exceeds": {
+          "mean": 0.07200000000000001,
+          "sd": 0.010954451150103324,
+          "defined_seeds": 5
+        },
+        "gain": {
+          "mean": 0.02052773487883227,
+          "sd": 0.013135402022988171,
+          "defined_seeds": 5
+        },
+        "changed_groups": {
+          "mean": 0.18000000000000002,
+          "sd": 0.0469041575982343,
+          "defined_seeds": 5
+        },
+        "l2": {
+          "mean": 0.0076047738429587675,
+          "sd": 0.0041951491259642065,
+          "defined_seeds": 5
+        },
+        "orig_fifth_nn": {
+          "mean": 0.18453159556238535,
+          "sd": 0.004415267402262071,
+          "defined_seeds": 5
+        },
+        "cf_fifth_nn": {
+          "mean": 0.18447568492195704,
+          "sd": 0.00448966510181709,
+          "defined_seeds": 5
+        },
+        "nn_change": {
+          "mean": -5.591064042831335e-05,
+          "sd": 0.00013905704327113051,
+          "defined_seeds": 5
+        },
+        "changed_legal_n": {
+          "mean": 7.8,
+          "sd": 1.7888543819998317,
+          "defined_seeds": 5
+        },
+        "support_given_changed_legal": {
+          "mean": 0.8584126984126984,
+          "sd": 0.10734196666733888,
+          "defined_seeds": 5
+        }
+      },
+      "filtered/RandomSearch": {
+        "n": {
+          "mean": 50.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "box_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "type_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "frozen_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "derived_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "legal": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "initial_box_valid": {
+          "mean": 0.8880000000000001,
+          "sd": 0.017888543819998336,
+          "defined_seeds": 5
+        },
+        "no_op": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "strict_positive": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "nonnegative": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "diagnostic_success": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "orig_exceeds": {
+          "mean": 0.07200000000000001,
+          "sd": 0.010954451150103324,
+          "defined_seeds": 5
+        },
+        "cf_exceeds": {
+          "mean": 0.144,
+          "sd": 0.047749345545253286,
+          "defined_seeds": 5
+        },
+        "gain": {
+          "mean": 1.8932387180108297,
+          "sd": 0.41790094284970936,
+          "defined_seeds": 5
+        },
+        "changed_groups": {
+          "mean": 2.548,
+          "sd": 0.21475567512873778,
+          "defined_seeds": 5
+        },
+        "l2": {
+          "mean": 1.9188137588383227,
+          "sd": 0.2618923210844699,
+          "defined_seeds": 5
+        },
+        "orig_fifth_nn": {
+          "mean": 0.18453159556238535,
+          "sd": 0.004415267402262071,
+          "defined_seeds": 5
+        },
+        "cf_fifth_nn": {
+          "mean": 0.2089032672634513,
+          "sd": 0.00722332303998514,
+          "defined_seeds": 5
+        },
+        "nn_change": {
+          "mean": 0.024371671701065894,
+          "sd": 0.003335142403227232,
+          "defined_seeds": 5
+        },
+        "changed_legal_n": {
+          "mean": 50.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "support_given_changed_legal": {
+          "mean": 0.8560000000000001,
+          "sd": 0.047749345545253286,
+          "defined_seeds": 5
+        }
+      }
+    }
+  },
+  "Hillstrom": {
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "methods": {
+      "historical/Greedy": {
+        "n": {
+          "mean": 50.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "box_valid": {
+          "mean": 0.992,
+          "sd": 0.010954451150103331,
+          "defined_seeds": 5
+        },
+        "type_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "frozen_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "derived_valid": {
+          "mean": 0.932,
+          "sd": 0.022803508501982726,
+          "defined_seeds": 5
+        },
+        "legal": {
+          "mean": 0.924,
+          "sd": 0.026076809620810562,
+          "defined_seeds": 5
+        },
+        "initial_box_valid": {
+          "mean": 0.992,
+          "sd": 0.010954451150103331,
+          "defined_seeds": 5
+        },
+        "no_op": {
+          "mean": 0.45999999999999996,
+          "sd": 0.06782329983125268,
+          "defined_seeds": 5
+        },
+        "strict_positive": {
+          "mean": 0.54,
+          "sd": 0.06782329983125267,
+          "defined_seeds": 5
+        },
+        "nonnegative": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "diagnostic_success": {
+          "mean": 0.4720000000000001,
+          "sd": 0.05215361924162119,
+          "defined_seeds": 5
+        },
+        "orig_exceeds": {
+          "mean": 0.044,
+          "sd": 0.03286335345030997,
+          "defined_seeds": 5
+        },
+        "cf_exceeds": {
+          "mean": 0.044,
+          "sd": 0.03286335345030997,
+          "defined_seeds": 5
+        },
+        "gain": {
+          "mean": 0.03991531096045859,
+          "sd": 0.015250572268579173,
+          "defined_seeds": 5
+        },
+        "changed_groups": {
+          "mean": 0.54,
+          "sd": 0.06782329983125267,
+          "defined_seeds": 5
+        },
+        "l2": {
+          "mean": 0.0636,
+          "sd": 0.010807404868885043,
+          "defined_seeds": 5
+        },
+        "orig_fifth_nn": {
+          "mean": 0.07356726706204741,
+          "sd": 0.012968479467620404,
+          "defined_seeds": 5
+        },
+        "cf_fifth_nn": {
+          "mean": 0.07505902366827544,
+          "sd": 0.012850894161087008,
+          "defined_seeds": 5
+        },
+        "nn_change": {
+          "mean": 0.0014917566062280035,
+          "sd": 0.0011139549865968885,
+          "defined_seeds": 5
+        },
+        "changed_legal_n": {
+          "mean": 23.6,
+          "sd": 2.6076809620810595,
+          "defined_seeds": 5
+        },
+        "support_given_changed_legal": {
+          "mean": 0.9846153846153847,
+          "sd": 0.03440104580768905,
+          "defined_seeds": 5
+        }
+      },
+      "historical/Gradient": {
+        "n": {
+          "mean": 50.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "box_valid": {
+          "mean": 0.992,
+          "sd": 0.010954451150103331,
+          "defined_seeds": 5
+        },
+        "type_valid": {
+          "mean": 0.992,
+          "sd": 0.010954451150103331,
+          "defined_seeds": 5
+        },
+        "frozen_valid": {
+          "mean": 0.992,
+          "sd": 0.010954451150103331,
+          "defined_seeds": 5
+        },
+        "derived_valid": {
+          "mean": 0.9359999999999999,
+          "sd": 0.04774934554525328,
+          "defined_seeds": 5
+        },
+        "legal": {
+          "mean": 0.924,
+          "sd": 0.06228964600958976,
+          "defined_seeds": 5
+        },
+        "initial_box_valid": {
+          "mean": 0.992,
+          "sd": 0.010954451150103331,
+          "defined_seeds": 5
+        },
+        "no_op": {
+          "mean": 0.372,
+          "sd": 0.09230384607371461,
+          "defined_seeds": 5
+        },
+        "strict_positive": {
+          "mean": 0.524,
+          "sd": 0.12441864811996634,
+          "defined_seeds": 5
+        },
+        "nonnegative": {
+          "mean": 0.984,
+          "sd": 0.026076809620810618,
+          "defined_seeds": 5
+        },
+        "diagnostic_success": {
+          "mean": 0.4640000000000001,
+          "sd": 0.15388307249337074,
+          "defined_seeds": 5
+        },
+        "orig_exceeds": {
+          "mean": 0.044,
+          "sd": 0.03286335345030997,
+          "defined_seeds": 5
+        },
+        "cf_exceeds": {
+          "mean": 0.052000000000000005,
+          "sd": 0.04147288270665544,
+          "defined_seeds": 5
+        },
+        "gain": {
+          "mean": 0.031363686897266395,
+          "sd": 0.009091623614813015,
+          "defined_seeds": 5
+        },
+        "changed_groups": {
+          "mean": 0.636,
+          "sd": 0.08648699324175857,
+          "defined_seeds": 5
+        },
+        "l2": {
+          "mean": 0.031863343403429625,
+          "sd": 0.006319848454285954,
+          "defined_seeds": 5
+        },
+        "orig_fifth_nn": {
+          "mean": 0.07356726706204741,
+          "sd": 0.012968479467620404,
+          "defined_seeds": 5
+        },
+        "cf_fifth_nn": {
+          "mean": 0.07431543624905168,
+          "sd": 0.013245451879941948,
+          "defined_seeds": 5
+        },
+        "nn_change": {
+          "mean": 0.0007481691870042647,
+          "sd": 0.0007103866224365436,
+          "defined_seeds": 5
+        },
+        "changed_legal_n": {
+          "mean": 28.0,
+          "sd": 6.164414002968976,
+          "defined_seeds": 5
+        },
+        "support_given_changed_legal": {
+          "mean": 0.9735748287472425,
+          "sd": 0.026184198279082804,
+          "defined_seeds": 5
+        }
+      },
+      "historical/RandomSearch": {
+        "n": {
+          "mean": 50.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "box_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "type_valid": {
+          "mean": 0.7879999999999999,
+          "sd": 0.06723094525588644,
+          "defined_seeds": 5
+        },
+        "frozen_valid": {
+          "mean": 0.7799999999999999,
+          "sd": 0.0648074069840786,
+          "defined_seeds": 5
+        },
+        "derived_valid": {
+          "mean": 0.724,
+          "sd": 0.10237187113655782,
+          "defined_seeds": 5
+        },
+        "legal": {
+          "mean": 0.5720000000000001,
+          "sd": 0.06870225614927067,
+          "defined_seeds": 5
+        },
+        "initial_box_valid": {
+          "mean": 0.992,
+          "sd": 0.010954451150103331,
+          "defined_seeds": 5
+        },
+        "no_op": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "strict_positive": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "nonnegative": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "diagnostic_success": {
+          "mean": 0.5720000000000001,
+          "sd": 0.06870225614927067,
+          "defined_seeds": 5
+        },
+        "orig_exceeds": {
+          "mean": 0.044,
+          "sd": 0.03286335345030997,
+          "defined_seeds": 5
+        },
+        "cf_exceeds": {
+          "mean": 0.18,
+          "sd": 0.03162277660168379,
+          "defined_seeds": 5
+        },
+        "gain": {
+          "mean": 0.10647030073539768,
+          "sd": 0.019174668104720346,
+          "defined_seeds": 5
+        },
+        "changed_groups": {
+          "mean": 1.104,
+          "sd": 0.0638748776906852,
+          "defined_seeds": 5
+        },
+        "l2": {
+          "mean": 0.21028277579759797,
+          "sd": 0.03311260114799511,
+          "defined_seeds": 5
+        },
+        "orig_fifth_nn": {
+          "mean": 0.07356726706204741,
+          "sd": 0.012968479467620404,
+          "defined_seeds": 5
+        },
+        "cf_fifth_nn": {
+          "mean": 0.10076200872583205,
+          "sd": 0.016659297570513525,
+          "defined_seeds": 5
+        },
+        "nn_change": {
+          "mean": 0.02719474166378465,
+          "sd": 0.007550101990958446,
+          "defined_seeds": 5
+        },
+        "changed_legal_n": {
+          "mean": 28.6,
+          "sd": 3.4351128074635335,
+          "defined_seeds": 5
+        },
+        "support_given_changed_legal": {
+          "mean": 0.967728494623656,
+          "sd": 0.0395147689218056,
+          "defined_seeds": 5
+        }
+      },
+      "filtered/Greedy": {
+        "n": {
+          "mean": 50.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "box_valid": {
+          "mean": 0.992,
+          "sd": 0.010954451150103331,
+          "defined_seeds": 5
+        },
+        "type_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "frozen_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "derived_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "legal": {
+          "mean": 0.992,
+          "sd": 0.010954451150103331,
+          "defined_seeds": 5
+        },
+        "initial_box_valid": {
+          "mean": 0.992,
+          "sd": 0.010954451150103331,
+          "defined_seeds": 5
+        },
+        "no_op": {
+          "mean": 0.508,
+          "sd": 0.05761944116355172,
+          "defined_seeds": 5
+        },
+        "strict_positive": {
+          "mean": 0.492,
+          "sd": 0.057619441163551756,
+          "defined_seeds": 5
+        },
+        "nonnegative": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "diagnostic_success": {
+          "mean": 0.492,
+          "sd": 0.057619441163551756,
+          "defined_seeds": 5
+        },
+        "orig_exceeds": {
+          "mean": 0.044,
+          "sd": 0.03286335345030997,
+          "defined_seeds": 5
+        },
+        "cf_exceeds": {
+          "mean": 0.04,
+          "sd": 0.03741657386773942,
+          "defined_seeds": 5
+        },
+        "gain": {
+          "mean": 0.03570339440848032,
+          "sd": 0.011358053715796904,
+          "defined_seeds": 5
+        },
+        "changed_groups": {
+          "mean": 0.492,
+          "sd": 0.057619441163551756,
+          "defined_seeds": 5
+        },
+        "l2": {
+          "mean": 0.05720000000000001,
+          "sd": 0.008555699854482977,
+          "defined_seeds": 5
+        },
+        "orig_fifth_nn": {
+          "mean": 0.07356726706204741,
+          "sd": 0.012968479467620404,
+          "defined_seeds": 5
+        },
+        "cf_fifth_nn": {
+          "mean": 0.07415955644216993,
+          "sd": 0.012680614755475723,
+          "defined_seeds": 5
+        },
+        "nn_change": {
+          "mean": 0.000592289380122509,
+          "sd": 0.0007322760102625609,
+          "defined_seeds": 5
+        },
+        "changed_legal_n": {
+          "mean": 24.6,
+          "sd": 2.8809720581775866,
+          "defined_seeds": 5
+        },
+        "support_given_changed_legal": {
+          "mean": 0.9857142857142858,
+          "sd": 0.03194382824999698,
+          "defined_seeds": 5
+        }
+      },
+      "filtered/Gradient": {
+        "n": {
+          "mean": 50.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "box_valid": {
+          "mean": 0.992,
+          "sd": 0.010954451150103331,
+          "defined_seeds": 5
+        },
+        "type_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "frozen_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "derived_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "legal": {
+          "mean": 0.992,
+          "sd": 0.010954451150103331,
+          "defined_seeds": 5
+        },
+        "initial_box_valid": {
+          "mean": 0.992,
+          "sd": 0.010954451150103331,
+          "defined_seeds": 5
+        },
+        "no_op": {
+          "mean": 0.384,
+          "sd": 0.07924645102463578,
+          "defined_seeds": 5
+        },
+        "strict_positive": {
+          "mean": 0.504,
+          "sd": 0.12441864811996631,
+          "defined_seeds": 5
+        },
+        "nonnegative": {
+          "mean": 0.9800000000000001,
+          "sd": 0.028284271247461926,
+          "defined_seeds": 5
+        },
+        "diagnostic_success": {
+          "mean": 0.504,
+          "sd": 0.12441864811996631,
+          "defined_seeds": 5
+        },
+        "orig_exceeds": {
+          "mean": 0.044,
+          "sd": 0.03286335345030997,
+          "defined_seeds": 5
+        },
+        "cf_exceeds": {
+          "mean": 0.044,
+          "sd": 0.03577708763999664,
+          "defined_seeds": 5
+        },
+        "gain": {
+          "mean": 0.02874283383617344,
+          "sd": 0.009617138959777354,
+          "defined_seeds": 5
+        },
+        "changed_groups": {
+          "mean": 0.616,
+          "sd": 0.07924645102463578,
+          "defined_seeds": 5
+        },
+        "l2": {
+          "mean": 0.026983922712085568,
+          "sd": 0.005999641162260543,
+          "defined_seeds": 5
+        },
+        "orig_fifth_nn": {
+          "mean": 0.07356726706204741,
+          "sd": 0.012968479467620404,
+          "defined_seeds": 5
+        },
+        "cf_fifth_nn": {
+          "mean": 0.07363538776381402,
+          "sd": 0.012891857719189768,
+          "defined_seeds": 5
+        },
+        "nn_change": {
+          "mean": 6.81207017666089e-05,
+          "sd": 0.00030184680565168613,
+          "defined_seeds": 5
+        },
+        "changed_legal_n": {
+          "mean": 30.8,
+          "sd": 3.96232255123179,
+          "defined_seeds": 5
+        },
+        "support_given_changed_legal": {
+          "mean": 0.9665920101403973,
+          "sd": 0.02172561000942011,
+          "defined_seeds": 5
+        }
+      },
+      "filtered/RandomSearch": {
+        "n": {
+          "mean": 50.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "box_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "type_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "frozen_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "derived_valid": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "legal": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "initial_box_valid": {
+          "mean": 0.992,
+          "sd": 0.010954451150103331,
+          "defined_seeds": 5
+        },
+        "no_op": {
+          "mean": 0.024,
+          "sd": 0.021908902300206645,
+          "defined_seeds": 5
+        },
+        "strict_positive": {
+          "mean": 0.976,
+          "sd": 0.021908902300206663,
+          "defined_seeds": 5
+        },
+        "nonnegative": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "defined_seeds": 5
+        },
+        "diagnostic_success": {
+          "mean": 0.976,
+          "sd": 0.021908902300206663,
+          "defined_seeds": 5
+        },
+        "orig_exceeds": {
+          "mean": 0.044,
+          "sd": 0.03286335345030997,
+          "defined_seeds": 5
+        },
+        "cf_exceeds": {
+          "mean": 0.044,
+          "sd": 0.03286335345030997,
+          "defined_seeds": 5
+        },
+        "gain": {
+          "mean": 0.1461313216549481,
+          "sd": 0.04548396152529816,
+          "defined_seeds": 5
+        },
+        "changed_groups": {
+          "mean": 0.976,
+          "sd": 0.021908902300206663,
+          "defined_seeds": 5
+        },
+        "l2": {
+          "mean": 0.11944023455079456,
+          "sd": 0.021624423637082762,
+          "defined_seeds": 5
+        },
+        "orig_fifth_nn": {
+          "mean": 0.07356726706204741,
+          "sd": 0.012968479467620404,
+          "defined_seeds": 5
+        },
+        "cf_fifth_nn": {
+          "mean": 0.07342221904014748,
+          "sd": 0.012783171552206141,
+          "defined_seeds": 5
+        },
+        "nn_change": {
+          "mean": -0.00014504802189994754,
+          "sd": 0.0007402350344254233,
+          "defined_seeds": 5
+        },
+        "changed_legal_n": {
+          "mean": 48.8,
+          "sd": 1.0954451150103321,
+          "defined_seeds": 5
+        },
+        "support_given_changed_legal": {
+          "mean": 0.9629995657837604,
+          "sd": 0.030395213448200543,
+          "defined_seeds": 5
+        }
+      }
+    }
+  }
+}

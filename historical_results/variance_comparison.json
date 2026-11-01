@@ -1,0 +1,40 @@
+{
+  "5": {
+    "tesv_mean_var": 0.010250613344389583,
+    "diff_mean_var": 0.011534942886822185,
+    "variance_ratio": 0.888657485777424,
+    "tesv_max_var": 0.18734495908342103,
+    "diff_max_var": 0.24971469010022346
+  },
+  "10": {
+    "tesv_mean_var": 0.008500235823701201,
+    "diff_mean_var": 0.008752222837901502,
+    "variance_ratio": 0.9712087981684983,
+    "tesv_max_var": 0.16342645821870985,
+    "diff_max_var": 0.1279134210300202
+  },
+  "20": {
+    "tesv_mean_var": 0.007590997732856112,
+    "diff_mean_var": 0.007911695621771827,
+    "variance_ratio": 0.9594653403964125,
+    "tesv_max_var": 0.10883352582103045,
+    "diff_max_var": 0.104291579580401
+  },
+  "50": {
+    "tesv_mean_var": 0.0070406584700706916,
+    "diff_mean_var": 0.007068146780438876,
+    "variance_ratio": 0.9961109593190314,
+    "tesv_max_var": 0.10987629268522903,
+    "diff_max_var": 0.1067711241302095
+  },
+  "meta": {
+    "C": 10.521944448067787,
+    "C1": 13.003541851222389,
+    "C0": 9.734983620183437,
+    "theoretical_ratio_bound": 0.41958035689540213,
+    "n_repeats": 20,
+    "n_bg": 30,
+    "n_test_instances": 5,
+    "dataset": "IHDP Scenario B (confounded)"
+  }
+}

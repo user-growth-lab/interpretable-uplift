@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article in preferred-citation."
+type: software
+title: "Interpretable Uplift Modelling — companion code"
+authors:
+  - family-names: Zhang
+    given-names: Yu
+  - family-names: Shan
+    given-names: Yueguang
+  - family-names: Ma
+    given-names: Wanlong
+preferred-citation:
+  type: article
+  title: "Interpretable Uplift Modelling: Conditional Average Treatment Effect Attribution, Subgroup Rules and Constrained Recourse"
+  authors:
+    - family-names: Zhang
+      given-names: Yu
+    - family-names: Shan
+      given-names: Yueguang
+    - family-names: Ma
+      given-names: Wanlong
+  journal: Expert Systems
+  doi: 10.1111/exsy.70471

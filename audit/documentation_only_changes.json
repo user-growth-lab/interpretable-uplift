@@ -1,0 +1,20 @@
+{
+  "src/models/scrl.py": {
+    "executable_AST_identical": true,
+    "execution_snapshot": "audit/scrl_r1_execution.py",
+    "execution_sha256": "758747fa2fa5cd7bd48bc074aba2d34da4d5bec58ef6d9e70b5e24417f940877",
+    "current_sha256": "f520cc377fa5b2bfbc7a4cbae3034eeea2f46e5ef2c140a6fc13b672a10be94e"
+  },
+  "src/metrics/fidelity.py": {
+    "executable_AST_identical": true,
+    "execution_snapshot": "audit/fidelity_r1_execution.py",
+    "execution_sha256": "d92e4b3014a2d15a76ca2374bfc7415866f776e090ce6f69687f0d9f6d837648",
+    "current_sha256": "fb11626a0e3970c79c6b6cfaf3699989c8976d2e254bbaed91bfc3666d026785"
+  },
+  "src/data/datasets.py": {
+    "executable_AST_identical": true,
+    "execution_snapshot": "audit/datasets_r1_execution.py",
+    "execution_sha256": "07574f328b2101191a7d3e3cb8d48faa9d40c9e063308c4f1f7fd3b463e28049",
+    "current_sha256": "886f962b28f58686c479037e40a3b23ceb6a4e29d94d20873e6f847153fd44c3"
+  }
+}

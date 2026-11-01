@@ -1,0 +1,78 @@
+{
+  "experiment": "subgroup_head_to_head",
+  "metric": "Jaccard Subgroup Similarity Index + IHDP targeting precision",
+  "protocol": "refit CATE teacher per bootstrap; coverage matched to SCRL",
+  "n_bootstrap": 6,
+  "elapsed_sec": 770.0,
+  "results": {
+    "IHDP (semi-synth)": {
+      "SCRL": {
+        "jaccard": 0.35722486520129026,
+        "jaccard_pairstd": 0.16671209337232096,
+        "mean_subgroup_uplift": 1.5165984113243045,
+        "mean_coverage": 0.4141865079365079,
+        "precision": 0.6322330708274196
+      },
+      "CDT": {
+        "jaccard": 0.43135941815991746,
+        "jaccard_pairstd": 0.18429588343055894,
+        "mean_subgroup_uplift": 1.3917581488603001,
+        "mean_coverage": 0.4141865079365079,
+        "precision": 0.6127979263125232
+      },
+      "CausalTree": {
+        "jaccard": 0.39342753403262165,
+        "jaccard_pairstd": 0.19230381400123225,
+        "mean_subgroup_uplift": 1.2578310181589616,
+        "mean_coverage": 0.4141865079365079,
+        "precision": 0.6007155036864019
+      }
+    },
+    "Hillstrom": {
+      "SCRL": {
+        "jaccard": 0.49206793586136893,
+        "jaccard_pairstd": 0.12380294867794067,
+        "mean_subgroup_uplift": 0.041134877952856926,
+        "mean_coverage": 0.6122666666666666,
+        "precision": null
+      },
+      "CDT": {
+        "jaccard": 0.49940639926878416,
+        "jaccard_pairstd": 0.09796404984826401,
+        "mean_subgroup_uplift": 0.04792889542583773,
+        "mean_coverage": 0.6122666666666666,
+        "precision": null
+      },
+      "CausalTree": {
+        "jaccard": 0.44709446211013315,
+        "jaccard_pairstd": 0.0773554534753647,
+        "mean_subgroup_uplift": 0.042740560740107354,
+        "mean_coverage": 0.6122666666666666,
+        "precision": null
+      }
+    },
+    "Criteo": {
+      "SCRL": {
+        "jaccard": 0.4116463164148639,
+        "jaccard_pairstd": 0.1950967741830174,
+        "mean_subgroup_uplift": -0.002852385959947107,
+        "mean_coverage": 0.4524000000000001,
+        "precision": null
+      },
+      "CDT": {
+        "jaccard": 0.5548060101339177,
+        "jaccard_pairstd": 0.16213985200223935,
+        "mean_subgroup_uplift": 0.0007721406244975921,
+        "mean_coverage": 0.4524000000000001,
+        "precision": null
+      },
+      "CausalTree": {
+        "jaccard": 0.4721612202944973,
+        "jaccard_pairstd": 0.21548312364703773,
+        "mean_subgroup_uplift": -0.0019455655626853547,
+        "mean_coverage": 0.4524000000000001,
+        "precision": null
+      }
+    }
+  }
+}

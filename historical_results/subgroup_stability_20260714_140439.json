@@ -1,0 +1,88 @@
+{
+  "experiment": "subgroup_stability_head_to_head",
+  "metric": "Jaccard Subgroup Similarity Index (mean pairwise over bootstraps)",
+  "target_coverage": 0.3,
+  "n_bootstrap": 8,
+  "n_seeds": 1,
+  "elapsed_sec": 827.4,
+  "results": {
+    "IHDP (semi-synth)": {
+      "SCRL": {
+        "jaccard_mean": 0.468317337547167,
+        "jaccard_std": 0.27769624311259805,
+        "uplift_mean": 1.2751162165311887,
+        "uplift_std": 0.0,
+        "coverage_mean": 0.3292410714285714,
+        "true_uplift_mean": 1.4707414349397556
+      },
+      "CDT": {
+        "jaccard_mean": 0.64160273174144,
+        "jaccard_std": 0.2842936039725907,
+        "uplift_mean": 1.375021407548874,
+        "uplift_std": 0.0,
+        "coverage_mean": 0.4691220238095238,
+        "true_uplift_mean": 1.4389825659239301
+      },
+      "CausalTree": {
+        "jaccard_mean": 0.5665455134903682,
+        "jaccard_std": 0.23413681345122567,
+        "uplift_mean": 1.1455915899355613,
+        "uplift_std": 0.0,
+        "coverage_mean": 0.48995535714285715,
+        "true_uplift_mean": 1.2357766685143914
+      }
+    },
+    "Hillstrom": {
+      "SCRL": {
+        "jaccard_mean": 0.4583156633711914,
+        "jaccard_std": 0.25848392236454165,
+        "uplift_mean": 0.05507459604539851,
+        "uplift_std": 0.0,
+        "coverage_mean": 0.37725000000000003,
+        "true_uplift_mean": null
+      },
+      "CDT": {
+        "jaccard_mean": 0.973514397308507,
+        "jaccard_std": 0.02910521302107024,
+        "uplift_mean": 0.061470129050289535,
+        "uplift_std": 0.0,
+        "coverage_mean": 0.53745,
+        "true_uplift_mean": null
+      },
+      "CausalTree": {
+        "jaccard_mean": 0.3685928451706606,
+        "jaccard_std": 0.08348509778212941,
+        "uplift_mean": 0.04682219789109116,
+        "uplift_std": 0.0,
+        "coverage_mean": 0.5261,
+        "true_uplift_mean": null
+      }
+    },
+    "Criteo": {
+      "SCRL": {
+        "jaccard_mean": 0.32015284151952816,
+        "jaccard_std": 0.3048157688549645,
+        "uplift_mean": -0.0037169851638127797,
+        "uplift_std": 0.0,
+        "coverage_mean": 0.39205,
+        "true_uplift_mean": null
+      },
+      "CDT": {
+        "jaccard_mean": 0.8768897877857812,
+        "jaccard_std": 0.06921874740638544,
+        "uplift_mean": 0.002198351777400726,
+        "uplift_std": 0.0,
+        "coverage_mean": 0.9132,
+        "true_uplift_mean": null
+      },
+      "CausalTree": {
+        "jaccard_mean": 0.8150724986590313,
+        "jaccard_std": 0.23555900083458267,
+        "uplift_mean": -0.004145797255054484,
+        "uplift_std": 0.0,
+        "coverage_mean": 0.8974500000000001,
+        "true_uplift_mean": null
+      }
+    }
+  }
+}

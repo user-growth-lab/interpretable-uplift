@@ -1,0 +1,30 @@
+{
+  "GBT T-Learner": {
+    "decomposable": true,
+    "mse": "1.877\u00b10.938",
+    "top5": "0.920\u00b10.098",
+    "fidelity": "0.509\u00b10.114",
+    "spurious_B": "0.0000\u00b10.0000"
+  },
+  "Neural T-Learner": {
+    "decomposable": true,
+    "mse": "2.856\u00b10.628",
+    "top5": "1.000\u00b10.000",
+    "fidelity": "0.959\u00b10.009",
+    "spurious_B": "0.0000\u00b10.0000"
+  },
+  "R-Learner": {
+    "decomposable": false,
+    "mse": "9.031\u00b17.535",
+    "top5": "0.840\u00b10.080",
+    "fidelity": "0.459\u00b10.077",
+    "spurious_B": "0.0000\u00b10.0000"
+  },
+  "DR-Learner": {
+    "decomposable": false,
+    "mse": "2.283\u00b11.226",
+    "top5": "0.880\u00b10.098",
+    "fidelity": "0.532\u00b10.116",
+    "spurious_B": "0.0000\u00b10.0000"
+  }
+}

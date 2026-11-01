@@ -1,0 +1,72 @@
+{
+  "experiment": "unobserved_modifier_conditionality",
+  "description": "TESV proxy-attribution mass and CATE fit when the true modifiers are observed vs dropped (only proxies available).",
+  "modifiers": [
+    1,
+    5,
+    10,
+    15,
+    20
+  ],
+  "n_seeds": 3,
+  "elapsed_sec": 70.7,
+  "results": [
+    {
+      "confound_corr": 0.5,
+      "proxy_mass_observed": {
+        "mean": 0.12142711763881336,
+        "std": 0.020561184519631744
+      },
+      "proxy_mass_unobserved": {
+        "mean": 0.43020321606450146,
+        "std": 0.036424226530469506
+      },
+      "cate_r2_observed": {
+        "mean": 0.7814156439182929,
+        "std": 0.08092228719253633
+      },
+      "cate_r2_unobserved": {
+        "mean": 0.16472403735574112,
+        "std": 0.17794358687278544
+      }
+    },
+    {
+      "confound_corr": 0.7,
+      "proxy_mass_observed": {
+        "mean": 0.1995334100259146,
+        "std": 0.022033800114756863
+      },
+      "proxy_mass_unobserved": {
+        "mean": 0.4843163556684835,
+        "std": 0.029378506075971086
+      },
+      "cate_r2_observed": {
+        "mean": 0.7805934286522872,
+        "std": 0.04330332321373256
+      },
+      "cate_r2_unobserved": {
+        "mean": 0.43407033927928823,
+        "std": 0.11518106714932194
+      }
+    },
+    {
+      "confound_corr": 0.9,
+      "proxy_mass_observed": {
+        "mean": 0.4299719225767647,
+        "std": 0.021260245374847775
+      },
+      "proxy_mass_unobserved": {
+        "mean": 0.6468342471414025,
+        "std": 0.06324808865620647
+      },
+      "cate_r2_observed": {
+        "mean": 0.7857059082799132,
+        "std": 0.05652172253498119
+      },
+      "cate_r2_unobserved": {
+        "mean": 0.6804563338810329,
+        "std": 0.055513407566577695
+      }
+    }
+  ]
+}

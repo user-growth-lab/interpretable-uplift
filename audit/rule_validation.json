@@ -1,0 +1,445 @@
+{
+  "status": "passed",
+  "complete": true,
+  "expected_checkpoint_count": 62,
+  "missing_checkpoints": [],
+  "checkpoint_count": 62,
+  "checks": 3873,
+  "checkpoints": [
+    {
+      "file": "results/rules_r1/cross_criteo_legacy_full_seed0.json",
+      "checks": 34,
+      "n_train": 4000,
+      "n_test": 1000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/cross_criteo_legacy_full_seed1.json",
+      "checks": 60,
+      "n_train": 4000,
+      "n_test": 1000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/cross_criteo_legacy_full_seed2.json",
+      "checks": 60,
+      "n_train": 4000,
+      "n_test": 1000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/cross_criteo_legacy_full_seed3.json",
+      "checks": 60,
+      "n_train": 4000,
+      "n_test": 1000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/cross_criteo_legacy_full_seed4.json",
+      "checks": 60,
+      "n_train": 4000,
+      "n_test": 1000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/cross_hillstrom_legacy_full_seed0.json",
+      "checks": 39,
+      "n_train": 4000,
+      "n_test": 1000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/cross_hillstrom_legacy_full_seed1.json",
+      "checks": 60,
+      "n_train": 4000,
+      "n_test": 1000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/cross_hillstrom_legacy_full_seed2.json",
+      "checks": 60,
+      "n_train": 4000,
+      "n_test": 1000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/cross_hillstrom_legacy_full_seed3.json",
+      "checks": 60,
+      "n_train": 4000,
+      "n_test": 1000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/cross_hillstrom_legacy_full_seed4.json",
+      "checks": 60,
+      "n_train": 4000,
+      "n_test": 1000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/ihdp_ihdp_legacy_full_seed42.json",
+      "checks": 60,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/ihdp_ihdp_legacy_full_seed43.json",
+      "checks": 60,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/ihdp_ihdp_legacy_full_seed44.json",
+      "checks": 60,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/ihdp_ihdp_legacy_full_seed45.json",
+      "checks": 60,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/ihdp_ihdp_legacy_full_seed46.json",
+      "checks": 60,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/ihdp_ihdp_legacy_full_seed47.json",
+      "checks": 60,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/ihdp_ihdp_legacy_full_seed48.json",
+      "checks": 60,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/ihdp_ihdp_legacy_full_seed49.json",
+      "checks": 60,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/ihdp_ihdp_legacy_full_seed50.json",
+      "checks": 60,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/ihdp_ihdp_legacy_full_seed51.json",
+      "checks": 60,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_hillstrom_legacy_full_seed0.json",
+      "checks": 74,
+      "n_train": 51200,
+      "n_test": 12800,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_hillstrom_legacy_full_seed1.json",
+      "checks": 74,
+      "n_train": 51200,
+      "n_test": 12800,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_hillstrom_legacy_full_seed2.json",
+      "checks": 74,
+      "n_train": 51200,
+      "n_test": 12800,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_hillstrom_legacy_full_seed3.json",
+      "checks": 74,
+      "n_train": 51200,
+      "n_test": 12800,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_hillstrom_legacy_full_seed4.json",
+      "checks": 74,
+      "n_train": 51200,
+      "n_test": 12800,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_hillstrom_train_only_seed0.json",
+      "checks": 75,
+      "n_train": 51200,
+      "n_test": 12800,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_hillstrom_train_only_seed1.json",
+      "checks": 75,
+      "n_train": 51200,
+      "n_test": 12800,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_hillstrom_train_only_seed2.json",
+      "checks": 75,
+      "n_train": 51200,
+      "n_test": 12800,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_hillstrom_train_only_seed3.json",
+      "checks": 75,
+      "n_train": 51200,
+      "n_test": 12800,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_hillstrom_train_only_seed4.json",
+      "checks": 75,
+      "n_train": 51200,
+      "n_test": 12800,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_megafon_train_only_seed0.json",
+      "checks": 75,
+      "n_train": 80000,
+      "n_test": 20000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_megafon_train_only_seed1.json",
+      "checks": 75,
+      "n_train": 80000,
+      "n_test": 20000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_megafon_train_only_seed2.json",
+      "checks": 75,
+      "n_train": 80000,
+      "n_test": 20000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_megafon_train_only_seed3.json",
+      "checks": 75,
+      "n_train": 80000,
+      "n_test": 20000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_megafon_train_only_seed4.json",
+      "checks": 75,
+      "n_train": 80000,
+      "n_test": 20000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_megafon_train_only_seed5.json",
+      "checks": 68,
+      "n_train": 80000,
+      "n_test": 20000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_megafon_train_only_seed6.json",
+      "checks": 75,
+      "n_train": 80000,
+      "n_test": 20000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_megafon_train_only_seed7.json",
+      "checks": 75,
+      "n_train": 80000,
+      "n_test": 20000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_megafon_train_only_seed8.json",
+      "checks": 75,
+      "n_train": 80000,
+      "n_test": 20000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rules_r1/rct_megafon_train_only_seed9.json",
+      "checks": 75,
+      "n_train": 80000,
+      "n_test": 20000,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/ablation_no_div_dedup_seed42.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/ablation_no_div_dedup_seed43.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/ablation_no_div_dedup_seed44.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/ablation_no_div_dedup_seed45.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/ablation_no_div_dedup_seed46.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/ablation_variance_based_seed42.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/ablation_variance_based_seed43.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/ablation_variance_based_seed44.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/ablation_variance_based_seed45.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/ablation_variance_based_seed46.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/nonlinear_interaction_seed42.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/nonlinear_interaction_seed43.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/nonlinear_interaction_seed44.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/nonlinear_linear_seed42.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/nonlinear_linear_seed43.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/nonlinear_linear_seed44.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/nonlinear_nonlinear_interaction_seed42.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/nonlinear_nonlinear_interaction_seed43.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/nonlinear_nonlinear_interaction_seed44.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/nonlinear_nonlinear_seed42.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/nonlinear_nonlinear_seed43.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    },
+    {
+      "file": "results/rule_extensions_r1/nonlinear_nonlinear_seed44.json",
+      "checks": 56,
+      "n_train": 672,
+      "n_test": 75,
+      "selection_hard_violations": 0
+    }
+  ],
+  "scope": "All completed checkpoints at validation time; independent saved-array recomputation, no model refit. Does not validate unfinished experiments."
+}

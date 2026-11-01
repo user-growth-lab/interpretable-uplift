@@ -1,0 +1,109 @@
+{
+  "hillstrom": {
+    "treat_all": [
+      {
+        "policy_value": 0.16372419850680375,
+        "treat_none_value": 0.11123496626576707,
+        "treat_all_value": 0.16372419850680375,
+        "incremental_vs_none": 0.05248923224103669,
+        "incremental_vs_all": 0.0,
+        "policy_coverage": 1.0
+      },
+      {
+        "policy_value": 0.16267018006148104,
+        "treat_none_value": 0.10067468465825731,
+        "treat_all_value": 0.16267018006148104,
+        "incremental_vs_none": 0.06199549540322373,
+        "incremental_vs_all": 0.0,
+        "policy_coverage": 1.0
+      },
+      {
+        "policy_value": 0.16829161176986898,
+        "treat_none_value": 0.10536814315048387,
+        "treat_all_value": 0.16829161176986898,
+        "incremental_vs_none": 0.06292346861938511,
+        "incremental_vs_all": 0.0,
+        "policy_coverage": 1.0
+      }
+    ],
+    "treat_none": [],
+    "scrl_rule1": [
+      {
+        "policy_value": 0.13901009233568742,
+        "treat_none_value": 0.11123496626576707,
+        "treat_all_value": 0.16372419850680375,
+        "incremental_vs_none": 0.02777512606992036,
+        "incremental_vs_all": -0.02471410617111633,
+        "policy_coverage": 0.403203125
+      },
+      {
+        "policy_value": 0.11605903908376858,
+        "treat_none_value": 0.10067468465825731,
+        "treat_all_value": 0.16267018006148104,
+        "incremental_vs_none": 0.015384354425511268,
+        "incremental_vs_all": -0.04661114097771246,
+        "policy_coverage": 0.406640625
+      },
+      {
+        "policy_value": 0.1228632140872116,
+        "treat_none_value": 0.10536814315048387,
+        "treat_all_value": 0.16829161176986898,
+        "incremental_vs_none": 0.017495070936727725,
+        "incremental_vs_all": -0.045428397682657384,
+        "policy_coverage": 0.403125
+      }
+    ],
+    "scrl_union": [
+      {
+        "policy_value": 0.15764503263833393,
+        "treat_none_value": 0.11123496626576707,
+        "treat_all_value": 0.16372419850680375,
+        "incremental_vs_none": 0.046410066372566866,
+        "incremental_vs_all": -0.006079165868469821,
+        "policy_coverage": 0.910390625
+      },
+      {
+        "policy_value": 0.16152227183384815,
+        "treat_none_value": 0.10067468465825731,
+        "treat_all_value": 0.16267018006148104,
+        "incremental_vs_none": 0.06084758717559084,
+        "incremental_vs_all": -0.0011479082276328878,
+        "policy_coverage": 0.9290625
+      },
+      {
+        "policy_value": 0.16420962207945183,
+        "treat_none_value": 0.10536814315048387,
+        "treat_all_value": 0.16829161176986898,
+        "incremental_vs_none": 0.05884147892896796,
+        "incremental_vs_all": -0.004081989690417148,
+        "policy_coverage": 0.94890625
+      }
+    ],
+    "top20_tau": [
+      {
+        "policy_value": 0.12933480695287655,
+        "treat_none_value": 0.11123496626576707,
+        "treat_all_value": 0.16372419850680375,
+        "incremental_vs_none": 0.018099840687109486,
+        "incremental_vs_all": -0.0343893915539272,
+        "policy_coverage": 0.2
+      },
+      {
+        "policy_value": 0.12112393421205098,
+        "treat_none_value": 0.10067468465825731,
+        "treat_all_value": 0.16267018006148104,
+        "incremental_vs_none": 0.020449249553793666,
+        "incremental_vs_all": -0.041546245849430063,
+        "policy_coverage": 0.2
+      },
+      {
+        "policy_value": 0.12183465203731224,
+        "treat_none_value": 0.10536814315048387,
+        "treat_all_value": 0.16829161176986898,
+        "incremental_vs_none": 0.016466508886828365,
+        "incremental_vs_all": -0.046456959732556743,
+        "policy_coverage": 0.2
+      }
+    ]
+  }
+}

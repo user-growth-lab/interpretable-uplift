@@ -1,0 +1,59 @@
+{
+  "tolerances": {
+    "absolute": 1e-10,
+    "relative": 1e-08
+  },
+  "exact_lowdim": {
+    "exact": [
+      1.7260870369167476,
+      -0.02117779946495235,
+      0.0
+    ],
+    "tesv": [
+      1.7260870369167476,
+      -0.02117779946495235,
+      0.0
+    ],
+    "comparison": {
+      "max_absolute": 0.0,
+      "max_scaled_relative": 0.0,
+      "passed": true
+    },
+    "dummy_absolute": 0.0,
+    "efficiency_residual": 0.0
+  },
+  "datasets": {
+    "ihdp": {
+      "n_instances": 10,
+      "background_size": 50,
+      "permutations": 20,
+      "tesv_vs_direct": {
+        "max_absolute": 0.0,
+        "max_scaled_relative": 0.0,
+        "passed": true
+      },
+      "tesv_vs_paired": {
+        "max_absolute": 5.134781488891349e-16,
+        "max_scaled_relative": 5.134781488891349e-16,
+        "passed": true
+      },
+      "efficiency_residual": 8.881784197001252e-16
+    },
+    "hillstrom": {
+      "n_instances": 10,
+      "background_size": 50,
+      "permutations": 20,
+      "tesv_vs_direct": {
+        "max_absolute": 0.0,
+        "max_scaled_relative": 0.0,
+        "passed": true
+      },
+      "tesv_vs_paired": {
+        "max_absolute": 4.163336342344337e-17,
+        "max_scaled_relative": 4.163336342344337e-17,
+        "passed": true
+      },
+      "efficiency_residual": 3.2959746043559335e-17
+    }
+  }
+}

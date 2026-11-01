@@ -1,0 +1,218 @@
+{
+  "protocol": "Fixed seeds 42..46; rank rules by selection mean, accumulate to 20% budget, truncate within rule-selected candidates by teacher prediction; compare teacher top-k at exactly the same selected count. Never fill insufficient rule coverage from test outcomes.",
+  "target": "simulated individual effect theta, with individual effect noise; not noise-free conditional CATE",
+  "expected_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "completed_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "complete": true,
+  "rows": [
+    {
+      "seed": 42,
+      "test_n": 75,
+      "budget": 15,
+      "population_simulated_effect": -0.43192174008820416,
+      "teacher_top20_effect": 4.900121600129373,
+      "versions": {
+        "legacy": {
+          "selected_n": 15,
+          "coverage": 0.2,
+          "budget_filled": true,
+          "rule_targeting_effect": 4.25707815371403,
+          "teacher_matched_coverage_effect": 4.900121600129373,
+          "paired_difference_rule_minus_teacher": -0.6430434464153434,
+          "status": "ok"
+        },
+        "hard": {
+          "selected_n": 15,
+          "coverage": 0.2,
+          "budget_filled": true,
+          "rule_targeting_effect": 4.25707815371403,
+          "teacher_matched_coverage_effect": 4.900121600129373,
+          "paired_difference_rule_minus_teacher": -0.6430434464153434,
+          "status": "ok"
+        }
+      }
+    },
+    {
+      "seed": 43,
+      "test_n": 75,
+      "budget": 15,
+      "population_simulated_effect": -0.006644981849748118,
+      "teacher_top20_effect": 4.947352359420842,
+      "versions": {
+        "legacy": {
+          "selected_n": 15,
+          "coverage": 0.2,
+          "budget_filled": true,
+          "rule_targeting_effect": 4.840658453602173,
+          "teacher_matched_coverage_effect": 4.947352359420842,
+          "paired_difference_rule_minus_teacher": -0.10669390581866889,
+          "status": "ok"
+        },
+        "hard": {
+          "selected_n": 15,
+          "coverage": 0.2,
+          "budget_filled": true,
+          "rule_targeting_effect": 4.840658453602173,
+          "teacher_matched_coverage_effect": 4.947352359420842,
+          "paired_difference_rule_minus_teacher": -0.10669390581866889,
+          "status": "ok"
+        }
+      }
+    },
+    {
+      "seed": 44,
+      "test_n": 75,
+      "budget": 15,
+      "population_simulated_effect": 0.030365174311052824,
+      "teacher_top20_effect": 6.726747118866934,
+      "versions": {
+        "legacy": {
+          "selected_n": 15,
+          "coverage": 0.2,
+          "budget_filled": true,
+          "rule_targeting_effect": 4.810474397692496,
+          "teacher_matched_coverage_effect": 6.726747118866934,
+          "paired_difference_rule_minus_teacher": -1.9162727211744377,
+          "status": "ok"
+        },
+        "hard": {
+          "selected_n": 15,
+          "coverage": 0.2,
+          "budget_filled": true,
+          "rule_targeting_effect": 4.810474397692496,
+          "teacher_matched_coverage_effect": 6.726747118866934,
+          "paired_difference_rule_minus_teacher": -1.9162727211744377,
+          "status": "ok"
+        }
+      }
+    },
+    {
+      "seed": 45,
+      "test_n": 75,
+      "budget": 15,
+      "population_simulated_effect": -0.18650014104719853,
+      "teacher_top20_effect": 5.040127866095086,
+      "versions": {
+        "legacy": {
+          "selected_n": 15,
+          "coverage": 0.2,
+          "budget_filled": true,
+          "rule_targeting_effect": 4.3190002363632765,
+          "teacher_matched_coverage_effect": 5.040127866095086,
+          "paired_difference_rule_minus_teacher": -0.7211276297318099,
+          "status": "ok"
+        },
+        "hard": {
+          "selected_n": 15,
+          "coverage": 0.2,
+          "budget_filled": true,
+          "rule_targeting_effect": 4.3190002363632765,
+          "teacher_matched_coverage_effect": 5.040127866095086,
+          "paired_difference_rule_minus_teacher": -0.7211276297318099,
+          "status": "ok"
+        }
+      }
+    },
+    {
+      "seed": 46,
+      "test_n": 75,
+      "budget": 15,
+      "population_simulated_effect": 0.24961461970706164,
+      "teacher_top20_effect": 6.193706657675074,
+      "versions": {
+        "legacy": {
+          "selected_n": 15,
+          "coverage": 0.2,
+          "budget_filled": true,
+          "rule_targeting_effect": 5.057986006886527,
+          "teacher_matched_coverage_effect": 6.193706657675074,
+          "paired_difference_rule_minus_teacher": -1.1357206507885467,
+          "status": "ok"
+        },
+        "hard": {
+          "selected_n": 15,
+          "coverage": 0.2,
+          "budget_filled": true,
+          "rule_targeting_effect": 5.057986006886527,
+          "teacher_matched_coverage_effect": 6.193706657675074,
+          "paired_difference_rule_minus_teacher": -1.1357206507885467,
+          "status": "ok"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "legacy": {
+      "selected_n": {
+        "mean": 15.0,
+        "std": 0.0,
+        "valid": 5,
+        "total": 5,
+        "missing": 0
+      },
+      "rule_targeting_effect": {
+        "mean": 4.6570394496517,
+        "std": 0.31376931386587287,
+        "valid": 5,
+        "total": 5,
+        "missing": 0
+      },
+      "teacher_matched_coverage_effect": {
+        "mean": 5.561611120437462,
+        "std": 0.7541768570507267,
+        "valid": 5,
+        "total": 5,
+        "missing": 0
+      },
+      "paired_difference_rule_minus_teacher": {
+        "mean": -0.9045716707857613,
+        "std": 0.6025987923126479,
+        "valid": 5,
+        "total": 5,
+        "missing": 0
+      }
+    },
+    "hard": {
+      "selected_n": {
+        "mean": 15.0,
+        "std": 0.0,
+        "valid": 5,
+        "total": 5,
+        "missing": 0
+      },
+      "rule_targeting_effect": {
+        "mean": 4.6570394496517,
+        "std": 0.31376931386587287,
+        "valid": 5,
+        "total": 5,
+        "missing": 0
+      },
+      "teacher_matched_coverage_effect": {
+        "mean": 5.561611120437462,
+        "std": 0.7541768570507267,
+        "valid": 5,
+        "total": 5,
+        "missing": 0
+      },
+      "paired_difference_rule_minus_teacher": {
+        "mean": -0.9045716707857613,
+        "std": 0.6025987923126479,
+        "valid": 5,
+        "total": 5,
+        "missing": 0
+      }
+    }
+  }
+}

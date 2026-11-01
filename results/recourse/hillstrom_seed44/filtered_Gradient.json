@@ -1,0 +1,30 @@
+{
+  "dataset": "Hillstrom",
+  "seed": 44,
+  "version": "filtered",
+  "method": "Gradient",
+  "threshold": 0.1473302690752428,
+  "summary": {
+    "n": 50,
+    "box_valid": 0.98,
+    "type_valid": 1.0,
+    "frozen_valid": 1.0,
+    "derived_valid": 1.0,
+    "legal": 0.98,
+    "initial_box_valid": 0.98,
+    "no_op": 0.34,
+    "strict_positive": 0.6,
+    "nonnegative": 1.0,
+    "diagnostic_success": 0.6,
+    "orig_exceeds": 0.04,
+    "cf_exceeds": 0.06,
+    "gain": 0.034295353215499355,
+    "changed_groups": 0.66,
+    "l2": 0.03502951650681936,
+    "orig_fifth_nn": 0.05342352896715922,
+    "cf_fifth_nn": 0.05372224554232529,
+    "nn_change": 0.000298716575166069,
+    "changed_legal_n": 33,
+    "support_given_changed_legal": 0.9393939393939394
+  }
+}

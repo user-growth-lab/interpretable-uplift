@@ -1,0 +1,86 @@
+{
+  "h2b_megafon_scrl_truth": {
+    "per_seed": [
+      {
+        "seed": 8,
+        "pop_ate": 0.056396732960187546,
+        "scrl_rule1_ate": 0.08498538039456291,
+        "scrl_rule1_se": 0.009165615991584239,
+        "scrl_rule1_cov": 0.40275,
+        "scrl_rule1_gain": 1.5069202759414646,
+        "scrl_rule2_ate": 0.06569880899410399,
+        "scrl_rule2_se": 0.00908873139109438,
+        "scrl_rule2_cov": 0.3909,
+        "scrl_rule2_gain": 1.1649399804858043,
+        "scrl_union_ate": 0.065175464667028,
+        "scrl_union_se": 0.005986645185337864,
+        "scrl_union_cov": 0.92005,
+        "scrl_union_gain": 1.155660288212753,
+        "top20_tau_ate": 0.23913182610921777,
+        "top20_tau_se": 0.012826659794322083,
+        "top20_tau_cov": 0.2,
+        "top20_tau_gain": 4.240171612033438,
+        "ct_matched_ate": 0.07267021445109359,
+        "ct_matched_se": 0.006072981884099666,
+        "ct_matched_cov": 0.903,
+        "ct_matched_gain": 1.2885536206927815,
+        "ct_best_leaf_ate": 0.2021049910889512,
+        "ct_best_leaf_se": 0.025618269550869124,
+        "ct_best_leaf_cov": 0.0577,
+        "ct_best_leaf_gain": 3.583629413987939
+      }
+    ],
+    "summary": {
+      "scrl_rule1": {
+        "ate_mean": 0.08498538039456291,
+        "ate_std": 0.0,
+        "gain_mean": 1.5069202759414646,
+        "gain_std": 0.0,
+        "cov_mean": 0.40275,
+        "n_seeds": 1
+      },
+      "scrl_rule2": {
+        "ate_mean": 0.06569880899410399,
+        "ate_std": 0.0,
+        "gain_mean": 1.1649399804858043,
+        "gain_std": 0.0,
+        "cov_mean": 0.3909,
+        "n_seeds": 1
+      },
+      "scrl_union": {
+        "ate_mean": 0.065175464667028,
+        "ate_std": 0.0,
+        "gain_mean": 1.155660288212753,
+        "gain_std": 0.0,
+        "cov_mean": 0.92005,
+        "n_seeds": 1
+      },
+      "top20_tau": {
+        "ate_mean": 0.23913182610921777,
+        "ate_std": 0.0,
+        "gain_mean": 4.240171612033438,
+        "gain_std": 0.0,
+        "cov_mean": 0.2,
+        "n_seeds": 1
+      },
+      "ct_matched": {
+        "ate_mean": 0.07267021445109359,
+        "ate_std": 0.0,
+        "gain_mean": 1.2885536206927815,
+        "gain_std": 0.0,
+        "cov_mean": 0.903,
+        "n_seeds": 1
+      },
+      "ct_best_leaf": {
+        "ate_mean": 0.2021049910889512,
+        "ate_std": 0.0,
+        "gain_mean": 3.583629413987939,
+        "gain_std": 0.0,
+        "cov_mean": 0.0577,
+        "n_seeds": 1
+      },
+      "scrl_rule1_vs_pop_p": NaN,
+      "ct_matched_vs_pop_p": NaN
+    }
+  }
+}

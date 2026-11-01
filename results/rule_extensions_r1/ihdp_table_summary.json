@@ -1,0 +1,1231 @@
+{
+  "complete": true,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "protocol": "Saved teacher and SCRL, exact-size normalized fidelity. BP comparator refitted only to restore omitted training masks; saved test masks checked exactly equal. BP modifier-hit unavailable rather than historical hardcoded zero.",
+  "rows": [
+    {
+      "seed": 42,
+      "methods": {
+        "SCRL_legacy": {
+          "train": {
+            "value": 0.0841877792521364,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 467,
+            "coverage": 0.6949404761904762,
+            "denominator": 1.623497228554656,
+            "mean_all": 0.292197413586827,
+            "mean_covered": 0.4288760398808416,
+            "mean_top": 1.915694642141483,
+            "legacy_coverage_count_curve_mean": 1.8541970107046382
+          },
+          "test": {
+            "value": -0.06315736287944156,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 50,
+            "coverage": 0.6666666666666666,
+            "denominator": 1.578269838366149,
+            "mean_all": -0.11609520825990456,
+            "mean_covered": -0.215774569163273,
+            "mean_top": 1.4621746301062446,
+            "legacy_coverage_count_curve_mean": 0.8484117274839901
+          },
+          "modifier_hits": 5
+        },
+        "SCRL_hard": {
+          "train": {
+            "value": 0.0841877792521364,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 467,
+            "coverage": 0.6949404761904762,
+            "denominator": 1.623497228554656,
+            "mean_all": 0.292197413586827,
+            "mean_covered": 0.4288760398808416,
+            "mean_top": 1.915694642141483,
+            "legacy_coverage_count_curve_mean": 1.8541970107046382
+          },
+          "test": {
+            "value": -0.06315736287944156,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 50,
+            "coverage": 0.6666666666666666,
+            "denominator": 1.578269838366149,
+            "mean_all": -0.11609520825990456,
+            "mean_covered": -0.215774569163273,
+            "mean_top": 1.4621746301062446,
+            "legacy_coverage_count_curve_mean": 0.8484117274839901
+          },
+          "modifier_hits": 5
+        },
+        "RP_tree_top5": {
+          "train": {
+            "value": null,
+            "status": "full_coverage",
+            "n": 672,
+            "n_covered": 672,
+            "coverage": 1.0,
+            "denominator": null
+          },
+          "test": {
+            "value": null,
+            "status": "full_coverage",
+            "n": 75,
+            "n_covered": 75,
+            "coverage": 1.0,
+            "denominator": null,
+            "legacy_coverage_count_curve_mean": 0.10406695974556113
+          },
+          "modifier_hits": 4
+        },
+        "BP_tree": {
+          "train": {
+            "value": 0.3662885319097896,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 303,
+            "coverage": 0.45089285714285715,
+            "denominator": 2.933922488347248,
+            "mean_all": 0.292197413586827,
+            "mean_covered": 1.3668595745806573,
+            "mean_top": 3.2261199019340747
+          },
+          "test": {
+            "value": 0.06122199237364835,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 30,
+            "coverage": 0.4,
+            "denominator": 2.8978606682190144,
+            "mean_all": -0.11609520825990456,
+            "mean_covered": 0.06131759546969546,
+            "mean_top": 2.78176545995911,
+            "legacy_coverage_count_curve_mean": -0.43364583483943925
+          },
+          "modifier_hits": null
+        }
+      }
+    },
+    {
+      "seed": 43,
+      "methods": {
+        "SCRL_legacy": {
+          "train": {
+            "value": 0.47839765555116315,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 400,
+            "coverage": 0.5952380952380952,
+            "denominator": 2.2666964180765006,
+            "mean_all": -0.03968053805399282,
+            "mean_covered": 1.0447017142000241,
+            "mean_top": 2.227015880022508,
+            "legacy_coverage_count_curve_mean": 2.0629128401205477
+          },
+          "test": {
+            "value": 0.47575259126644076,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 48,
+            "coverage": 0.64,
+            "denominator": 1.793989994307777,
+            "mean_all": 0.1734716964174289,
+            "mean_covered": 1.026967084915421,
+            "mean_top": 1.967461690725206,
+            "legacy_coverage_count_curve_mean": 2.083127139801965
+          },
+          "modifier_hits": 3
+        },
+        "SCRL_hard": {
+          "train": {
+            "value": 0.47839765555116315,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 400,
+            "coverage": 0.5952380952380952,
+            "denominator": 2.2666964180765006,
+            "mean_all": -0.03968053805399282,
+            "mean_covered": 1.0447017142000241,
+            "mean_top": 2.227015880022508,
+            "legacy_coverage_count_curve_mean": 2.0629128401205477
+          },
+          "test": {
+            "value": 0.47575259126644076,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 48,
+            "coverage": 0.64,
+            "denominator": 1.793989994307777,
+            "mean_all": 0.1734716964174289,
+            "mean_covered": 1.026967084915421,
+            "mean_top": 1.967461690725206,
+            "legacy_coverage_count_curve_mean": 2.083127139801965
+          },
+          "modifier_hits": 3
+        },
+        "RP_tree_top5": {
+          "train": {
+            "value": 0.8795548917723194,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 167,
+            "coverage": 0.24851190476190477,
+            "denominator": 4.805798520299331,
+            "mean_all": -0.03968053805399282,
+            "mean_covered": 4.1872830593474575,
+            "mean_top": 4.766117982245338
+          },
+          "test": {
+            "value": 0.872512672998508,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 16,
+            "coverage": 0.21333333333333335,
+            "denominator": 5.11227833087622,
+            "mean_all": 0.1734716964174289,
+            "mean_covered": 4.63399932800259,
+            "mean_top": 5.285750027293648,
+            "legacy_coverage_count_curve_mean": 2.1144368399695845
+          },
+          "modifier_hits": 4
+        },
+        "BP_tree": {
+          "train": {
+            "value": 0.27049849889559646,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 262,
+            "coverage": 0.3898809523809524,
+            "denominator": 3.5404821985669903,
+            "mean_all": -0.03968053805399282,
+            "mean_covered": 0.9180145820249591,
+            "mean_top": 3.5008016605129977
+          },
+          "test": {
+            "value": 0.36613262245276484,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 27,
+            "coverage": 0.36,
+            "denominator": 3.563509636045143,
+            "mean_all": 0.1734716964174289,
+            "mean_covered": 1.4781888245983348,
+            "mean_top": 3.736981332462572,
+            "legacy_coverage_count_curve_mean": 0.5116803878482129
+          },
+          "modifier_hits": null
+        }
+      }
+    },
+    {
+      "seed": 44,
+      "methods": {
+        "SCRL_legacy": {
+          "train": {
+            "value": 0.9539431136455849,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 353,
+            "coverage": 0.5252976190476191,
+            "denominator": 3.1412630654452967,
+            "mean_all": -0.17727308395170513,
+            "mean_covered": 2.819313185479056,
+            "mean_top": 2.9639899814935915,
+            "legacy_coverage_count_curve_mean": 3.140744343762595
+          },
+          "test": {
+            "value": 0.9663570688155557,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 39,
+            "coverage": 0.52,
+            "denominator": 3.0540377063248902,
+            "mean_all": -0.014510250969520655,
+            "mean_covered": 2.936780674966783,
+            "mean_top": 3.0395274553553695,
+            "legacy_coverage_count_curve_mean": 3.005529411173989
+          },
+          "modifier_hits": 5
+        },
+        "SCRL_hard": {
+          "train": {
+            "value": 0.9539431136455849,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 353,
+            "coverage": 0.5252976190476191,
+            "denominator": 3.1412630654452967,
+            "mean_all": -0.17727308395170513,
+            "mean_covered": 2.819313185479056,
+            "mean_top": 2.9639899814935915,
+            "legacy_coverage_count_curve_mean": 3.140744343762595
+          },
+          "test": {
+            "value": 0.9663570688155557,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 39,
+            "coverage": 0.52,
+            "denominator": 3.0540377063248902,
+            "mean_all": -0.014510250969520655,
+            "mean_covered": 2.936780674966783,
+            "mean_top": 3.0395274553553695,
+            "legacy_coverage_count_curve_mean": 3.005529411173989
+          },
+          "modifier_hits": 5
+        },
+        "RP_tree_top5": {
+          "train": {
+            "value": 0.5944156942139259,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 391,
+            "coverage": 0.5818452380952381,
+            "denominator": 2.757662198583747,
+            "mean_all": -0.17727308395170513,
+            "mean_covered": 1.4619246062269542,
+            "mean_top": 2.580389114632042
+          },
+          "test": {
+            "value": 0.6867951422311412,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 42,
+            "coverage": 0.56,
+            "denominator": 2.763081788340859,
+            "mean_all": -0.014510250969520655,
+            "mean_covered": 1.8831608988503155,
+            "mean_top": 2.748571537371338,
+            "legacy_coverage_count_curve_mean": 1.4847055318852942
+          },
+          "modifier_hits": 5
+        },
+        "BP_tree": {
+          "train": {
+            "value": 0.09579825442834695,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 262,
+            "coverage": 0.3898809523809524,
+            "denominator": 4.200129414778559,
+            "mean_all": -0.17727308395170513,
+            "mean_covered": 0.22509198235723524,
+            "mean_top": 4.022856330826854
+          },
+          "test": {
+            "value": 0.07309839015343826,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 19,
+            "coverage": 0.25333333333333335,
+            "denominator": 5.548903101773767,
+            "mean_all": -0.014510250969520655,
+            "mean_covered": 0.39110563288756195,
+            "mean_top": 5.534392850804247,
+            "legacy_coverage_count_curve_mean": 0.07152088768489764
+          },
+          "modifier_hits": null
+        }
+      }
+    },
+    {
+      "seed": 45,
+      "methods": {
+        "SCRL_legacy": {
+          "train": {
+            "value": -0.13476786923375988,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 515,
+            "coverage": 0.7663690476190477,
+            "denominator": 1.3953384441903325,
+            "mean_all": -0.16559274540763833,
+            "mean_covered": -0.353639534391119,
+            "mean_top": 1.2297456987826942,
+            "legacy_coverage_count_curve_mean": 0.10985782691165918
+          },
+          "test": {
+            "value": -0.18948239101988226,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 57,
+            "coverage": 0.76,
+            "denominator": 1.4470287427255957,
+            "mean_all": -0.30751094097818943,
+            "mean_covered": -0.5816974070243294,
+            "mean_top": 1.1395178017474061,
+            "legacy_coverage_count_curve_mean": -0.49995013804373417
+          },
+          "modifier_hits": 5
+        },
+        "SCRL_hard": {
+          "train": {
+            "value": -0.13476786923375988,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 515,
+            "coverage": 0.7663690476190477,
+            "denominator": 1.3953384441903325,
+            "mean_all": -0.16559274540763833,
+            "mean_covered": -0.353639534391119,
+            "mean_top": 1.2297456987826942,
+            "legacy_coverage_count_curve_mean": 0.10985782691165918
+          },
+          "test": {
+            "value": -0.18948239101988226,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 57,
+            "coverage": 0.76,
+            "denominator": 1.4470287427255957,
+            "mean_all": -0.30751094097818943,
+            "mean_covered": -0.5816974070243294,
+            "mean_top": 1.1395178017474061,
+            "legacy_coverage_count_curve_mean": -0.49995013804373417
+          },
+          "modifier_hits": 5
+        },
+        "RP_tree_top5": {
+          "train": {
+            "value": 0.8581476239692527,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 179,
+            "coverage": 0.2663690476190476,
+            "denominator": 4.323606101726602,
+            "mean_all": -0.16559274540763833,
+            "mean_covered": 3.5446995577680083,
+            "mean_top": 4.158013356318964
+          },
+          "test": {
+            "value": 0.7895828010374534,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 21,
+            "coverage": 0.28,
+            "denominator": 4.056956061278969,
+            "mean_all": -0.30751094097818943,
+            "mean_covered": 2.8957917895723333,
+            "mean_top": 3.7494451203007797,
+            "legacy_coverage_count_curve_mean": 1.1566302599800802
+          },
+          "modifier_hits": 5
+        },
+        "BP_tree": {
+          "train": {
+            "value": 0.17109866740536084,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 491,
+            "coverage": 0.7306547619047619,
+            "denominator": 1.6037954360285376,
+            "mean_all": -0.16559274540763833,
+            "mean_covered": 0.10881451648764409,
+            "mean_top": 1.4382026906208993
+          },
+          "test": {
+            "value": 0.11191551584153134,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 54,
+            "coverage": 0.72,
+            "denominator": 1.675384240307583,
+            "mean_all": -0.30751094097818943,
+            "mean_covered": -0.12000944949139418,
+            "mean_top": 1.3678732993293936,
+            "legacy_coverage_count_curve_mean": -0.41355976039827624
+          },
+          "modifier_hits": null
+        }
+      }
+    },
+    {
+      "seed": 46,
+      "methods": {
+        "SCRL_legacy": {
+          "train": {
+            "value": 0.11415129032706063,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 484,
+            "coverage": 0.7202380952380952,
+            "denominator": 1.4464518917238207,
+            "mean_all": 0.12237258615156306,
+            "mean_covered": 0.28748693598785496,
+            "mean_top": 1.5688244778753837,
+            "legacy_coverage_count_curve_mean": 1.7864582961564435
+          },
+          "test": {
+            "value": -0.1993124538247268,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 54,
+            "coverage": 0.72,
+            "denominator": 1.5917914736320915,
+            "mean_all": 0.21254432962973602,
+            "mean_covered": -0.104719534957154,
+            "mean_top": 1.8043358032618275,
+            "legacy_coverage_count_curve_mean": 1.5514170958857403
+          },
+          "modifier_hits": 5
+        },
+        "SCRL_hard": {
+          "train": {
+            "value": 0.11415129032706063,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 484,
+            "coverage": 0.7202380952380952,
+            "denominator": 1.4464518917238207,
+            "mean_all": 0.12237258615156306,
+            "mean_covered": 0.28748693598785496,
+            "mean_top": 1.5688244778753837,
+            "legacy_coverage_count_curve_mean": 1.7864582961564435
+          },
+          "test": {
+            "value": -0.1993124538247268,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 54,
+            "coverage": 0.72,
+            "denominator": 1.5917914736320915,
+            "mean_all": 0.21254432962973602,
+            "mean_covered": -0.104719534957154,
+            "mean_top": 1.8043358032618275,
+            "legacy_coverage_count_curve_mean": 1.5514170958857403
+          },
+          "modifier_hits": 5
+        },
+        "RP_tree_top5": {
+          "train": {
+            "value": 0.6459658732748568,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 338,
+            "coverage": 0.5029761904761905,
+            "denominator": 2.5532974940066517,
+            "mean_all": 0.12237258615156306,
+            "mean_covered": 1.771715631598073,
+            "mean_top": 2.675670080158215
+          },
+          "test": {
+            "value": 0.6755861413192048,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 34,
+            "coverage": 0.4533333333333333,
+            "denominator": 3.138265115841362,
+            "mean_all": 0.21254432962973602,
+            "mean_covered": 2.3327127496776687,
+            "mean_top": 3.350809445471098,
+            "legacy_coverage_count_curve_mean": 1.5234569194148662
+          },
+          "modifier_hits": 4
+        },
+        "BP_tree": {
+          "train": {
+            "value": -0.43111929103538355,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 399,
+            "coverage": 0.59375,
+            "denominator": 2.076060849319949,
+            "mean_all": 0.12237258615156306,
+            "mean_covered": -0.7726572953535695,
+            "mean_top": 2.1984334354715123
+          },
+          "test": {
+            "value": -0.4685025581212313,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 48,
+            "coverage": 0.64,
+            "denominator": 2.0396350197208335,
+            "mean_all": 0.21254432962973602,
+            "mean_covered": -0.7430298947431225,
+            "mean_top": 2.2521793493505697,
+            "legacy_coverage_count_curve_mean": -0.2047033276249477
+          },
+          "modifier_hits": null
+        }
+      }
+    },
+    {
+      "seed": 47,
+      "methods": {
+        "SCRL_legacy": {
+          "train": {
+            "value": 0.8798234383270148,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 324,
+            "coverage": 0.48214285714285715,
+            "denominator": 3.6614967359865616,
+            "mean_all": -0.06276123603390565,
+            "mean_covered": 3.158709411644933,
+            "mean_top": 3.5987354999526557,
+            "legacy_coverage_count_curve_mean": 2.8597566404646666
+          },
+          "test": {
+            "value": 0.8630723677530275,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 27,
+            "coverage": 0.36,
+            "denominator": 4.820048828271483,
+            "mean_all": -0.6777422629747716,
+            "mean_covered": 3.4823086919267037,
+            "mean_top": 4.142306565296711,
+            "legacy_coverage_count_curve_mean": 2.372655338054484
+          },
+          "modifier_hits": 5
+        },
+        "SCRL_hard": {
+          "train": {
+            "value": 0.8798234383270148,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 324,
+            "coverage": 0.48214285714285715,
+            "denominator": 3.6614967359865616,
+            "mean_all": -0.06276123603390565,
+            "mean_covered": 3.158709411644933,
+            "mean_top": 3.5987354999526557,
+            "legacy_coverage_count_curve_mean": 2.8597566404646666
+          },
+          "test": {
+            "value": 0.8630723677530275,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 27,
+            "coverage": 0.36,
+            "denominator": 4.820048828271483,
+            "mean_all": -0.6777422629747716,
+            "mean_covered": 3.4823086919267037,
+            "mean_top": 4.142306565296711,
+            "legacy_coverage_count_curve_mean": 2.372655338054484
+          },
+          "modifier_hits": 5
+        },
+        "RP_tree_top5": {
+          "train": {
+            "value": 0.7991626666741121,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 399,
+            "coverage": 0.59375,
+            "denominator": 2.8048093701327432,
+            "mean_all": -0.06276123603390565,
+            "mean_covered": 2.178737699713914,
+            "mean_top": 2.7420481340988374
+          },
+          "test": {
+            "value": 0.8390297567682674,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 41,
+            "coverage": 0.5466666666666666,
+            "denominator": 3.1502533793866156,
+            "mean_all": -0.6777422629747716,
+            "mean_covered": 1.9654140636903927,
+            "mean_top": 2.472511116411844,
+            "legacy_coverage_count_curve_mean": 1.3064668303897349
+          },
+          "modifier_hits": 4
+        },
+        "BP_tree": {
+          "train": {
+            "value": 0.1403214459092914,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 269,
+            "coverage": 0.40029761904761907,
+            "denominator": 4.349936864041409,
+            "mean_all": -0.06276123603390565,
+            "mean_covered": 0.5476281943425135,
+            "mean_top": 4.287175628007503
+          },
+          "test": {
+            "value": -0.07273155811272414,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 29,
+            "coverage": 0.38666666666666666,
+            "denominator": 4.5992034044598,
+            "mean_all": -0.6777422629747716,
+            "mean_covered": -1.0122494926584782,
+            "mean_top": 3.921461141485029,
+            "legacy_coverage_count_curve_mean": -1.1287195223514483
+          },
+          "modifier_hits": null
+        }
+      }
+    },
+    {
+      "seed": 48,
+      "methods": {
+        "SCRL_legacy": {
+          "train": {
+            "value": -0.15480336813464018,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 558,
+            "coverage": 0.8303571428571429,
+            "denominator": 1.2869047530049378,
+            "mean_all": -0.059427780514098416,
+            "mean_covered": -0.25864497074774,
+            "mean_top": 1.2274769724908394,
+            "legacy_coverage_count_curve_mean": -2.4365698357334047
+          },
+          "test": {
+            "value": -0.32249825081851097,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 62,
+            "coverage": 0.8266666666666667,
+            "denominator": 1.3165439199348576,
+            "mean_all": -0.6376212322971506,
+            "mean_covered": -1.062204343601888,
+            "mean_top": 0.678922687637707,
+            "legacy_coverage_count_curve_mean": -3.259609848047387
+          },
+          "modifier_hits": 4
+        },
+        "SCRL_hard": {
+          "train": {
+            "value": -0.15480336813464018,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 558,
+            "coverage": 0.8303571428571429,
+            "denominator": 1.2869047530049378,
+            "mean_all": -0.059427780514098416,
+            "mean_covered": -0.25864497074774,
+            "mean_top": 1.2274769724908394,
+            "legacy_coverage_count_curve_mean": -2.4365698357334047
+          },
+          "test": {
+            "value": -0.32249825081851097,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 62,
+            "coverage": 0.8266666666666667,
+            "denominator": 1.3165439199348576,
+            "mean_all": -0.6376212322971506,
+            "mean_covered": -1.062204343601888,
+            "mean_top": 0.678922687637707,
+            "legacy_coverage_count_curve_mean": -3.259609848047387
+          },
+          "modifier_hits": 4
+        },
+        "RP_tree_top5": {
+          "train": {
+            "value": 0.6676501849099574,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 422,
+            "coverage": 0.6279761904761905,
+            "denominator": 2.7978359578640326,
+            "mean_all": -0.059427780514098416,
+            "mean_covered": 1.8085479141015508,
+            "mean_top": 2.738408177349934
+          },
+          "test": {
+            "value": 0.7089699815768904,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 42,
+            "coverage": 0.56,
+            "denominator": 3.352795095194433,
+            "mean_all": -0.6376212322971506,
+            "mean_covered": 1.739409844573935,
+            "mean_top": 2.7151738628972826,
+            "legacy_coverage_count_curve_mean": 0.9504917073910822
+          },
+          "modifier_hits": 3
+        },
+        "BP_tree": {
+          "train": {
+            "value": 0.12370461003480551,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 517,
+            "coverage": 0.7693452380952381,
+            "denominator": 1.7205446721430253,
+            "mean_all": -0.059427780514098416,
+            "mean_covered": 0.15341152720081683,
+            "mean_top": 1.661116891628927
+          },
+          "test": {
+            "value": -0.005992336593114627,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 59,
+            "coverage": 0.7866666666666666,
+            "denominator": 1.6311525799804278,
+            "mean_all": -0.6376212322971506,
+            "mean_covered": -0.6473956475911207,
+            "mean_top": 0.9935313476832773,
+            "legacy_coverage_count_curve_mean": -1.6171769900263815
+          },
+          "modifier_hits": null
+        }
+      }
+    },
+    {
+      "seed": 49,
+      "methods": {
+        "SCRL_legacy": {
+          "train": {
+            "value": -0.9137027323997555,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 213,
+            "coverage": 0.3169642857142857,
+            "denominator": 5.239428611130877,
+            "mean_all": -0.3840785481152173,
+            "mean_covered": -5.171358786318955,
+            "mean_top": 4.85535006301566,
+            "legacy_coverage_count_curve_mean": -3.407262166908803
+          },
+          "test": {
+            "value": -1.0593391943539214,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 22,
+            "coverage": 0.29333333333333333,
+            "denominator": 4.922551687988431,
+            "mean_all": 0.1123919770989052,
+            "mean_covered": -5.1022599622202955,
+            "mean_top": 5.0349436650873365,
+            "legacy_coverage_count_curve_mean": -2.740839386617243
+          },
+          "modifier_hits": 3
+        },
+        "SCRL_hard": {
+          "train": {
+            "value": -0.9137027323997555,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 213,
+            "coverage": 0.3169642857142857,
+            "denominator": 5.239428611130877,
+            "mean_all": -0.3840785481152173,
+            "mean_covered": -5.171358786318955,
+            "mean_top": 4.85535006301566,
+            "legacy_coverage_count_curve_mean": -3.407262166908803
+          },
+          "test": {
+            "value": -1.0593391943539214,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 22,
+            "coverage": 0.29333333333333333,
+            "denominator": 4.922551687988431,
+            "mean_all": 0.1123919770989052,
+            "mean_covered": -5.1022599622202955,
+            "mean_top": 5.0349436650873365,
+            "legacy_coverage_count_curve_mean": -2.740839386617243
+          },
+          "modifier_hits": 3
+        },
+        "RP_tree_top5": {
+          "train": {
+            "value": 0.8133385353812609,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 295,
+            "coverage": 0.43898809523809523,
+            "denominator": 4.186857432198667,
+            "mean_all": -0.3840785481152173,
+            "mean_covered": 3.021253943639393,
+            "mean_top": 3.80277888408345
+          },
+          "test": {
+            "value": 0.8590854088340731,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 39,
+            "coverage": 0.52,
+            "denominator": 3.3277663950875183,
+            "mean_all": 0.1123919770989052,
+            "mean_covered": 2.9712275311269556,
+            "mean_top": 3.4401583721864233,
+            "legacy_coverage_count_curve_mean": 2.4101959206929613
+          },
+          "modifier_hits": 3
+        },
+        "BP_tree": {
+          "train": {
+            "value": -0.43178092845993754,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 236,
+            "coverage": 0.35119047619047616,
+            "denominator": 4.9130387587530615,
+            "mean_all": -0.3840785481152173,
+            "mean_covered": -2.5054349849292734,
+            "mean_top": 4.528960210637845
+          },
+          "test": {
+            "value": -0.6651876737941197,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 25,
+            "coverage": 0.3333333333333333,
+            "denominator": 4.559347662870253,
+            "mean_all": 0.1123919770989052,
+            "mean_covered": -2.9204298887844145,
+            "mean_top": 4.671739639969158,
+            "legacy_coverage_count_curve_mean": -1.4717051268670187
+          },
+          "modifier_hits": null
+        }
+      }
+    },
+    {
+      "seed": 50,
+      "methods": {
+        "SCRL_legacy": {
+          "train": {
+            "value": -0.454390083070224,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 423,
+            "coverage": 0.6294642857142857,
+            "denominator": 2.2306884569076404,
+            "mean_all": -0.00595100671248999,
+            "mean_covered": -1.0195537199505424,
+            "mean_top": 2.2247374501951502,
+            "legacy_coverage_count_curve_mean": -2.003366106073364
+          },
+          "test": {
+            "value": -0.5210140066130918,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 50,
+            "coverage": 0.6666666666666666,
+            "denominator": 2.123510088455206,
+            "mean_all": -0.19515353168826124,
+            "mean_covered": -1.3015320309576293,
+            "mean_top": 1.9283565567669445,
+            "legacy_coverage_count_curve_mean": -2.360572645497002
+          },
+          "modifier_hits": 4
+        },
+        "SCRL_hard": {
+          "train": {
+            "value": -0.454390083070224,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 423,
+            "coverage": 0.6294642857142857,
+            "denominator": 2.2306884569076404,
+            "mean_all": -0.00595100671248999,
+            "mean_covered": -1.0195537199505424,
+            "mean_top": 2.2247374501951502,
+            "legacy_coverage_count_curve_mean": -2.003366106073364
+          },
+          "test": {
+            "value": -0.5210140066130918,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 50,
+            "coverage": 0.6666666666666666,
+            "denominator": 2.123510088455206,
+            "mean_all": -0.19515353168826124,
+            "mean_covered": -1.3015320309576293,
+            "mean_top": 1.9283565567669445,
+            "legacy_coverage_count_curve_mean": -2.360572645497002
+          },
+          "modifier_hits": 4
+        },
+        "RP_tree_top5": {
+          "train": {
+            "value": 0.872519101342995,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 209,
+            "coverage": 0.31101190476190477,
+            "denominator": 4.547940547336005,
+            "mean_all": -0.00595100671248999,
+            "mean_covered": 3.9622139926104896,
+            "mean_top": 4.541989540623515
+          },
+          "test": {
+            "value": 0.9702568331439857,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 26,
+            "coverage": 0.3466666666666667,
+            "denominator": 4.546505691398535,
+            "mean_all": -0.19515353168826124,
+            "mean_covered": 4.2161246823191885,
+            "mean_top": 4.351352159710274,
+            "legacy_coverage_count_curve_mean": 2.333736629262739
+          },
+          "modifier_hits": 3
+        },
+        "BP_tree": {
+          "train": {
+            "value": 0.37697177177636504,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 252,
+            "coverage": 0.375,
+            "denominator": 3.870300444295864,
+            "mean_all": -0.00595100671248999,
+            "mean_covered": 1.4530430090805746,
+            "mean_top": 3.864349437583374
+          },
+          "test": {
+            "value": 0.41257395565086497,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 34,
+            "coverage": 0.4533333333333333,
+            "denominator": 3.5900832531739604,
+            "mean_all": -0.19515353168826124,
+            "mean_covered": 1.2860213171896453,
+            "mean_top": 3.394929721485699,
+            "legacy_coverage_count_curve_mean": 0.6425332404033854
+          },
+          "modifier_hits": null
+        }
+      }
+    },
+    {
+      "seed": 51,
+      "methods": {
+        "SCRL_legacy": {
+          "train": {
+            "value": -0.14914588182114555,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 567,
+            "coverage": 0.84375,
+            "denominator": 0.8960328723389803,
+            "mean_all": 0.0964052543864774,
+            "mean_covered": -0.03723435849925374,
+            "mean_top": 0.9924381267254577,
+            "legacy_coverage_count_curve_mean": -0.3570552148726338
+          },
+          "test": {
+            "value": -0.22823642462405788,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 65,
+            "coverage": 0.8666666666666667,
+            "denominator": 0.7924628723942941,
+            "mean_all": 0.056140457301794934,
+            "mean_covered": -0.12472843534078977,
+            "mean_top": 0.8486033296960891,
+            "legacy_coverage_count_curve_mean": -1.1454934249195217
+          },
+          "modifier_hits": 4
+        },
+        "SCRL_hard": {
+          "train": {
+            "value": -0.14914588182114555,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 567,
+            "coverage": 0.84375,
+            "denominator": 0.8960328723389803,
+            "mean_all": 0.0964052543864774,
+            "mean_covered": -0.03723435849925374,
+            "mean_top": 0.9924381267254577,
+            "legacy_coverage_count_curve_mean": -0.3570552148726338
+          },
+          "test": {
+            "value": -0.22823642462405788,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 65,
+            "coverage": 0.8666666666666667,
+            "denominator": 0.7924628723942941,
+            "mean_all": 0.056140457301794934,
+            "mean_covered": -0.12472843534078977,
+            "mean_top": 0.8486033296960891,
+            "legacy_coverage_count_curve_mean": -1.1454934249195217
+          },
+          "modifier_hits": 4
+        },
+        "RP_tree_top5": {
+          "train": {
+            "value": 0.8725318054509468,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 631,
+            "coverage": 0.9389880952380952,
+            "denominator": 0.34515403448427845,
+            "mean_all": 0.0964052543864774,
+            "mean_covered": 0.3975631272537232,
+            "mean_top": 0.44155928887075585
+          },
+          "test": {
+            "value": 0.9681672214587398,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 69,
+            "coverage": 0.92,
+            "denominator": 0.4700070741837096,
+            "mean_all": 0.056140457301794934,
+            "mean_covered": 0.5111859003801889,
+            "mean_top": 0.5261475314855045,
+            "legacy_coverage_count_curve_mean": 0.09593345014832133
+          },
+          "modifier_hits": 3
+        },
+        "BP_tree": {
+          "train": {
+            "value": -0.17453963522917487,
+            "status": "ok",
+            "n": 672,
+            "n_covered": 419,
+            "coverage": 0.6235119047619048,
+            "denominator": 2.2595508727139353,
+            "mean_all": 0.0964052543864774,
+            "mean_covered": -0.2979759307187766,
+            "mean_top": 2.355956127100413
+          },
+          "test": {
+            "value": -0.17806128440599145,
+            "status": "ok",
+            "n": 75,
+            "n_covered": 56,
+            "coverage": 0.7466666666666667,
+            "denominator": 1.5829660423833316,
+            "mean_all": 0.056140457301794934,
+            "mean_covered": -0.22572450937605018,
+            "mean_top": 1.6391064996851266,
+            "legacy_coverage_count_curve_mean": -0.7952366973649366
+          },
+          "modifier_hits": null
+        }
+      }
+    }
+  ],
+  "summary": {
+    "SCRL_legacy": {
+      "train": {
+        "mean": 0.07036933424434347,
+        "std": 0.5467407719378773,
+        "valid": 10,
+        "total": 10,
+        "missing": 0
+      },
+      "test": {
+        "mean": -0.027785805629860882,
+        "std": 0.5938627710936327,
+        "valid": 10,
+        "total": 10,
+        "missing": 0
+      },
+      "modifier_hits": {
+        "mean": 4.3,
+        "std": 0.7810249675906654,
+        "valid": 10,
+        "total": 10,
+        "missing": 0
+      },
+      "degeneracy": []
+    },
+    "SCRL_hard": {
+      "train": {
+        "mean": 0.07036933424434347,
+        "std": 0.5467407719378773,
+        "valid": 10,
+        "total": 10,
+        "missing": 0
+      },
+      "test": {
+        "mean": -0.027785805629860882,
+        "std": 0.5938627710936327,
+        "valid": 10,
+        "total": 10,
+        "missing": 0
+      },
+      "modifier_hits": {
+        "mean": 4.3,
+        "std": 0.7810249675906654,
+        "valid": 10,
+        "total": 10,
+        "missing": 0
+      },
+      "degeneracy": []
+    },
+    "RP_tree_top5": {
+      "train": {
+        "mean": 0.7781429307766253,
+        "std": 0.10520716956638448,
+        "valid": 9,
+        "total": 10,
+        "missing": 1
+      },
+      "test": {
+        "mean": 0.818887328818696,
+        "std": 0.10594476990643104,
+        "valid": 9,
+        "total": 10,
+        "missing": 1
+      },
+      "modifier_hits": {
+        "mean": 3.8,
+        "std": 0.7483314773547882,
+        "valid": 10,
+        "total": 10,
+        "missing": 0
+      },
+      "degeneracy": [
+        {
+          "seed": 42,
+          "split": "train",
+          "status": "full_coverage"
+        },
+        {
+          "seed": 42,
+          "split": "test",
+          "status": "full_coverage"
+        }
+      ]
+    },
+    "BP_tree": {
+      "train": {
+        "mean": 0.05072419256350598,
+        "std": 0.2828290476477394,
+        "valid": 10,
+        "total": 10,
+        "missing": 0
+      },
+      "test": {
+        "mean": -0.036553293455493366,
+        "std": 0.3180450314250856,
+        "valid": 10,
+        "total": 10,
+        "missing": 0
+      },
+      "modifier_hits": {
+        "mean": null,
+        "std": null,
+        "valid": 0,
+        "total": 10,
+        "missing": 10
+      },
+      "degeneracy": []
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "experiment": "nondecomposable_tesv_multidataset",
+  "metric": "Causal Fidelity to the original non-decomposable CATE surface",
+  "n_seeds": 5,
+  "elapsed_sec": 288.4,
+  "results": {
+    "IHDP/R-Learner": {
+      "fid_tesv_mean": 0.4486731274674474,
+      "fid_tesv_std": 0.07985849102839071,
+      "fid_diff_mean": 0.3731979736750618,
+      "fid_diff_std": 0.0919320891805059,
+      "rel_gain_pct": 20.223891638302614,
+      "paired_t": 2.779866869902143,
+      "p_value": 0.04982529150848631,
+      "recall_tesv": 0.8400000000000001,
+      "recall_diff": 0.9199999999999999
+    },
+    "IHDP/DR-Learner": {
+      "fid_tesv_mean": 0.4579096878224654,
+      "fid_tesv_std": 0.10578094051865154,
+      "fid_diff_mean": 0.441588323473722,
+      "fid_diff_std": 0.09984942420159856,
+      "rel_gain_pct": 3.696058858701825,
+      "paired_t": 1.3301409636444117,
+      "p_value": 0.2542447793721505,
+      "recall_tesv": 0.8400000000000001,
+      "recall_diff": 0.9199999999999999
+    },
+    "Hillstrom/R-Learner": {
+      "fid_tesv_mean": 0.8918658436511866,
+      "fid_tesv_std": 0.08353084793895015,
+      "fid_diff_mean": 0.7607821233427043,
+      "fid_diff_std": 0.16828557666877822,
+      "rel_gain_pct": 17.23012624593886,
+      "paired_t": 2.8921853255231462,
+      "p_value": 0.04446522785088538,
+      "recall_tesv": null,
+      "recall_diff": null
+    },
+    "Hillstrom/DR-Learner": {
+      "fid_tesv_mean": 0.8496304040293625,
+      "fid_tesv_std": 0.09139634771559252,
+      "fid_diff_mean": 0.7526643668972972,
+      "fid_diff_std": 0.18057169987969374,
+      "rel_gain_pct": 12.883038097284674,
+      "paired_t": 1.3165283288765366,
+      "p_value": 0.2583634570157929,
+      "recall_tesv": null,
+      "recall_diff": null
+    },
+    "Criteo/R-Learner": {
+      "fid_tesv_mean": 0.4994397008284518,
+      "fid_tesv_std": 0.27133433092723636,
+      "fid_diff_mean": 0.4414988944628779,
+      "fid_diff_std": 0.3037356386495135,
+      "rel_gain_pct": 13.123658313134392,
+      "paired_t": 0.3636328392755527,
+      "p_value": 0.7345364465699771,
+      "recall_tesv": null,
+      "recall_diff": null
+    },
+    "Criteo/DR-Learner": {
+      "fid_tesv_mean": 0.6874231367126002,
+      "fid_tesv_std": 0.30350154154115727,
+      "fid_diff_mean": 0.7060292429332888,
+      "fid_diff_std": 0.22848281541611745,
+      "rel_gain_pct": -2.635316653937327,
+      "paired_t": -0.3682391990346928,
+      "p_value": 0.7313546939463057,
+      "recall_tesv": null,
+      "recall_diff": null
+    }
+  }
+}

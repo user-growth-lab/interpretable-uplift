@@ -1,0 +1,22 @@
+{
+  "source": "results/rules_r1/ihdp_ihdp_legacy_full_seed42",
+  "algorithm": "hard",
+  "seed": 42,
+  "n_test": 75,
+  "rule_order": "training selection order, unchanged on test",
+  "coverage": [
+    0.12,
+    0.14666666666666667,
+    0.36,
+    0.6666666666666666,
+    0.6666666666666666
+  ],
+  "mean_model_prediction": [
+    5.238776115194221,
+    3.892836873028446,
+    2.1027942017447874,
+    -0.215774569163273,
+    -0.215774569163273
+  ],
+  "population_prediction": -0.11609520825990456
+}

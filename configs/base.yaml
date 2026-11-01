@@ -1,0 +1,57 @@
+project: interpretable_uplift_35
+random_seed: 42
+
+datasets:
+  ihdp:
+    path: data/ihdp
+    n_replications: 100
+    train_frac: 0.8
+  hillstrom:
+    path: data/hillstrom/hillstrom.csv
+    treatment_col: segment
+    control_value: No E-Mail
+    outcome_col: visit
+  criteo:
+    path: data/criteo/criteo-uplift-v2.1.csv.gz
+    sample_n: 500000
+    treatment_col: treatment
+    outcome_col: visit
+  acic:
+    path: data/acic
+
+cate_estimators:
+  - name: causal_forest
+    params:
+      n_estimators: 500
+      min_samples_leaf: 10
+  - name: t_learner
+    base_learner: gradient_boosting
+  - name: s_learner
+    base_learner: gradient_boosting
+
+explanation:
+  tesv:
+    n_permutations: 100
+    max_features: 10
+  scrl:
+    n_rules: 5
+    max_rule_length: 3
+    min_support: 0.05
+    overlap_ratio: 0.1
+  counterfactual:
+    actionable_features: null  # to be set per dataset
+    max_changes: 3
+
+metrics:
+  attribution:
+    - top_k_recall
+    - causal_fidelity
+    - attribution_stability
+  rules:
+    - rule_coverage_lift
+    - auuc
+    - n_rules
+  counterfactual:
+    - feasibility_rate
+    - proximity
+    - uplift_change_consistency

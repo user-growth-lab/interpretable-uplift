@@ -1,0 +1,28 @@
+{
+  "hillstrom": {
+    "full": {
+      "targeting_mean": 0.06095391782512323,
+      "targeting_std": 0.0010316038529327152,
+      "coverage_mean": 1.0,
+      "coverage_std": 0.0
+    },
+    "no_rules": {
+      "targeting_mean": 0.08977126348802242,
+      "targeting_std": 0.018578537262610818,
+      "coverage_mean": 0.47333333333333333,
+      "coverage_std": 0.10198039027185568
+    },
+    "no_cf": {
+      "targeting_mean": 0.06095391782512323,
+      "targeting_std": 0.0010316038529327152,
+      "coverage_mean": 1.0,
+      "coverage_std": 0.0
+    },
+    "attr_only": {
+      "targeting_mean": 0.08977126348802242,
+      "targeting_std": 0.018578537262610818,
+      "coverage_mean": 0.0,
+      "coverage_std": 0.0
+    }
+  }
+}

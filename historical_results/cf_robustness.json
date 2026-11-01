@@ -1,0 +1,102 @@
+{
+  "experiment": "counterfactual_gain_robustness",
+  "description": "Bootstrap model-perturbation retention, boundary analysis, and a high-budget random-search baseline for CF gain robustness.",
+  "n_bootstrap": 20,
+  "elapsed_sec": 17.9,
+  "results": {
+    "IHDP": {
+      "Ours": {
+        "mean_gain": 0.21075437679781647,
+        "consistency": 1.0,
+        "mean_n_changed": 1.16,
+        "mean_l2": 0.09965006210183697,
+        "frac_changes_at_bound": 0.0,
+        "robustness": {
+          "retention": 0.9433730910894622,
+          "positive_rate": 0.621,
+          "mean_gain_orig": 0.21075437679781647,
+          "mean_gain_boot": 0.12475279148344344,
+          "rank_corr": 0.6611632270168856,
+          "n": 50
+        }
+      },
+      "Gradient-CF": {
+        "mean_gain": 0.021074972662650984,
+        "consistency": 1.0,
+        "mean_n_changed": 0.18,
+        "mean_l2": 0.011179759931517739,
+        "frac_changes_at_bound": 0.2222222222222222,
+        "robustness": {
+          "retention": 0.9962560022976877,
+          "positive_rate": 0.037,
+          "mean_gain_orig": 0.021074972662650984,
+          "mean_gain_boot": 0.014601633814063056,
+          "rank_corr": 0.5,
+          "n": 50
+        }
+      },
+      "RandomSearch (strong)": {
+        "mean_gain": 2.505596839332269,
+        "consistency": 1.0,
+        "mean_n_changed": 1.96,
+        "mean_l2": 2.197070310029637,
+        "frac_changes_at_bound": 0.10204081632653061,
+        "robustness": {
+          "retention": 0.818733610214655,
+          "positive_rate": 0.977,
+          "mean_gain_orig": 2.505596839332269,
+          "mean_gain_boot": 2.065183996287166,
+          "rank_corr": 0.9038655462184872,
+          "n": 50
+        }
+      }
+    },
+    "Hillstrom": {
+      "Ours": {
+        "mean_gain": 0.03354174174108579,
+        "consistency": 1.0,
+        "mean_n_changed": 0.52,
+        "mean_l2": 0.068,
+        "frac_changes_at_bound": 0.0,
+        "robustness": {
+          "retention": 0.809872599317859,
+          "positive_rate": 0.371,
+          "mean_gain_orig": 0.03354174174108579,
+          "mean_gain_boot": 0.024954118358687865,
+          "rank_corr": 0.6335042735042735,
+          "n": 50
+        }
+      },
+      "Gradient-CF": {
+        "mean_gain": 0.03650517849651944,
+        "consistency": 0.98,
+        "mean_n_changed": 0.74,
+        "mean_l2": 0.04037500000000001,
+        "frac_changes_at_bound": 0.0,
+        "robustness": {
+          "retention": 0.45301958584788127,
+          "positive_rate": 0.443,
+          "mean_gain_orig": 0.03650517849651944,
+          "mean_gain_boot": 0.024286124604385933,
+          "rank_corr": 0.8218582887700535,
+          "n": 50
+        }
+      },
+      "RandomSearch (strong)": {
+        "mean_gain": 0.09626819220278743,
+        "consistency": 1.0,
+        "mean_n_changed": 1.14,
+        "mean_l2": 0.18691031931278526,
+        "frac_changes_at_bound": 0.0,
+        "robustness": {
+          "retention": 0.4986324519808083,
+          "positive_rate": 0.713,
+          "mean_gain_orig": 0.09626819220278743,
+          "mean_gain_boot": 0.0490570040330257,
+          "rank_corr": 0.7575990396158462,
+          "n": 50
+        }
+      }
+    }
+  }
+}
